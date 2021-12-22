@@ -32,7 +32,7 @@ for atom in coorNP:
 print ("maxDistL2 {}".format(maxDistL2))
 maxDistL2_padded = maxDistL2+100
 
-"""
+
 shutil.copyfile("../1-1-build/MYO_HEME.psf", "MYO_HEME_SHIFTED.psf")
 
 import mbuild as mb
@@ -107,7 +107,7 @@ gomc_control.write_gomc_control_file(charmm, 'in_GEMC_NVT.conf', 'GEMC_NVT', 100
                                     )
 
 print('Completed: GOMC FF file, and the psf and pdb files')
-"""
+
 
 structure_id = "box"
 filename = "./GEMC_NVT_water_O2_liq.pdb"
