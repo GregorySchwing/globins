@@ -1,0 +1,17 @@
+<ForceField version="0.0.1" name="CHARMM QR2 Molecular Oxygen" >
+ <AtomTypes>
+   <Type name="D" class="D" element="D" mass="0.0000" def="[D;X2](O)(O)" desc="Dummy atom" doi="" />
+   <Type name="O" class="O" element="O" mass="15.99940" def="[O;X1][D;X2](O)" desc="Oxygen " doi="" />
+ </AtomTypes>
+ <HarmonicBondForce>
+   <Bond class1="O" class2="D" length="0.0615" k="251208"/>
+ </HarmonicBondForce>
+ <HarmonicAngleForce>
+   <Angle class1="O" class2="D" class3="O" angle="0" k="460.24"/>
+ </HarmonicAngleForce>
+ <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
+   <!-- https://github.com/gromacs/gromacs/blob/master/share/top/oplsaa.ff/spce.itp -->
+  <Atom type="D" charge="0.452" sigma="0.3029" epsilon="0.5021"/>
+  <Atom type="O" charge="−0.226" sigma="0.3029" epsilon="0.5021"/>
+ </NonbondedForce>
+</ForceField>
