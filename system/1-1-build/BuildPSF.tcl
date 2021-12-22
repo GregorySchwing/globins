@@ -5,6 +5,8 @@ pdbalias residue HIS HSE
 pdbalias residue HEM HEME
 pdbalias atom ILE CD1 CD
 segment MYO {
+	first ACE
+	last CTER
 	pdb ./myoglobin.pdb
 }
 segment HEME {

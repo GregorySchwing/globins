@@ -34,6 +34,7 @@ maxDistL2_padded = maxDistL2+10
 
 
 shutil.copyfile("../1-1-build/MYO_HEME.psf", "MYO_HEME_SHIFTED.psf")
+"""
 
 import mbuild as mb
 import numpy as np
@@ -108,7 +109,7 @@ gomc_control.write_gomc_control_file(charmm, 'in_GCMC_NVT.conf', 'GCMC', 100, 31
 
 print('Completed: GOMC FF file, and the psf and pdb files')
 
-
+"""
 structure_id = "box"
 filename = "./GCMC_water_O2_liq.pdb"
 structure_box = parser.get_structure(structure_id, filename)
