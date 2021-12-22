@@ -30,7 +30,7 @@ for atom in coorNP:
 	#if (manDist > maxDistMan):
 	#	maxDistMan = manDist
 print ("maxDistL2 {}".format(maxDistL2))
-maxDistL2_padded = maxDistL2+100
+maxDistL2_padded = maxDistL2+10
 
 
 shutil.copyfile("../1-1-build/MYO_HEME.psf", "MYO_HEME_SHIFTED.psf")
@@ -69,7 +69,7 @@ water_O2_box_res = mb.fill_box(compound=[water,O2],
                                     box=[8, 8, 8])
 
 charmm = mf_charmm.Charmm(water_O2_box_liq,
-                          'GCMC_water_O2_myoglobin_ions',
+                          'GCMC_water_O2_liq',
                           structure_box_1=water_O2_box_res,
                           filename_box_1='GCMC_water_O2_res',
                           ff_filename="GCMC_water_O2_FF",
@@ -102,7 +102,7 @@ gomc_control.write_gomc_control_file(charmm, 'in_GCMC_NVT.conf', 'GCMC', 100, 31
                                                            "CrankShaftFreq": 0.00,
                                                            "VolFreq": 0.00,
                                                            "MultiParticleFreq": 0.00,
-                                                           "ChemPot" : {"TIP3" : -4166, "DIOX" : -8000, "PROTA" : -8000}
+                                                           "ChemPot" : {"TIP3" : -4166, "DIOX" : -8000}
                                                            }
                                     )
 
@@ -110,7 +110,7 @@ print('Completed: GOMC FF file, and the psf and pdb files')
 
 
 structure_id = "box"
-filename = "./GEMC_NVT_water_O2_liq.pdb"
+filename = "./GCMC_water_O2_liq.pdb"
 structure_box = parser.get_structure(structure_id, filename)
 atoms = structure_box.get_atoms()
 listOfCoords = []

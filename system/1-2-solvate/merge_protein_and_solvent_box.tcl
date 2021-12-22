@@ -1,7 +1,7 @@
 #will need to manually iterate thru the mindistOH and mindistWater setting to get the desired concentration.  likley not need adjust mindist
 set mindist 2 ; # minimum required distance between all atoms
 
-set SolventName GEMC_NVT_water_O2_liq
+set SolventName GCMC_water_O2_liq
 set SoluteName MYO_HEME_SHIFTED
 
 set output_pdb_psf_file_name MYO_HEME_SHIFTED_SOLVATED
