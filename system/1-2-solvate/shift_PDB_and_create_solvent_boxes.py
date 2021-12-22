@@ -63,16 +63,16 @@ water_O2_box_liq = mb.fill_box(compound=[water,O2],
                                     compound_ratio=[0.8, 0.2] ,
                                     box=[2*maxDistL2_padded/10, 2*maxDistL2_padded/10, 2*maxDistL2_padded/10])
 
-water_O2_box_vap = mb.fill_box(compound=[water,O2],
+water_O2_box_res = mb.fill_box(compound=[water,O2],
                                     density= 100,
                                     compound_ratio=[0.8, 0.2],
                                     box=[8, 8, 8])
 
 charmm = mf_charmm.Charmm(water_O2_box_liq,
-                          'GEMC_NVT_water_O2_liq',
-                          structure_box_1=water_O2_box_vap,
-                          filename_box_1='GEMC_NVT_water_O2_vap',
-                          ff_filename="GEMC_NVT_water_O2_FF",
+                          'GCMC_water_O2_myoglobin_ions',
+                          structure_box_1=water_O2_box_res,
+                          filename_box_1='GCMC_water_O2_res',
+                          ff_filename="GCMC_water_O2_FF",
                           forcefield_selection=FF_dict,
                           residues=residues_list,
                           bead_to_atom_name_dict=bead_to_atom_name_dict,
@@ -91,18 +91,18 @@ charmm.write_pdb()
 charmm.write_pdb()
 
 
-gomc_control.write_gomc_control_file(charmm, 'in_GEMC_NVT.conf', 'GEMC_NVT', 100, 300,
+gomc_control.write_gomc_control_file(charmm, 'in_GCMC_NVT.conf', 'GCMC', 100, 310,
                                      input_variables_dict={"VDWGeometricSigma": True,
                                                            "Rcut": 12,
-                                                           "RcutCoulomb_box_1": 20,
-                                                           "DisFreq": 0.20,
-                                                           "RotFreq": 0.20, 
-                                                           "IntraSwapFreq": 0.10,
-                                                           "SwapFreq": 0.20,
-                                                           "RegrowthFreq": 0.20,
-                                                           "CrankShaftFreq": 0.09,
+                                                           "DisFreq": 0.00,
+                                                           "RotFreq": 0.00, 
+                                                           "IntraSwapFreq": 0.00,
+                                                           "SwapFreq": 1.00,
+                                                           "RegrowthFreq": 0.00,
+                                                           "CrankShaftFreq": 0.00,
                                                            "VolFreq": 0.00,
-                                                           "MultiParticleFreq": 0.01,
+                                                           "MultiParticleFreq": 0.00,
+                                                           "ChemPot" : {"TIP3" : -4166, "DIOX" : -8000, "PROTA" : -8000}
                                                            }
                                     )
 
