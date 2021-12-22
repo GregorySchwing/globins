@@ -30,7 +30,7 @@ for atom in coorNP:
 	#if (manDist > maxDistMan):
 	#	maxDistMan = manDist
 print ("maxDistL2 {}".format(maxDistL2))
-maxDistL2_padded = maxDistL2+10
+maxDistL2_padded = maxDistL2+5
 translationArray = np.array((maxDistL2_padded, maxDistL2_padded, maxDistL2_padded), 'f')
 atoms = structure.get_atoms()
 for atom in atoms:
@@ -68,7 +68,7 @@ bead_to_atom_name_dict = { '_ON':'ON', '_OP':'OP'}
 water_O2_box_liq = mb.fill_box(compound=[water,O2],
                                     density= 950,
                                     compound_ratio=[0.8, 0.2] ,
-                                    box=[2*maxDistL2_padded, 2*maxDistL2_padded, 2*maxDistL2_padded])
+                                    box=[2*maxDistL2_padded/10, 2*maxDistL2_padded/10, 2*maxDistL2_padded/10])
 
 water_O2_box_vap = mb.fill_box(compound=[water,O2],
                                     density= 100,
