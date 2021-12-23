@@ -5,9 +5,9 @@ set temp                310;
 
 set outputname          GCMC_water_O2_myoglobin_ions_equilibration;
 
-set a 36.081
-set b 36.081
-set c 36.081
+set a 72.162
+set b 72.162
+set c 72.162
 set zcen 36.081
 
 temperature             $temp;
