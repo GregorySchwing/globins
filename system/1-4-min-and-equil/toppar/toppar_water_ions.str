@@ -32,14 +32,10 @@
 
 !test "append" to determine if previous toppar files have been read and
 !add append to "read rtf card" if true
-set nat ?NATC
-set app
 !We're exploiting what is arguably a bug in the parser. On the left hand side,
 !the quotes have priority, so NAT is correctly substituted. On the right hand
 !side, the ? has priority and NATC" (sic) is not a valid substitution...
-if "@NAT" ne "?NATC" if @nat ne 0 set app append
 
-read rtf card @app
 * Topology for water and ions
 *
 31  1
