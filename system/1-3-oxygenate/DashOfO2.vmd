@@ -55,8 +55,12 @@
 #set inputpdb "solvated.pdb"
 #set outputpdb "salty-solvated.pdb"
 
+topology DIOX.top
 
-mol load pdb $inputpdb
+set solute [mol new $input.psf waitfor all]
+mol addfile $input.pdb mol $solute waitfor all
+
+#mol load pdb $inputpdb
 puts " -------------     Adding a Dash of Salt ------------------------- "
 
 ## uncomment all lines containing fpna or fpcl and 
@@ -99,10 +103,7 @@ for {set i 0 } { $i < $numpairs } { incr i 1 } {
 	set selectoxygen [atomselect top " same residue as index $oxygenindex " ] 
 	set selectoxygenatom [atomselect top " index $oxygenindex " ]
 	set oxygenindexplusone [expr $oxygenindex + 1]
-	puts " Oxygen index $oxygenindex " 
-	puts "Oxygen index plus one $oxygenindexplusone" 
 	set selecthydrogenatom [atomselect top " index $oxygenindexplusone " ]
-	puts "selecthydrogenatom $selecthydrogenatom" 
 #  rename it to DIOX; and tag the second hydrogen for deletion
 	$selectoxygen set beta  { 999 999 999 }  
 	$selectoxygenatom set  {name resname beta }  {{ "DIOX" "DIOX" 1 }}  
@@ -110,7 +111,6 @@ for {set i 0 } { $i < $numpairs } { incr i 1 } {
 #  rename it to Oxygen;
 	$selecthydrogenatom set  {name resname beta }  {{ "DIOX" "DIOX" 1 }}  
 	$selecthydrogenatom set  name  "ON"   
-	puts "set $selecthydrogenatom" 
 #https://math.stackexchange.com/questions/175896/finding-a-point-along-a-line-a-certain-distance-away-from-another-point
   	set pos2 [lindex [$selectoxygenatom get {x y z}] 0]
   	set pos1 [lindex [$selecthydrogenatom get {x y z}] 0]
@@ -118,9 +118,9 @@ for {set i 0 } { $i < $numpairs } { incr i 1 } {
 	# Norm(x2-x1) = v/||v||
 	set normalizedVec [vecnorm [vecsub $pos2 $pos1]]
 	# c*v/||v||
-	set scaled [vecscale $O2BondLength $normalizedVecC]
+	set scaled [vecscale $O2BondLength $normalizedVec]
 	# x2* = x1 + c*v/||v||, dist(x2*, x1) = O2BondLength
-	set newCoords [vecadd $pos1 $scaledC]
+	set newCoords [vecadd $pos1 $scaled]
 	$selectoxygenatom moveto $newCoords
 #  output what I did: comment/uncomment as you like
 	set replaceoxygen [ $selectoxygenatom get {name  residue resname x y z } ] 
@@ -140,10 +140,11 @@ for {set i 0 } { $i < $numpairs } { incr i 1 } {
 #close   $fpcl
 
 set finalout [atomselect top "beta < 900" ]
-$finalout writepdb  $outputpdb
+$finalout writepdb  $output.pdb
+$finalout writepsf  $output.psf
 
-puts " -------------     Salt Added.  Add pepper as desired. ------------------------- "
+puts " -------------     O2 Added.  Breath easily. ------------------------- "
 
-quit
+#quit
 
 
