@@ -7,7 +7,7 @@ colvar {
    name CA_Translation
    distance {
       ref {
-         dummyAtom ( $cen, $cen, $cen )
+         dummyAtom ( 36.081, 36.081, 36.081 )
       }
       main {
          atomsFile      restraints/alphaC.ref
@@ -19,7 +19,7 @@ colvar {
 
 harmonic {
    colvars CA_Translation
-   centers ( $xcen, $ycen, $zcen )
+   centers ( 36.081, 36.081, 36.081 )
    forceConstant 100
 }
 
