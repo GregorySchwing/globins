@@ -98,6 +98,10 @@ conskfile               restraints/prot_posres.ref
 conskcol                B
 constraintScaling       1.0
 
+# translation and rotation restraints
+colvars                 on
+colvarsConfig           restraints/colvars.col
+
 minimize                10000
 numsteps                90000000
 run                     125000
