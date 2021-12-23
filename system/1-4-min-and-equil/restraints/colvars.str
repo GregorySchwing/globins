@@ -7,7 +7,7 @@ colvar {
    name CA_Translation
    distance {
       ref {
-         dummyAtom ( $xcen, $ycen, $zcen )
+         dummyAtom ( $cen, $cen, $cen )
       }
       main {
          atomsFile      restraints/alphaC.ref
