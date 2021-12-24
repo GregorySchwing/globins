@@ -11,10 +11,10 @@
   set segname DIOX
   lappend nIonsList [list $gasList $chargeList $nGas]
 puts "nIonsList $nIonsList"
-puts "nIonsList0 [lindex $ion 0]"
-puts "nIonsList1 [lindex $ion 1]"
-puts "nIonsList2 [lindex $ion 2]"
-puts "result [expr {$nIons + [lindex $ion 2]}]"
+puts "nIonsList0 [lindex $nIonsList 0]"
+puts "nIonsList1 [lindex $nIonsList 1]"
+puts "nIonsList2 [lindex $nIonsList 2]"
+
     puts "Autoionize) Ions to be placed:"
     set nIons 0
     foreach ion $nIonsList {
@@ -254,10 +254,11 @@ puts "result [expr {$nIons + [lindex $ion 2]}]"
     }
 
     # Find water oxygens to replace with ions
-  
+
     set nTries 0
     while {1} {
       set ionList {}
+      set ionList2 {}
       set sel [atomselect top "noh and water and not (within $from of not water)"]
       set watIndex [$sel get index]
       set watSize [llength $watIndex]
@@ -274,6 +275,7 @@ puts "result [expr {$nIons + [lindex $ion 2]}]"
         }
         if {![$tempsel num]} {
           lappend ionList $thisIon
+	  lappend ionList2 [expr $thisIon + 1]
         }
         $tempsel delete
       }
@@ -291,7 +293,25 @@ puts "result [expr {$nIons + [lindex $ion 2]}]"
 
     # Select and delete the waters but store the coordinates!
     set sel [atomselect top "index $ionList"]
+    set sel2 [atomselect top "index $ionList2"]
+
     set waterPos [$sel get {x y z}]
+    set hPos [$sel2 get {x y z}]
+    set newHPos {}
+    set O2BondLength 1.16
+	### TOPOGLOGY SPECIFIC CODE - X - O
+	#https://math.stackexchange.com/questions/175896/finding-a-point-along-a-line-a-certain-distance-away-from-another-point
+    foreach pos1 [lrange $waterPos 0 20] pos2 [lrange $hPos 0 20] {
+	# stretch bond vector isotropically
+	# Norm(x2-x1) = v/||v||
+	set normalizedVec [vecnorm [vecsub $pos2 $pos1]]
+	# c*v/||v||
+	set scaled [vecscale $O2BondLength $normalizedVec]
+	# x2* = x1 + c*v/||v||, dist(x2*, x1) = O2BondLength
+	set newCoords [vecadd $pos1 $scaled]
+	### TOPOGLOGY SPECIFIC CODE - X - O
+ 	lappend newHPos $newCoords
+    }	
     set num1 [llength $waterPos]
     puts "Autoionize) Tagged ${num1} water molecules for deletion."
   
@@ -322,17 +342,6 @@ puts "result [expr {$nIons + [lindex $ion 2]}]"
       }
     }
 
-    # Randomize ion positions (otherwise Cl ions tend to stick together)
-    puts "Autoionize) Randomizing ion positions..."
-    set newPos {}
-    while {[llength $waterPos] > 0} {
-      set thisNum [expr [llength $waterPos] * rand()]
-      set thisNum [expr int($thisNum)]
-      lappend newPos [lindex $waterPos $thisNum]
-      set waterPos [lreplace $waterPos $thisNum $thisNum]
-    }
-    set waterPos $newPos
-
     # Assign ion coordinates
     puts "Autoionize) Assigning ion coordinates..."
     set resid 1
@@ -340,9 +349,10 @@ puts "result [expr {$nIons + [lindex $ion 2]}]"
       set name [lindex $ion 0]
       set startpos [expr {$resid - 1}]
       set endpos [expr {[lindex $ion 2] - 1 + $startpos}]
-      foreach pos [lrange $waterPos $startpos $endpos] {
+      foreach pos [lrange $waterPos $startpos $endpos] pos2 [lrange $newHPos $startpos $endpos] {
         puts "DEBUG: coord $segname $resid $name $pos"
-        coord $segname $resid $name $pos
+        coord $segname $resid OP $pos
+        coord $segname $resid ON $pos2
         incr resid
       }
     }
