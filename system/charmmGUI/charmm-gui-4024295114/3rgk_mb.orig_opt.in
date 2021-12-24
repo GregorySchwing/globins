@@ -1,0 +1,9 @@
+data_directory        /home/charmm-gui/local/GalaxyFill/data
+top_type              polarh
+print_level           30
+energy_print_level    30
+read_multiple_models  yes
+fix_type              all
+infile_pdb            3rgk_mb.orig_init.pdb
+outfile_prefix        3rgk_mb.orig_opt
+ULR                   L T  0.00   150   153
