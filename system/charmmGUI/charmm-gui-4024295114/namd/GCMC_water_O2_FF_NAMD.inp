@@ -28,7 +28,7 @@ BONDS * harmonic
 !Kb (kcal/mol) = Kb_K (K) * Boltz. const.; (9999999999 if no stretching)
 !
 !atom_types 	 Kb		b0 		  atoms_types_per_utilized_FF
-OT	OT	999999999999	1.16		! ON_DIOX	OP_DIOX
+OT	OT	450		1.16		! ON_DIOX	OP_DIOX
 
 ANGLES * harmonic
 !
