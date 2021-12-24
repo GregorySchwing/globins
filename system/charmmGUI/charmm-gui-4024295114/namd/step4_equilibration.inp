@@ -1,12 +1,12 @@
-structure               step3_input_O2.psf
-coordinates             step3_input_O2.pdb
+structure               MYO_HEME_WATER_SHIFTED.psf
+coordinates             MYO_HEME_WATER_SHIFTED.pdb
 
 set temp                310;
 
 set outputname          step4_equilibration;
 
 # read system values written by CHARMM (need to convert uppercases to lowercases)
-exec tr "\[:upper:\]" "\[:lower:\]" < ../step3_pbcsetup.str | sed -e "s/ =//g" > step3_input.str
+#exec tr "\[:upper:\]" "\[:lower:\]" < ../step3_pbcsetup.str | sed -e "s/ =//g" > step3_input.str
 source                  step3_input.str
 
 temperature             $temp;
