@@ -1,6 +1,6 @@
   set pdbfile step3_input.pdb
   set psffile step3_input.psf
-  set prefix asd
+  set prefix step3_input_O2
   set mode "neutralize"
   set gasList {OP}
   set chargeList {0.021 -0.021}
