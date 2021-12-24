@@ -1,5 +1,5 @@
-structure               step3_O2.psf
-coordinates             step3_O2.pdb
+structure               step3_input_O2.psf
+coordinates             step3_input_O2.pdb
 
 set temp                310;
 
