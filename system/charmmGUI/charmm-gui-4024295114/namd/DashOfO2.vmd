@@ -55,6 +55,8 @@
 #set inputpdb "solvated.pdb"
 #set outputpdb "salty-solvated.pdb"
 
+set input step3_input
+set output step3_input_O2
 
 set solute [mol new $input.psf waitfor all]
 mol addfile $input.pdb mol $solute waitfor all
