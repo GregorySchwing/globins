@@ -1,19 +1,6 @@
   set pdbfile step3_input.pdb
   set psffile step3_input.psf
-  set prefix step3_input_O2
-  set mode "neutralize"
-  set gasList {OP}
-  set chargeList {0.021 -0.021}
-  set sel [atomselect top "water and noh"]
-  set nWater [$sel num]
-  $sel delete
-  set O2Frac 0.20
-  set nGas [expr round($nWater*O2Frac)]
-  set from 5
-  set between 2
-  set nIonsList { }
-  set segname DIOX
-  lappend nIonsList [list $gasList $chargeList $nGas]
+
 
 # Read in system
   puts "Autoionize) Reading ${psffile}/${pdbfile}..."
@@ -22,6 +9,25 @@
   coordpdb $pdbfile
   mol new $psffile type psf waitfor all
   mol addfile $pdbfile type pdb waitfor all
+
+### USER VARS - USED TO COME FROM COMMAND LINE 
+  set sel [atomselect top "water and noh"]
+  set nWater [$sel num]
+  $sel delete
+
+  set prefix step3_input_O2
+  set mode "neutralize"
+  set gasList {OP}
+  set chargeList {0.021 -0.021}
+  set O2Frac 0.20
+  set nGas [expr round($nWater*$O2Frac)]
+  puts "nGas $nGas"
+  set from 5
+  set between 2
+  set nIonsList { }
+  set segname DIOX
+  lappend nIonsList [list $gasList $chargeList $nGas]
+### USER VARS - USED TO COME FROM COMMAND LINE 
 
   # Get pbc info for later
   set xdim [molinfo top get a]
@@ -294,7 +300,7 @@
     set O2BondLength 1.16
 	### TOPOGLOGY SPECIFIC CODE - X - O
 	#https://math.stackexchange.com/questions/175896/finding-a-point-along-a-line-a-certain-distance-away-from-another-point
-    foreach pos1 [lrange $waterPos 0 20] pos2 [lrange $hPos 0 20] {
+    foreach pos1 [lrange $waterPos 0 $nGas] pos2 [lrange $hPos 0 $nGas] {
 	# stretch bond vector isotropically
 	# Norm(x2-x1) = v/||v||
 	set normalizedVec [vecnorm [vecsub $pos2 $pos1]]
@@ -343,7 +349,8 @@
       set startpos [expr {$resid - 1}]
       set endpos [expr {[lindex $ion 2] - 1 + $startpos}]
       foreach pos [lrange $waterPos $startpos $endpos] pos2 [lrange $newHPos $startpos $endpos] {
-        puts "DEBUG: coord $segname $resid $name $pos"
+        puts "DEBUG: coord $segname $resid OP $pos"
+        puts "DEBUG: coord $segname $resid ON $pos2"
         coord $segname $resid OP $pos
         coord $segname $resid ON $pos2
         incr resid
