@@ -4,24 +4,17 @@
   set mode "neutralize"
   set gasList {OP}
   set chargeList {0.021 -0.021}
-  set nGas [expr {20}]
+  set sel [atomselect top "water and noh"]
+  set nWater [$sel num]
+  $sel delete
+  set O2Frac 0.20
+  set nGas [expr round($nWater*O2Frac)]
   set from 5
   set between 2
   set nIonsList { }
   set segname DIOX
   lappend nIonsList [list $gasList $chargeList $nGas]
-puts "nIonsList $nIonsList"
-puts "nIonsList0 [lindex $nIonsList 0]"
-puts "nIonsList1 [lindex $nIonsList 1]"
-puts "nIonsList2 [lindex $nIonsList 2]"
 
-    puts "Autoionize) Ions to be placed:"
-    set nIons 0
-    foreach ion $nIonsList {
-      puts "Autoionize)   [lindex $ion 2] [lindex $ion 0]"
-      set nIons [expr {$nIons + [lindex $ion 2]}]
-    }
-    puts "NIONS $nIons"
 # Read in system
   puts "Autoionize) Reading ${psffile}/${pdbfile}..."
   resetpsf
