@@ -109,11 +109,11 @@ for {set i 0 } { $i < $numpairs } { incr i 1 } {
 	set selecthydrogenatom2 [atomselect top " index $oxygenindexplustwo " ]
 #  rename it to DIOX; and tag the second hydrogen for deletion
 	$selectoxygen set beta  { 999 999 999 }  
-	$selectoxygenatom set  {name resname beta }  {{ "DIOX" "DIOX" 1 }}  
+	$selectoxygenatom set  {name resname beta type mass}  {{ "DIOX" "DIOX" 1 "OP" 15.9994}}  
 	$selectoxygenatom set  name  "OP"   
 	$selectoxygenatom set  charge  "0.021"
 #  rename it to Oxygen;
-	$selecthydrogenatom set  {name resname beta }  {{ "DIOX" "DIOX" 1 }}  
+	$selecthydrogenatom set  {name resname beta type mass}  {{ "DIOX" "DIOX" 1 "ON" 15.9994}}  
 	$selecthydrogenatom set  name  "ON" 
 	$selecthydrogenatom set  charge  "-0.021" 
 	#$selecthydrogenatom2 delatom 
