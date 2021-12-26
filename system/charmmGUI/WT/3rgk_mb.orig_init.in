@@ -1,0 +1,10 @@
+data_directory    /home/charmm-gui/local/GalaxyFill/data
+top_type          polarh
+!
+print_level       30
+!
+infile_pdb        3rgk_mb.orig_init.pdb
+outfile_prefix    3rgk_mb.orig_init
+fix_atom_file     3rgk_mb.orig_init_init.fix
+!
+close_loop    150  153
