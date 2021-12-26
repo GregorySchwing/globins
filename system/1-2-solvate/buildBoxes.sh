@@ -2,12 +2,13 @@
 # Example with 28 cores for OpenMP
 #
 # Project/Account
-#SBATCH --qos=primary
-#
-# Number of cores
-#SBATCH -c 8 -w, 
-#SBATCH --nodelist=wsu208
-#SBATCH --mem=400G
+#SBATCH -q primary
+# Request one node
+#SBATCH -N 1
+# Total number of cores, in this example it will 1 node with 1 core each. 
+#SBATCH -n 4
+# Request memory
+#SBATCH --mem=16G
 #
 # Runtime of this jobs is less then 12 hours.
 #SBATCH --time=168:00:00
