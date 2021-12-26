@@ -30,11 +30,15 @@ for atom in coorNP:
 	#if (manDist > maxDistMan):
 	#	maxDistMan = manDist
 print ("maxDistL2 {}".format(maxDistL2))
-maxDistL2_padded = maxDistL2+10
 
+# 2 times the Max internal distance of protein atoms + 5 angstroms on each side
+# The padding is in case the radius of gyration of the protein increases.
+# Currently the maximum allowed increase in radius of gyration is 10 angstroms.
+# This is likely a highly liberal amount for a globular protein at 310 K in minimal Na/Cl.
+maxDistL2_padded = maxDistL2+50
 
 shutil.copyfile("../1-1-build/MYO_HEME.psf", "MYO_HEME_SHIFTED.psf")
-"""
+
 
 import mbuild as mb
 import numpy as np
@@ -64,10 +68,37 @@ water_O2_box_liq = mb.fill_box(compound=[water,O2],
                                     compound_ratio=[0.8, 0.2] ,
                                     box=[2*maxDistL2_padded/10, 2*maxDistL2_padded/10, 2*maxDistL2_padded/10])
 
+
+geoCenterBox = water_O2_box_liq.center
+print("BOX CENTER : ", geoCenterBox)
+trueCenter = [maxDistL2_padded/10, maxDistL2_padded/10, maxDistL2_padded/10]
+
+translationVectorBox = trueCenter-geoCenterBox
+print("BOX TRANSLATION VECTOR : ", translationVectorBox)
+water_O2_box_liq.translate(translationVectorBox)
+
+geoCenterBoxPostTranslate = water_O2_box_liq.center
+print("BOX CENTER POST TRANSLATE : ", geoCenterBoxPostTranslate)
+
 water_O2_box_res = mb.fill_box(compound=[water,O2],
                                     density= 100,
                                     compound_ratio=[0.8, 0.2],
                                     box=[8, 8, 8])
+
+
+charmmNAMD = mf_charmm.Charmm(water_O2_box_liq,
+                          'GCMC_water_O2_liq_NAMD',
+                          structure_box_1=water_O2_box_res,
+                          filename_box_1='GCMC_water_O2_res_NAMD',
+                          ff_filename="GCMC_water_O2_FF_NAMD",
+                          forcefield_selection=FF_dict,
+                          residues=residues_list,
+                          bead_to_atom_name_dict=bead_to_atom_name_dict,
+                          fix_residue=None,
+                          gomc_fix_bonds_angles=None,
+                          reorder_res_in_pdb_psf=True
+                          )
+
 
 charmm = mf_charmm.Charmm(water_O2_box_liq,
                           'GCMC_water_O2_liq',
@@ -82,15 +113,14 @@ charmm = mf_charmm.Charmm(water_O2_box_liq,
                           reorder_res_in_pdb_psf=True
                           )
 
+
 charmm.write_inp()
 
 charmm.write_psf()
 
 charmm.write_pdb()
 
-
-charmm.write_pdb()
-
+charmmNAMD.write_inp()
 
 gomc_control.write_gomc_control_file(charmm, 'in_GCMC_NVT.conf', 'GCMC', 100, 310,
                                      input_variables_dict={"VDWGeometricSigma": True,
@@ -109,20 +139,7 @@ gomc_control.write_gomc_control_file(charmm, 'in_GCMC_NVT.conf', 'GCMC', 100, 31
 
 print('Completed: GOMC FF file, and the psf and pdb files')
 
-"""
-structure_id = "box"
-filename = "./GCMC_water_O2_liq.pdb"
-structure_box = parser.get_structure(structure_id, filename)
-atoms = structure_box.get_atoms()
-listOfCoords = []
-for atom in atoms:
-	coords = atom.get_coord()
-	listOfCoords.append(coords)
-coorNP = np.asarray(listOfCoords)
-geoCenterBox = coorNP.mean(axis=0)
-print("Geometric Center:", geoCenter)
-
-translationArray = np.abs(geoCenterBox - geoCenter)
+translationArray = np.abs(geoCenterBoxPostTranslate - geoCenter)
 atoms = structure.get_atoms()
 for atom in atoms:
 	newCoords = atom.get_coord()+translationArray
