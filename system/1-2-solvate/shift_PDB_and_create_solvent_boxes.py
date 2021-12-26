@@ -2,6 +2,9 @@ from Bio.PDB.PDBParser import PDBParser
 from Bio.PDB.PDBIO import PDBIO
 import numpy as np
 import shutil
+
+f = open("log.txt", "a")
+
 parser = PDBParser(PERMISSIVE=1)
 structure_id = "3rgk"
 filename = "../1-1-build/MYO_HEME.pdb"
@@ -13,7 +16,8 @@ for atom in atoms:
 	listOfCoords.append(coords)
 coorNP = np.asarray(listOfCoords)
 geoCenter = coorNP.mean(axis=0)
-print("Geometric Center:", geoCenter)
+log = "Geometric Center: {}\n".format(geoCenter)
+f.write(log)
 
 # calculating Euclidean distance
 # using linalg.norm()
@@ -29,13 +33,17 @@ for atom in coorNP:
 		maxDistL2 = dist
 	#if (manDist > maxDistMan):
 	#	maxDistMan = manDist
-print ("maxDistL2 {}".format(maxDistL2))
+
+log = "maxDistL2 {}\n".format(maxDistL2)
+f.write(log)
 
 # 2 times the Max internal distance of protein atoms + 5 angstroms on each side
 # The padding is in case the radius of gyration of the protein increases.
 # Currently the maximum allowed increase in radius of gyration is 10 angstroms.
 # This is likely a highly liberal amount for a globular protein at 310 K in minimal Na/Cl.
 maxDistL2_padded = maxDistL2+50
+log = "maxDistL2_padded {}\n".format(maxDistL2_padded)
+f.write(log)
 
 shutil.copyfile("../1-1-build/MYO_HEME.psf", "MYO_HEME_SHIFTED.psf")
 
@@ -70,15 +78,22 @@ water_O2_box_liq = mb.fill_box(compound=[water,O2],
 
 
 geoCenterBox = water_O2_box_liq.center
-print("BOX CENTER : ", geoCenterBox)
+log = "BOX CENTER :  {}\n".format(geoCenterBox*10)
+f.write(log)
+
 trueCenter = [maxDistL2_padded/10, maxDistL2_padded/10, maxDistL2_padded/10]
+log = "DESIRED BOX CENTER : {}\n".format(trueCenter*10)
+f.write(log)
 
 translationVectorBox = trueCenter-geoCenterBox
-print("BOX TRANSLATION VECTOR : ", translationVectorBox)
+log = "BOX TRANSLATION VECTOR : {}\n".format(translationVectorBox*10)
+f.write(log)
+
 water_O2_box_liq.translate(translationVectorBox)
 
 geoCenterBoxPostTranslate = water_O2_box_liq.center
-print("BOX CENTER POST TRANSLATE : ", geoCenterBoxPostTranslate)
+log = "BOX CENTER POST TRANSLATE : {}\n".format(geoCenterBoxPostTranslate*10)
+f.write(log)
 
 water_O2_box_res = mb.fill_box(compound=[water,O2],
                                     density= 100,
@@ -137,12 +152,21 @@ gomc_control.write_gomc_control_file(charmm, 'in_GCMC_NVT.conf', 'GCMC', 100, 31
                                                            }
                                     )
 
-print('Completed: GOMC FF file, and the psf and pdb files')
+f.write('Completed: GOMC FF file, and the psf and pdb files')
 
-translationArray = np.abs(geoCenterBoxPostTranslate - geoCenter)
+log = "PROTEIN GEOMETRIC CENTER: {}\n".format(geoCenter)
+f.write(log)
+
+log = "BOX GEOMETRIC CENTER: {}\n".format(geoCenterBoxPostTranslate*10)
+f.write(log)
+
+translationArrayProt = np.abs(geoCenterBoxPostTranslate*10 - geoCenter)
+log = "PROTEIN TRANSLATION VECTOR : {}\n".format(translationArrayProt)
+f.write(log)
+
 atoms = structure.get_atoms()
 for atom in atoms:
-	newCoords = atom.get_coord()+translationArray
+	newCoords = atom.get_coord()+translationArrayProt
 	atom.set_coord(newCoords)
 io = PDBIO()
 io.set_structure(structure)
