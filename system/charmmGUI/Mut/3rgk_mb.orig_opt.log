@@ -1,0 +1,41 @@
+Check global input consistency...
+Done.
+- Finished with read_parameters.
+  Reading topology file: /home/charmm-gui/local/GalaxyFill/data/topology_charmm22ph.in
+  Reading topology file: /home/charmm-gui/local/GalaxyFill/data/topology_charmm22ph_nt.in
+  Reading topology file: /home/charmm-gui/local/GalaxyFill/data/topology_charmm22ph_ct.in
+- Finished with read_topology_geo.
+  Reading topology file: /home/charmm-gui/local/GalaxyFill/data/topology_eng_charmm22ph.in
+  Num_ref_res =    77
+- Finished with read_topology_eng.
+- Rotamer setup
+  Reading rotamer library file  /home/charmm-gui/local/GalaxyFill/data/bbdep02.May.sortlib
+  Total number of rotamers in rot lib file      466829
+  Reading infile_chi_def file  /home/charmm-gui/local/GalaxyFill/data/def_chi.in
+  Random seed =   31152470
+Task: local_optimize
+ - local_optimize_relax: no
+ - local_optimize_sidechain: no
+============================================================
+  Reading sequence from pdb file: 3rgk_mb.orig_init.pdb
+  Reading pdb file: 3rgk_mb.orig_init.pdb
+- Add missing atoms activated.
+  Number of added heavy atoms =     0
+  Total number of added atoms =     0
+  n_unplaced =     0
+- Fix type "all" activated: All atoms except ULR/USC are fixed.
+- Energy: MM energy activated.
+- Add missing atoms activated.
+  Number of added heavy atoms =     0
+  Total number of added atoms =     0
+  n_unplaced =     0
+Before optimization, 3rgk_mb.orig_init.pdb ENERGY.0        120.448
+Before optimization, 3rgk_mb.orig_init.pdb ENERGY.1        120.448        0.000        0.000
+Before optimization, 3rgk_mb.orig_init.pdb ENERGY.2.0      4.309      6.249      4.957     13.239     91.694      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+After  optimization, 3rgk_mb.orig_init.pdb ENERGY.0        -13.669
+After  optimization, 3rgk_mb.orig_init.pdb ENERGY.1        -13.669        0.000        0.000
+After  optimization, 3rgk_mb.orig_init.pdb ENERGY.2.0      1.748      3.299      2.867      0.198    -21.782      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000      0.000
+------------------------------------------------------------
+Total User Time =      2.687 sec
+           0 dy  0 hr  0 min  2.687 sec
+------------------------------------------------------------
