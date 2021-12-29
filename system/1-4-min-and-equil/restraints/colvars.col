@@ -6,10 +6,10 @@ Colvarsrestartfrequency 100
 colvar {
    name CA_Translation
    distance {
-      ref {
+      group1 {
          dummyAtom ( 36.081, 36.081, 36.081 )
       }
-      main {
+      group2 {
          atomsFile      restraints/alphaC.ref
          atomsCol       B
          atomsColValue  1.0
@@ -19,7 +19,7 @@ colvar {
 
 harmonic {
    colvars CA_Translation
-   centers ( 36.081, 36.081, 36.081 )
+   centers 0
    forceConstant 100
 }
 

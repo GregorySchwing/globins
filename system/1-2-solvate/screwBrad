@@ -1,0 +1,8 @@
+# VMD for LINUXAMD64, version 1.9.3 (November 30, 2016)
+# Log file '/home/greg/Desktop/2021/Winter2021/HEMOGLOBINPAPER/globins/system/1-2-solvate/screwBrad', created by user greg
+menu tkcon off
+menu tkcon on
+menu tkcon off
+menu solvate off
+menu solvate on
+menu solvate off

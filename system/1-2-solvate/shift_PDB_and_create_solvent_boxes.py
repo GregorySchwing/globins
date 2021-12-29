@@ -39,9 +39,9 @@ f.write(log)
 
 # 2 times the Max internal distance of protein atoms + 5 angstroms on each side
 # The padding is in case the radius of gyration of the protein increases.
-# Currently the maximum allowed increase in radius of gyration is 10 angstroms.
+# Currently the maximum allowed increase in radius of gyration is 2 angstroms.
 # This is likely a highly liberal amount for a globular protein at 310 K in minimal Na/Cl.
-maxDistL2_padded = maxDistL2+50
+maxDistL2_padded = maxDistL2+20
 log = "maxDistL2_padded {}\n".format(maxDistL2_padded)
 f.write(log)
 

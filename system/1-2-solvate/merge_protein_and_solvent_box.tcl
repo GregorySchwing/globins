@@ -1,7 +1,7 @@
 #will need to manually iterate thru the mindistOH and mindistWater setting to get the desired concentration.  likley not need adjust mindist
-set mindist 2 ; # minimum required distance between all atoms
+set mindist 2.4 ; # minimum required distance between all atoms
 
-set SolventName GCMC_water_O2_liq
+set SolventName GCMC_water_O2_liq_seg_fix
 set SoluteName MYO_HEME_SHIFTED
 
 set output_pdb_psf_file_name MYO_HEME_SHIFTED_SOLVATED
@@ -14,13 +14,14 @@ mol addfile $SoluteName.pdb mol $solute waitfor all
 
 # load solvent molecule
 set solvent [mol new $SolventName.psf waitfor all]
+
 mol addfile $SolventName.pdb mol $solvent waitfor all
 
 
-mol addfile $SoluteName.pdb mol $solute waitfor all
+#mol addfile $SoluteName.pdb mol $solute waitfor all
 # load solvent box, suitable sized and translated
 
-mol addfile $SolventName.pdb mol $solvent waitfor all
+#mol addfile $SolventName.pdb mol $solvent waitfor all
 # merge and transfer solvent box dimensions
 set combined [TopoTools::mergemols "$solute $solvent"]
 molinfo $combined set {a b c alpha beta gamma} [molinfo $solvent get {a b c alpha beta gamma}]
