@@ -1,0 +1,185 @@
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'C' for Atom (name=CAY) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HY1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HY2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HY3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'C' for Atom (name=CY) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'O' for Atom (name=OY) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HN) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HA1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HA2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HA) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HB1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HB2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD11) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD12) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD13) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD21) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD22) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD23) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HE1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HE3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HZ3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HZ2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HH2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HE21) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HE22) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HB) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG11) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG12) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG13) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG21) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG22) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HG23) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HE2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HZ1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HB3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HE) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HH11) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HH12) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HH21) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HH22) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HZ) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'C' for Atom (name=CG) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'C' for Atom (name=CD) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'C' for Atom (name=CE) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'N' for Atom (name=NZ) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'O' for Atom (name=OE1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'O' for Atom (name=OE2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HH) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'O' for Atom (name=OT1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'O' for Atom (name=OT2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HC) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HD) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMA1' for Atom (name=HMA1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMA2' for Atom (name=HMA2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMA3' for Atom (name=HMA3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HAA1' for Atom (name=HAA1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HAA2' for Atom (name=HAA2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HBA1' for Atom (name=HBA1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HBA2' for Atom (name=HBA2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMB1' for Atom (name=HMB1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMB2' for Atom (name=HMB2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMB3' for Atom (name=HMB3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HAB) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HBB1' for Atom (name=HBB1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HBB2' for Atom (name=HBB2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMC1' for Atom (name=HMC1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMC2' for Atom (name=HMC2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMC3' for Atom (name=HMC3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Used element 'H' for Atom (name=HAC) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HBC1' for Atom (name=HBC1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HBC2' for Atom (name=HBC2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMD1' for Atom (name=HMD1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMD2' for Atom (name=HMD2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HMD3' for Atom (name=HMD3) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HAD1' for Atom (name=HAD1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HAD2' for Atom (name=HAD2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HBD1' for Atom (name=HBD1) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/Atom.py:232: PDBConstructionWarning: Could not assign element 'HBD2' for Atom (name=HBD2) with given element ''
+  warnings.warn(msg, PDBConstructionWarning)
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/Bio/PDB/PDBParser.py:395: PDBConstructionWarning: Ignoring unrecognized record 'END' at line 2447
+  warnings.warn(
+Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/foyer/forcefield.py:644: UserWarning: No combining rule found in force field XML file.
+  warnings.warn(
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/foyer/forcefield.py:656: UserWarning: Non-atomistic element type detected. Creating custom element for _OP
+  warnings.warn(
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/foyer/forcefield.py:656: UserWarning: Non-atomistic element type detected. Creating custom element for _ON
+  warnings.warn(
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/parmed/openmm/topsystem.py:240: OpenMMWarning: Adding what seems to be Urey-Bradley terms before Angles. This is unexpected, but the parameters will all be present in one form or another.
+  warnings.warn('Adding what seems to be Urey-Bradley terms before ' # pragma: no cover
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/parmed/openmm/topsystem.py:240: OpenMMWarning: Adding what seems to be Urey-Bradley terms before Angles. This is unexpected, but the parameters will all be present in one form or another.
+  warnings.warn('Adding what seems to be Urey-Bradley terms before ' # pragma: no cover
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/parmed/openmm/topsystem.py:240: OpenMMWarning: Adding what seems to be Urey-Bradley terms before Angles. This is unexpected, but the parameters will all be present in one form or another.
+  warnings.warn('Adding what seems to be Urey-Bradley terms before ' # pragma: no cover
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/parmed/openmm/topsystem.py:240: OpenMMWarning: Adding what seems to be Urey-Bradley terms before Angles. This is unexpected, but the parameters will all be present in one form or another.
+  warnings.warn('Adding what seems to be Urey-Bradley terms before ' # pragma: no cover
