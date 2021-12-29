@@ -100,11 +100,11 @@ consexp                 2
 consref                 restraints/prot_posres.ref
 conskfile               restraints/prot_posres.ref
 conskcol                B
-constraintScaling       10.0
+constraintScaling       1.0
 
 # translation and rotation restraints
 #exec sed -e "s/\$cen/$cen/g" colvars.str > restraints/colvars.col
-colvars                 off
+colvars                 on
 colvarsConfig           restraints/colvars.col
 
 minimize                10000
