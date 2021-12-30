@@ -1,10 +1,10 @@
-*  GCMC_water_O2_liq and GCMC_water_O2_res - created by mBuild using the on 2021-12-28 17:41:49.080991
+*  GCMC_water_O2_liq and GCMC_water_O2_res - created by mBuild using the on 2021-12-30 01:59:12.743542
 *  parameters from the {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'} force field(s) via MoSDef
 *  1-4 coulombic scaling = {'TIP3': 0.5, 'DIOX': 0.5}, and 1-4 LJ scaling = {'TIP3': 0.5, 'DIOX': 0.5}
 
-*  275660 atoms
-*  177210 bonds
-*  78760 angles
+*  64518 atoms
+*  41476 bonds
+*  18434 angles
 *  0 dihedrals
 *  0 impropers
 
