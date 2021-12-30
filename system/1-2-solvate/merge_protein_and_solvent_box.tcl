@@ -34,8 +34,6 @@ $sel delete
 
 
 set sel3 [atomselect $combined "(not (same fragment as (exwithin $mindist of solute)))"]
-delatom $sel3
-
 
 $sel3 writepsf $output_pdb_psf_file_name.psf
 $sel3 writepdb $output_pdb_psf_file_name.pdb
