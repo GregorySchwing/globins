@@ -1,0 +1,46 @@
+###Lipid Head### 
+
+Colvarstrajfrequency    100
+Colvarsrestartfrequency 100
+
+colvar {
+   name CA_Translation
+   distance {
+      group1 {
+         dummyAtom ( 36.081, 36.081, 36.081 )
+      }
+      group2 {
+         atomsFile      restraints/alphaC.ref
+         atomsCol       B
+         atomsColValue  1.0
+      }
+   }
+}
+
+harmonic {
+   colvars CA_Translation
+   centers 0
+   forceConstant 100
+}
+
+colvar {
+  name CA_Rotation
+  orientation {
+    refPositionsFile  restraints/alphaC.ref
+    refPositionsCol   B  
+    refPositionsColValue  1.0
+    atoms {
+    	atomsFile      restraints/alphaC.ref
+    	atomsCol       B
+    	atomsColValue  1.0
+    }
+  }
+}
+
+harmonic {
+   colvars CA_Rotation
+   centers ( 1, 0, 0, 0 )
+   forceConstant 1000
+}
+
+
