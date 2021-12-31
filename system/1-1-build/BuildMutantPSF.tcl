@@ -29,5 +29,5 @@ coordpdb ./heme.pdb HEME
 
 guesscoord
 
-writepdb ./MYO_HEME.pdb
-writepsf ./MYO_HEME.psf
+writepdb ./MYO_HEME_MUT.pdb
+writepsf ./MYO_HEME_MUT.psf
