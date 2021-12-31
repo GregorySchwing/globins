@@ -3,7 +3,7 @@ coordinates             MYO.pdb
 
 set temp                310;
 
-set outputname          GCMC_water_O2_myoglobin_ions_equilibration;
+set outputname          MYO_MUT_equilibration;
 
 set a 92.225
 set b 92.225
