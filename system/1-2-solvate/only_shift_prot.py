@@ -31,7 +31,7 @@ def main():
 
     parser = PDBParser(PERMISSIVE=1)
     structure_id = "3rgk"
-    filename = inputprefix
+    filename = inputprefix+".pdb"
     structure = parser.get_structure(structure_id, filename)
     atoms = structure.get_atoms()
     listOfCoords = []
@@ -69,7 +69,7 @@ def main():
     log = "maxDistL2_padded {}\n".format(maxDistL2_padded)
     f.write(log)
 
-    shutil.copyfile("../1-1-build/MYO_HEME.psf", "MYO_HEME_SHIFTED.psf")
+    shutil.copyfile(inputprefix+".psf", outputprefix+".psf")
 
     parser = PDBParser(PERMISSIVE=1)
     structure_id = "box"
@@ -122,7 +122,7 @@ def main():
         atom.set_coord(newCoords)
     io = PDBIO()
     io.set_structure(structure)
-    io.save(outputprexix)
+    io.save(outputprefix+".pdb")
 
 if __name__ == "__main__":
     main()
