@@ -1,5 +1,5 @@
-structure               GCMC_water_O2_myoglobin_ions.psf
-coordinates             GCMC_water_O2_myoglobin_ions.pdb
+structure               MYO.psf
+coordinates             MYO.pdb
 
 set temp                310;
 

@@ -1,6 +1,5 @@
 set input_pdb_psf_file_name GCMC_water_O2_myoglobin_ions 
 set output_restraints_file_name prot_posres.ref 
-set output_colvars_file_name alphaC.ref
 
 # load 
 set system [mol new $input_pdb_psf_file_name.psf waitfor all]
