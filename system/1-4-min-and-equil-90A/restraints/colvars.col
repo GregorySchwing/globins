@@ -7,12 +7,12 @@ colvar {
    name CA_Translation
    distance {
       group1 {
-         dummyAtom ( 36.081, 36.081, 36.081 )
+         dummyAtom ( 46.1125, 46.1125, 46.1125 )
       }
       group2 {
          atomsFile      restraints/alphaC.ref
          atomsCol       B
-         atomsColValue  1.0
+         atomsColValue  2.0
       }
    }
 }
@@ -28,11 +28,11 @@ colvar {
   orientation {
     refPositionsFile  restraints/alphaC.ref
     refPositionsCol   B  
-    refPositionsColValue  1.0
+    refPositionsColValue  2.0
     atoms {
     	atomsFile      restraints/alphaC.ref
     	atomsCol       B
-    	atomsColValue  1.0
+    	atomsColValue  2.0
     }
   }
 }
