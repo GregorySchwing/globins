@@ -3,11 +3,31 @@ from Bio.PDB.PDBIO import PDBIO
 import numpy as np
 import shutil
 
+import sys
+
+inputfile = ''
+outputfile = ''
+try:
+	opts, args = getopt.getopt(argv,"hi:o:",["ifile=","ofile="])
+except getopt.GetoptError:
+	print 'only_shift_prot.py -i <inputfile> -o <outputfile>'
+	sys.exit(2)
+for opt, arg in opts:
+	if opt == '-h':
+		print 'only_shift_prot.py -i <inputfile> -o <outputfile>'
+		sys.exit()
+	elif opt in ("-i", "--ifile"):
+		inputfile = arg
+	elif opt in ("-o", "--ofile"):
+		outputfile = arg
+print 'Input file is "', inputfile
+print 'Output file is "', outputfile
+
 f = open("log.txt", "a")
 
 parser = PDBParser(PERMISSIVE=1)
 structure_id = "3rgk"
-filename = "../1-1-build/MYO_HEME.pdb"
+filename = inputfile
 structure = parser.get_structure(structure_id, filename)
 atoms = structure.get_atoms()
 listOfCoords = []
@@ -98,4 +118,4 @@ for atom in atoms:
 	atom.set_coord(newCoords)
 io = PDBIO()
 io.set_structure(structure)
-io.save("MYO_HEME_SHIFTED.pdb")
+io.save(outputfile)
