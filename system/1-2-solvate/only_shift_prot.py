@@ -7,25 +7,25 @@ import sys
 import getopt
 
 inputprefix = ''
-outputprexix = ''
+outputprefix = ''
 def main():
     try:
         opts, args = getopt.getopt(sys.argv[1:],"hi:o:",["ifile=","ofile="])
     except getopt.GetoptError:
-        print ('only_shift_prot.py -i <inputprefix> -o <outputprexix>')
+        print ('only_shift_prot.py -i <inputprefix> -o <outputprefix>')
         print ('prefix{.psf/pdb}')
         sys.exit(2)
     for opt, arg in opts:
         if opt == '-h':
-            print ('only_shift_prot.py -i <inputprefix> -o <outputprexix>')
+            print ('only_shift_prot.py -i <inputprefix> -o <outputprefix>')
             print ('prefix{.psf/pdb}')
             sys.exit()
         elif opt in ("-i", "--iprefix"):
             inputprefix = arg
         elif opt in ("-o", "--oprefix"):
-            outputprexix = arg
+            outputprefix = arg
     print ('Input prefix is "', inputprefix)
-    print ('Output prefix is "', outputprexix)
+    print ('Output prefix is "', outputprefix)
 
     f = open("log.txt", "a")
 
