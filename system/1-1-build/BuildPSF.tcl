@@ -12,6 +12,9 @@ segment MYO {
 segment HEME {
 	pdb ./heme.pdb
 }
+#Fixes heme at distance for O2 to coordinate with HIS 63
+patch PHEM MYO:93 HEME:154 
+#patch PHEM MYO:64 HEME:154 
 #segment SO4 {
 #	pdb ./sulfate.pdb
 #}
@@ -21,5 +24,5 @@ coordpdb ./heme.pdb HEME
 guesscoord
 #writepdb ./MYO_HEME_SO4.pdb
 #writepsf ./MYO_HEME_SO4.psf
-writepdb ./MYO_HEME.pdb
-writepsf ./MYO_HEME.psf
+writepdb ./MYO_HEME3pdb
+writepsf ./MYO_HEME3.psf
