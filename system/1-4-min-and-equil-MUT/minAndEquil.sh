@@ -19,6 +19,6 @@
 
 # Clear the environment from any previously loaded modules
 cd /home6/greg/globins/system/1-4-min-and-equil-MUT
-./namd2 +p6 step4_equilibration.inp > step4_equilibration.out
+~/NAMD_2.14_Linux-x86_64-multicore-CUDA/namd2 +p6 step4_equilibration.inp > step4_equilibration.out
 
 # End of submit file
