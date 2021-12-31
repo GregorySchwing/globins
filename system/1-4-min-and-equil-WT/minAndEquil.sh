@@ -18,7 +18,7 @@
 
 
 # Clear the environment from any previously loaded modules
-cd /home6/greg/globins/system/1-4-min-and-equil-90A
+cd /home6/greg/globins/system/1-4-min-and-equil-WT
 ./namd2 +p6 step4_equilibration.inp > step4_equilibration.out
 
 # End of submit file
