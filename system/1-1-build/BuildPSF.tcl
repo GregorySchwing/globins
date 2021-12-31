@@ -24,5 +24,5 @@ coordpdb ./heme.pdb HEME
 guesscoord
 #writepdb ./MYO_HEME_SO4.pdb
 #writepsf ./MYO_HEME_SO4.psf
-writepdb ./MYO_HEME3pdb
-writepsf ./MYO_HEME3.psf
+writepdb ./MYO_HEME.pdb
+writepsf ./MYO_HEME.psf
