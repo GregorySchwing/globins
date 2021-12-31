@@ -11,7 +11,7 @@ colvar {
       }
       group2 {
          atomsFile      restraints/alphaC.ref
-         atomsCol       B
+         atomsCol       O
          atomsColValue  1.0
       }
    }
@@ -27,11 +27,11 @@ colvar {
   name CA_Rotation
   orientation {
     refPositionsFile  restraints/alphaC.ref
-    refPositionsCol   B  
+    refPositionsCol   O  
     refPositionsColValue  1.0
     atoms {
     	atomsFile      restraints/alphaC.ref
-    	atomsCol       B
+    	atomsCol       O
     	atomsColValue  1.0
     }
   }
