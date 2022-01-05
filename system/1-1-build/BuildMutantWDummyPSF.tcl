@@ -30,7 +30,6 @@ segment HEME {
 patch DBON HEME:154 DUM:01
 patch PHEM MYO:93 HEME:154
 
-coordpdb ./center.pdb DUM
 coordpdb ./myoglobin.pdb MYO
 coordpdb ./heme.pdb HEME
 
