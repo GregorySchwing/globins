@@ -5,7 +5,7 @@
 #SBATCH -A greg
 #
 # Number of cores
-#SBATCH -c 4 -w, --nodelist=potoff35
+#SBATCH -c 4 -w, --nodelist=potoff32
 #
 # Runtime of this jobs is less then 12 hours.
 #SBATCH --time=168:00:00
