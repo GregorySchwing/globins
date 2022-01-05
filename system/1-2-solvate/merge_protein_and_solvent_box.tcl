@@ -6,7 +6,6 @@ set SolventName GCMC_water_O2_liq_seg_fix_atom_type_fix
 set SoluteName MYO_HEME_MUT_SHIFTED
 #set SoluteName MYO_HEME_SHIFTED
 
-#set output_pdb_psf_file_name MYO_HEME_WT_SHIFTED_SOLVATED
 set output_pdb_psf_file_name MYO_HEME_MUT_SHIFTED_SOLVATED
 #***************************************************************************
 
