@@ -2,10 +2,10 @@
 set mindist 2.4 ; # minimum required distance between all atoms
 
 set SolventName GCMC_water_O2_liq_seg_fix_atom_type_fix
-set SoluteName MYO_HEME_MUT_SHIFTED
+set SoluteName MYO_HEME_MUT_ALIGNED_SHIFTED
 #set SoluteName MYO_HEME_SHIFTED
 
-set output_pdb_psf_file_name MYO_HEME_MUT_SHIFTED_SOLVATED
+set output_pdb_psf_file_name MYO_HEME_MUT_ALIGNED_SHIFTED_SOLVATED
 #***************************************************************************
 
 
