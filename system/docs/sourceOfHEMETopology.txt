@@ -1,1 +1,0 @@
-https://charmm-gui.org/?doc=open_toppar&filename=stream/prot/toppar_all36_prot_heme.str
