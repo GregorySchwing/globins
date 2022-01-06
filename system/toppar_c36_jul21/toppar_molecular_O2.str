@@ -1,0 +1,109 @@
+* Toplogy and parameter information for water and ions.
+*
+
+!Testcase
+!test_water_ions.inp
+
+!references
+!
+!Molecular O2 model 
+!
+!Wang, Y., Cohen, J., Boron, W.F., Schulten, K. and Tajkhorshid, E., 
+!2007. Exploring gas permeability of cellular membranes and membrane 
+!channels with molecular dynamics. Journal of structural biology, 
+!157(3), pp.534-544.
+
+
+!test "append" to determine if previous toppar files have been read and
+!add append to "read rtf card" if true
+set nat ?NATC
+set app
+!We're exploiting what is arguably a bug in the parser. On the left hand side,
+!the quotes have priority, so NAT is correctly substituted. On the right hand
+!side, the ? has priority and NATC" (sic) is not a valid substitution...
+if "@NAT" ne "?NATC" if @nat ne 0 set app append
+
+read rtf card @app
+* Topology for water and ions
+*
+MASS  -1  OT        15.99940 O ! MOLECULAR OXYGEN
+
+
+default first none last none
+
+RESI DIOX         0.000 ! tip3p water model, generate using noangle nodihedral
+GROUP
+ATOM O1  OT     -0.021
+ATOM O2  OT      0.021
+BOND O1 O2    ! the last bond is needed for shake
+PATCHING FIRS NONE LAST NONE
+
+END
+
+read para card flex @app
+* Parameters for water and ions
+*
+
+ATOMS
+MASS  -1  OT        15.99940 O ! MOLECULAR OXYGEN
+
+BONDS
+!
+!V(bond) = Kb(b - b0)**2
+!
+!Kb: kcal/mole/A**2
+!b0: A
+!
+!atom type Kb          b0
+!
+OT    OT      0.0       1.16  ! from Wang et al.
+
+ANGLES
+!
+!V(angle) = Ktheta(Theta - Theta0)**2
+!
+!V(Urey-Bradley) = Kub(S - S0)**2
+!
+!Ktheta: kcal/mole/rad**2
+!Theta0: degrees
+!Kub: kcal/mole/A**2 (Urey-Bradley)
+!S0: A
+!
+!atom types     Ktheta    Theta0   Kub     S0
+!
+
+DIHEDRALS
+!
+!V(dihedral) = Kchi(1 + cos(n(chi) - delta))
+!
+!Kchi: kcal/mole
+!n: multiplicity
+!delta: degrees
+!
+!atom types             Kchi    n   delta
+!
+
+
+!
+IMPROPER
+!
+!V(improper) = Kpsi(psi - psi0)**2
+!
+!Kpsi: kcal/mole/rad**2
+!psi0: degrees
+!note that the second column of numbers (0) is ignored
+!
+!atom types           Kpsi                   psi0
+!
+
+NONBONDED nbxmod  5 atom cdiel fshift vatom vdistance vfswitch -
+cutnb 14.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5
+
+!TIP3P LJ parameters, also used in Wang et al.
+OT       0.0       -0.1521    1.7682
+
+NBFIX
+!              Emin         Rmin
+!            (kcal/mol)     (A)
+
+END
