@@ -1,6 +1,7 @@
-source orient.tcl
+package require Orient 1.0
 namespace import Orient::orient
 set input MYO_HEME
+set output MYO_HEME_ALIGNED
 
 set solute [mol new $input.pdb waitfor all]
 mol addfile $input.pdb mol $solute waitfor all
@@ -20,5 +21,7 @@ set A [orient $sel [lindex $I 1] {1 0 0}]
 $all move $A
 puts "recalc principal axes to check"
 set I [draw principalaxes $sel]
+
+$all writepdb ${output}.pdb
 
 
