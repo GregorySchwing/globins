@@ -1,7 +1,7 @@
 package require Orient 1.0
 namespace import Orient::orient
-set input MYO_HEME
-set output MYO_HEME_ALIGNED
+set input MYO_HEME_MUT
+set output MYO_HEME_MUT_ALIGNED
 
 set solute [mol new $input.pdb waitfor all]
 mol addfile $input.pdb mol $solute waitfor all
