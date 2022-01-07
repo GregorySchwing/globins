@@ -1792,7 +1792,7 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
         try:
             resName = User_Inputs.index("FE")
         except ValueError:
-            #"print no FE" Do nothing
+            resname = 0
         if(resname > 0):
             FE_coorinates.append(User_Inputs[6])
             FE_coorinates.append(User_Inputs[7])
