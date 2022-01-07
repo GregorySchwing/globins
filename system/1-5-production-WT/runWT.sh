@@ -19,5 +19,5 @@
 
 # Clear the environment from any previously loaded modules
 cd /home6/greg/globins/system/1-5-production-WT
-python3 run_NAMD_GOMC.py -f user_input_NAMD_GOMC.json
+python3 run_NAMD_GOMC.py -f user_input_NAMD_GOMC.json > log
 # End of submit file
