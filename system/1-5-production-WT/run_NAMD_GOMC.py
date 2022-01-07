@@ -6,7 +6,7 @@ import subprocess
 import pandas as pd
 import numpy as np
 import json
-
+import numpy
 from warnings import warn
 
 # MD/MC simulations (NAMD/GOMC) for the NPT, NVT, GEMC, and GCMC ensembles
@@ -82,8 +82,8 @@ manual_testing_filename_input_override = False
 if json_filename is None and manual_testing_filename_input_override is True:
     json_filename = "user_input_NAMD_GOMC.json"
 
-#json_file_data = json.load(open(json_filename))
-json_file_data = json.load(open("user_input_NAMD_GOMC.json"))
+json_file_data = json.load(open(json_filename))
+#json_file_data = json.load(open("user_input_NAMD_GOMC.json"))
 json_file_data_keys_list = json_file_data.keys()
 # get the total_cycles_namd_gomc_sims variable from the json file
 if "total_cycles_namd_gomc_sims" not in json_file_data_keys_list:
@@ -393,7 +393,7 @@ if simulation_type in ['GCMC', 'GEMC']:
     if "starting_pdb_box_1_file" not in json_file_data_keys_list:
         raise TypeError("The starting_pdb_box_1_file key is not provided.\n")
     starting_pdb_box_1_file = json_file_data["starting_pdb_box_1_file"]
-    if not isinstance(starting_pdb_box_0_file, str):
+    if not isinstance(starting_pdb_box_1_file, str):
         raise TypeError("The starting_pdb_box_1_file is not a string.\n")
 
     # get the starting_psf_box_1_file variable from the json file
@@ -447,6 +447,8 @@ elif gomc_run_steps/10 <= 500:
 
 namd_rst_dcd_xst_steps = int(namd_run_steps)
 namd_console_blkavg_e_and_p_steps = int(namd_run_steps)
+
+use_gomc_checkpoint = 'true'
 
 # *************************************************
 # Potential changable variables in the future (end)
@@ -1398,10 +1400,12 @@ def get_namd_energy_data(read_namd_box_x_energy_file, e_default_namd_titles):
     namd_e_vdw_box_x = namd_energy_data_box_x_df.loc[:, 'VDW']
     namd_e_vdw_box_x_initial_value = float(namd_e_vdw_box_x.values.tolist()[0])
     namd_e_vdw_box_x_final_value = float(namd_e_vdw_box_x.values.tolist()[-1])
-
+    print('namd_e_vdw_box_x')
+    print(namd_e_vdw_box_x)
     namd_e_vdw_plus_elec_box_x = [float(namd_e_vdw_box_x[k_i]) + float(namd_e_electro_box_x[k_i])
                                   for k_i in range(0, len(namd_e_vdw_box_x))]
-
+    print('namd_e_vdw_plus_elec_box_x')
+    print(namd_e_vdw_plus_elec_box_x)
     namd_e_vdw_plus_elec_box_x_initial_value = float(namd_e_vdw_plus_elec_box_x[0])
     namd_e_vdw_plus_elec_box_x_final_value = float(namd_e_vdw_plus_elec_box_x[-1])
 
@@ -1610,9 +1614,10 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
                                           )
 
     if previous_gomc_dir == 'NA':
+        # marked as "Restart_Checkpoint_file", 'false' for now until checkpoint is setup
         new_gomc_data = new_gomc_data.replace("Restart_Checkpoint_file",
-                                              "false {}"
-                                              "".format("Output_data_restart.chk"))
+                                                  "false {}"
+                                                  "".format("Output_data_restart.chk"))
 
         gomc_starting_pdb_rel_path_box_0 = os.path.relpath("{}/{}".format(str(python_file_directory),
                                                                           starting_pdb_box_0_file),
@@ -1657,24 +1662,6 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
     new_gomc_data = new_gomc_data.replace("x_dim_box_0", str(read_x_dim_box_0))
     new_gomc_data = new_gomc_data.replace("y_dim_box_0", str(read_y_dim_box_0))
     new_gomc_data = new_gomc_data.replace("z_dim_box_0", str(read_z_dim_box_0))
-
-    new_gomc_data = new_gomc_data.replace("x_origin_box", str(read_x_dim_box_0/2))
-    new_gomc_data = new_gomc_data.replace("y_origin_box", str(read_y_dim_box_0/2))
-    new_gomc_data = new_gomc_data.replace("z_origin_box", str(read_z_dim_box_0/2))
-
-    new_gomc_data = new_gomc_data.replace("top_one_fifth", str(read_y_dim_box_0/5))
-    new_gomc_data = new_gomc_data.replace("bottom_one_fifth", str(read_y_dim_box_0/5))
-    new_gomc_data = new_gomc_data.replace("left_one_fifth", str(read_x_dim_box_0/5))
-    new_gomc_data = new_gomc_data.replace("right_one_fifth", str(read_x_dim_box_0/5))
-    new_gomc_data = new_gomc_data.replace("superficial_one_fifth", str(read_z_dim_box_0/5))
-    new_gomc_data = new_gomc_data.replace("deep_one_fifth", str(read_z_dim_box_0/5))
-
-    new_gomc_data = new_gomc_data.replace("top_center", str(read_y_dim_box_0 - read_y_dim_box_0/10))
-    new_gomc_data = new_gomc_data.replace("bottom_center", str(read_y_dim_box_0/10))
-    new_gomc_data = new_gomc_data.replace("left_center", str(read_x_dim_box_0/10))
-    new_gomc_data = new_gomc_data.replace("right_center", str(read_x_dim_box_0 - read_x_dim_box_0/10))
-    new_gomc_data = new_gomc_data.replace("superficial_center", str(read_z_dim_box_0/10))
-    new_gomc_data = new_gomc_data.replace("deep_center", str(read_z_dim_box_0 - read_z_dim_box_0/10))
 
     if simulation_type in ["GEMC", "GCMC"]:
         readlines_gomc_template_file = open("{}/{}".format(str(python_file_directory),
@@ -1801,6 +1788,61 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
             new_gomc_data = new_gomc_data.replace("y_dim_box_1", str(read_y_dim_box_1))
             new_gomc_data = new_gomc_data.replace("z_dim_box_1", str(read_z_dim_box_1))
 
+    ### Get the last position of FE from GOMC PDB file.  There likely wasnt much movement of FE
+    gomc_pdb_box_0_file = ""
+    if previous_gomc_dir == 'NA':
+        gomc_pdb_box_0_file = "{}".format(starting_pdb_box_0_file)
+    else:
+        gomc_pdb_box_0_file = "{}/{}/Output_data_BOX_0_restart.pdb".format("GOMC",previous_gomc_rel_path[3:])
+
+    read_gomc_pdb_file = open(gomc_pdb_box_0_file,'r').readlines()
+
+    FE_coordinates = []
+    for line in read_gomc_pdb_file:
+        User_Inputs = line.split()
+        resName = 0
+        try:
+            resName = User_Inputs.index("FE")
+        except ValueError:
+            resName = 0
+        if(resName > 0):
+            FE_coordinates.append(User_Inputs[6])
+            FE_coordinates.append(User_Inputs[7])
+            FE_coordinates.append(User_Inputs[8])
+
+    print("FE Coordinates {}".format(FE_coordinates))
+    subvoldim = [5, 5, 5]
+    FE_coordinatesNPStrings = numpy.array(FE_coordinates)
+    FE_coordinatesNP = FE_coordinatesNPStrings.astype(numpy.float)
+
+    subvoldimNP = numpy.array(subvoldim)
+    subvolhalfdimNP = subvoldimNP/2
+
+    subvolcenterNP = numpy.add(FE_coordinatesNP, subvolhalfdimNP) 
+    print("subvolcenter Coordinates {}".format(subvolcenterNP))
+
+    new_gomc_data = new_gomc_data.replace("x_subvol_center", str(subvolcenterNP[0]))
+    new_gomc_data = new_gomc_data.replace("y_subvol_center", str(subvolcenterNP[1]))
+    new_gomc_data = new_gomc_data.replace("z_subvol_center", str(subvolcenterNP[2]))
+
+    new_gomc_data = new_gomc_data.replace("x_origin_box", str(read_x_dim_box_0/2))
+    new_gomc_data = new_gomc_data.replace("y_origin_box", str(read_y_dim_box_0/2))
+    new_gomc_data = new_gomc_data.replace("z_origin_box", str(read_z_dim_box_0/2))
+
+    new_gomc_data = new_gomc_data.replace("top_one_fifth", str(read_y_dim_box_0/5))
+    new_gomc_data = new_gomc_data.replace("bottom_one_fifth", str(read_y_dim_box_0/5))
+    new_gomc_data = new_gomc_data.replace("left_one_fifth", str(read_x_dim_box_0/5))
+    new_gomc_data = new_gomc_data.replace("right_one_fifth", str(read_x_dim_box_0/5))
+    new_gomc_data = new_gomc_data.replace("superficial_one_fifth", str(read_z_dim_box_0/5))
+    new_gomc_data = new_gomc_data.replace("deep_one_fifth", str(read_z_dim_box_0/5))
+
+    new_gomc_data = new_gomc_data.replace("top_center", str(read_y_dim_box_0 - read_y_dim_box_0/10))
+    new_gomc_data = new_gomc_data.replace("bottom_center", str(read_y_dim_box_0/10))
+    new_gomc_data = new_gomc_data.replace("left_center", str(read_x_dim_box_0/10))
+    new_gomc_data = new_gomc_data.replace("right_center", str(read_x_dim_box_0 - read_x_dim_box_0/10))
+    new_gomc_data = new_gomc_data.replace("superficial_center", str(read_z_dim_box_0/10))
+    new_gomc_data = new_gomc_data.replace("deep_center", str(read_z_dim_box_0 - read_z_dim_box_0/10))
+
     if simulation_type in ["GEMC", "GCMC"]:
         if simulation_type in ["GCMC"] and previous_gomc_dir == "NA":
             new_gomc_data = new_gomc_data.replace("restart_true_or_false", 'false')
@@ -1920,10 +1962,9 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
                                                   "".format("Output_data_restart.chk"))
 
     # make checkpoint true and restart
-    if previous_gomc_dir != 'NA':
-        new_gomc_data = new_gomc_data.replace("Restart_Checkpoint_file",
+    new_gomc_data = new_gomc_data.replace("Restart_Checkpoint_file",
                                               "true {}/{}"
-                                              "".format(str(previous_gomc_rel_path), "Output_data_restart.chk"))
+                                              "".format(str(previous_gomc_dir), "Output_data_restart.chk"))
 
     generate_gomc_file.write(new_gomc_data)
     generate_gomc_file.close()
@@ -2280,6 +2321,7 @@ for run_no in range(starting_sims_namd_gomc, total_sims_namd_gomc):
             exec_namd_box_0_cp_fft_run_0_new_dir_cmd = subprocess.Popen(cp_namd_box_0_fft_run_0_new_dir_cmd,
                                                                         shell=True, stderr=subprocess.STDOUT)
             os.waitpid(exec_namd_box_0_cp_fft_run_0_new_dir_cmd.pid, os.WSTOPPED)
+        if simulation_type in ["GEMC"] and only_use_box_0_for_namd_for_gemc is False:
             # find the FFT grid.txt file from the first NAMD simulation (i.e., Run 0) and copy it to
             # to the current dir for box 0
             if run_no != 0:
@@ -2304,6 +2346,9 @@ for run_no in range(starting_sims_namd_gomc, total_sims_namd_gomc):
                                                                             str(namd_bin_file),
                                                                             str(int(total_no_cores))
                                                                             )
+            print('999999999999999')
+            print('run_box_0_command = ' +str(run_box_0_command))
+            print('999999999999999')
 
         elif simulation_type in ['GEMC'] and only_use_box_0_for_namd_for_gemc is False \
                 and namd_sim_order == 'parallel':
