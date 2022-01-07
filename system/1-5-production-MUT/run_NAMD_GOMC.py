@@ -1797,7 +1797,6 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
     FE_coordinates = []
     for line in read_gomc_pdb_file:
         User_Inputs = line.split()
-        print(User_Inputs)
         resName = 0
         try:
             resName = User_Inputs.index("FE")
@@ -1810,12 +1809,14 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
 
     print("FE Coordinates {}".format(FE_coordinates))
     subvoldim = [5, 5, 5]
-    subvolcenter = numpy.array(FE_coordinates) + numpy.array(subvoldim)
-    print("subvolcenter Coordinates {}".format(subvolcenter))
+    FE_coordinatesNP = numpy.array(FE_coordinates)
+    subvoldimNP = numpy.array(subvoldim)
+    subvolcenterNP = numpy.add(FE_coordinatesNP, subvoldimNP) 
+    print("subvolcenter Coordinates {}".format(subvolcenterNP))
 
-    new_gomc_data = new_gomc_data.replace("x_subvol_center", str(subvolcenter[0]))
-    new_gomc_data = new_gomc_data.replace("y_subvol_center", str(subvolcenter[1]))
-    new_gomc_data = new_gomc_data.replace("z_subvol_center", str(subvolcenter[2]))
+    new_gomc_data = new_gomc_data.replace("x_subvol_center", str(subvolcenterNP[0]))
+    new_gomc_data = new_gomc_data.replace("y_subvol_center", str(subvolcenterNP[1]))
+    new_gomc_data = new_gomc_data.replace("z_subvol_center", str(subvolcenterNP[2]))
 
     new_gomc_data = new_gomc_data.replace("x_origin_box", str(read_x_dim_box_0/2))
     new_gomc_data = new_gomc_data.replace("y_origin_box", str(read_y_dim_box_0/2))
