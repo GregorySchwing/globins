@@ -1,0 +1,30 @@
+configuration {
+  step        10000
+  dt 2.000000e+00
+  version 2020-07-07
+}
+
+colvar {
+  name CA_Translation
+  x  1.56445574729554e+00
+}
+
+colvar {
+  name CA_Rotation
+  x (  9.99995484528708e-01 , -4.63571276595635e-04 ,  2.70917092013758e-03 ,  1.21507892430705e-03 )
+}
+
+restraint {
+  configuration {
+    step 10000
+    name harmonic1
+  }
+}
+
+restraint {
+  configuration {
+    step 10000
+    name harmonic2
+  }
+}
+
