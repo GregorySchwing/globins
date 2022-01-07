@@ -2,7 +2,7 @@
 "starting_at_cycle_namd_gomc_sims": 0,
 "gomc_use_CPU_or_GPU": "CPU" ,
 "simulation_type": "GCMC",
-"only_use_box_0_for_namd_for_gemc": false,
+"only_use_box_0_for_namd_for_gemc": true,
 "no_core_box_0": 2,
 "no_core_box_1" : 0,
 "simulation_temp_k": 310,

@@ -1788,6 +1788,7 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
     FE_coorinates = []
     for line in read_pdb_file:
         User_Inputs = line.split()
+        print(User_Inputs)
         resName = 0
         try:
             resName = User_Inputs.index("FE")
