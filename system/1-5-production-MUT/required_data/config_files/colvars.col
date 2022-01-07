@@ -10,7 +10,7 @@ colvar {
          dummyAtom ( 46.1125, 46.1125, 46.1125 )
       }
       group2 {
-         atomsFile      MYO.pdb
+         atomsFile      pdb_box_file
          atomsCol       B
          atomsColValue  2.0
       }
@@ -26,11 +26,11 @@ harmonic {
 colvar {
   name CA_Rotation
   orientation {
-    refPositionsFile  MYO.pdb
+    refPositionsFile  pdb_box_file
     refPositionsCol   B  
     refPositionsColValue  2.0
     atoms {
-    	atomsFile      MYO.pdb
+    	atomsFile      pdb_box_file
     	atomsCol       B
     	atomsColValue  2.0
     }
