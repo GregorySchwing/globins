@@ -10,7 +10,7 @@
 "GCMC_ChemPot_or_Fugacity": "ChemPot",
 "GCMC_ChemPot_or_Fugacity_dict": {"TIP3": -4166, "DIOX": -2000, "PROTA": -2000, "SOD": -2000},
 "namd_minimize_mult_scalar": 1,
-"namd_run_steps": 100,
+"namd_run_steps": 2500,
 "gomc_run_steps": 500,
 "set_dims_box_0_list": null,
 "set_dims_box_1_list": null,
