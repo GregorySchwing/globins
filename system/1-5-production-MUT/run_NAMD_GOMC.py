@@ -1809,9 +1809,13 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
 
     print("FE Coordinates {}".format(FE_coordinates))
     subvoldim = [5, 5, 5]
-    FE_coordinatesNP = numpy.array(FE_coordinates)
+    FE_coordinatesNPStrings = numpy.array(FE_coordinates)
+    FE_coordinatesNP = FE_coordinatesNPStrings.astype(numpy.float)
+
     subvoldimNP = numpy.array(subvoldim)
-    subvolcenterNP = numpy.add(FE_coordinatesNP, subvoldimNP) 
+    subvolhalfdimNP = subvoldimNP/2
+
+    subvolcenterNP = numpy.add(FE_coordinatesNP, subvolhalfdimNP) 
     print("subvolcenter Coordinates {}".format(subvolcenterNP))
 
     new_gomc_data = new_gomc_data.replace("x_subvol_center", str(subvolcenterNP[0]))
