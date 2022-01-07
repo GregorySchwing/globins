@@ -393,7 +393,7 @@ if simulation_type in ['GCMC', 'GEMC']:
     if "starting_pdb_box_1_file" not in json_file_data_keys_list:
         raise TypeError("The starting_pdb_box_1_file key is not provided.\n")
     starting_pdb_box_1_file = json_file_data["starting_pdb_box_1_file"]
-    if not isinstance(starting_pdb_box_0_file, str):
+    if not isinstance(starting_pdb_box_1_file, str):
         raise TypeError("The starting_pdb_box_1_file is not a string.\n")
 
     # get the starting_psf_box_1_file variable from the json file
@@ -1797,6 +1797,7 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
     FE_coorinates = []
     for line in read_pdb_file:
         User_Inputs = line.split()
+        print(User_Inputs)
         resName = 0
         try:
             resName = User_Inputs.index("FE")
