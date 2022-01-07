@@ -6,7 +6,7 @@ import subprocess
 import pandas as pd
 import numpy as np
 import json
-
+import numpy
 from warnings import warn
 
 # MD/MC simulations (NAMD/GOMC) for the NPT, NVT, GEMC, and GCMC ensembles
