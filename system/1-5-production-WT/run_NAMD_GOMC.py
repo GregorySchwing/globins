@@ -2552,7 +2552,7 @@ for run_no in range(starting_sims_namd_gomc, total_sims_namd_gomc):
         gomc_newdir = write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run_steps,
                                            gomc_rst_coor_ckpoint_steps, gomc_console_blkavg_hist_steps,
                                            gomc_hist_sample_steps,
-                                           simulation_temp_k, simulation_pressure_bar,set_subvol_dim_list
+                                           simulation_temp_k, simulation_pressure_bar, set_subvol_dim_list,
                                            starting_pdb_box_0_file, starting_pdb_box_1_file,
                                            starting_psf_box_0_file, starting_psf_box_1_file)
 
