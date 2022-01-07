@@ -1793,7 +1793,7 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
     if previous_gomc_dir == 'NA':
         gomc_pdb_box_0_file = "{}".format(starting_pdb_box_0_file)
     else:
-        gomc_pdb_box_0_file = "{}/Output_data_BOX_0_restart.pdb".format(previous_gomc_rel_path)
+        gomc_pdb_box_0_file = "{}/{}/Output_data_BOX_0_restart.pdb".format("GOMC",previous_gomc_rel_path[3:])
 
     read_gomc_pdb_file = open(gomc_pdb_box_0_file,'r').readlines()
 
