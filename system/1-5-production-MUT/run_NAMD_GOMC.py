@@ -1785,6 +1785,10 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
             new_gomc_data = new_gomc_data.replace("y_dim_box_1", str(read_y_dim_box_1))
             new_gomc_data = new_gomc_data.replace("z_dim_box_1", str(read_z_dim_box_1))
 
+    ### Get the last position of FE
+    namd_pdb_box_0_file = "{}/namdOut.restart.pdb".format(namd_box_0_newdir)
+    read_pdb_file = open("{}/{}".format(str(python_file_directory),namd_pdb_box_0_file),'r').readlines()
+
     FE_coorinates = []
     for line in read_pdb_file:
         User_Inputs = line.split()
