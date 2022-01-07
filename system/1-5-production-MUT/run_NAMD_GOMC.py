@@ -266,6 +266,30 @@ if set_dims_box_0_list is not None:
 elif set_dims_box_0_list is None:
     set_dims_box_0_list = [None, None, None]
 
+# get the set_x_dim_box_0 variable from the json file
+if "set_subvol_dim_list" not in json_file_data_keys_list:
+    raise TypeError("The set_subvol_dim_list key is not provided.\n")
+set_subvol_dim_list = json_file_data["set_subvol_dim_list"]
+if set_subvol_dim_list is not None:
+    print_error_text = "The set_subvol_dim_list must be a null/None or list and contain three (3) integers or floats"\
+                       "greater than zero (>0).\n"
+    if isinstance(set_subvol_dim_list, list):
+        if len(set_subvol_dim_list) == 3:
+            for dims_box_i in set_subvol_dim_list:
+                if isinstance(dims_box_i, int) is False and isinstance(dims_box_i, float) is False \
+                        and dims_box_i != None:
+                    raise TypeError(print_error_text)
+                else:
+                    if dims_box_i != None:
+                        if dims_box_i <= 0:
+                            raise TypeError(print_error_text)
+        else:
+            raise TypeError(print_error_text)
+    else:
+        raise TypeError(print_error_text)
+elif set_subvol_dim_list is None:
+    set_subvol_dim_list = [None, None, None]
+
 # get the set_x_dim_box_1 variable from the json file
 if "set_dims_box_1_list" not in json_file_data_keys_list:
     raise TypeError("The set_dims_box_1_list key is not provided.\n")
@@ -1524,7 +1548,7 @@ def compare_namd_gomc_energies(e_potential_box_x_final_value, e_potential_box_x_
 
 def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run_steps,
                          gomc_rst_coor_ckpoint_steps, gomc_console_blkavg_hist_steps, gomc_hist_sample_steps,
-                         simulation_temp_k, simulation_pressure_bar,
+                         simulation_temp_k, simulation_pressure_bar,subvol_dim_list,
                          starting_pdb_box_0_file, starting_pdb_box_1_file,
                          starting_psf_box_0_file, starting_psf_box_1_file):
     """
@@ -1554,6 +1578,8 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
         The NAMD simulation temperature in Kelvin.
     simulation_pressure_bar : int or float
         The NAMD simulation pressure in bar.
+    subvol_dim_list : list of int or float
+        The dimensions of the subvolume for a heme ligand.
     starting_pdb_box_0_file : str
         The pdb path/filename for box 0 which is written
         to the GOMC control file.
@@ -1811,15 +1837,19 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
             FE_coordinates.append(User_Inputs[8])
 
     print("FE Coordinates {}".format(FE_coordinates))
-    subvoldim = [5, 5, 5]
+    subvoldim = subvol_dim_list
     FE_coordinatesNPStrings = numpy.array(FE_coordinates)
     FE_coordinatesNP = FE_coordinatesNPStrings.astype(numpy.float)
 
-    subvoldimNP = numpy.array(subvoldim)
+    subvoldimNP = numpy.array(subvol_dim_list)
     subvolhalfdimNP = subvoldimNP/2
 
     subvolcenterNP = numpy.add(FE_coordinatesNP, subvolhalfdimNP) 
     print("subvolcenter Coordinates {}".format(subvolcenterNP))
+
+    new_gomc_data = new_gomc_data.replace("x_subvol_dim", str(subvoldimNP[0]))
+    new_gomc_data = new_gomc_data.replace("y_subvol_dim", str(subvoldimNP[1]))
+    new_gomc_data = new_gomc_data.replace("z_subvol_dim", str(subvoldimNP[2]))
 
     new_gomc_data = new_gomc_data.replace("x_subvol_center", str(subvolcenterNP[0]))
     new_gomc_data = new_gomc_data.replace("y_subvol_center", str(subvolcenterNP[1]))
@@ -2522,7 +2552,7 @@ for run_no in range(starting_sims_namd_gomc, total_sims_namd_gomc):
         gomc_newdir = write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run_steps,
                                            gomc_rst_coor_ckpoint_steps, gomc_console_blkavg_hist_steps,
                                            gomc_hist_sample_steps,
-                                           simulation_temp_k, simulation_pressure_bar,
+                                           simulation_temp_k, simulation_pressure_bar, set_subvol_dim_list,
                                            starting_pdb_box_0_file, starting_pdb_box_1_file,
                                            starting_psf_box_0_file, starting_psf_box_1_file)
 
