@@ -1788,9 +1788,7 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
     ### Get the last position of FE from GOMC PDB file.  There likely wasnt much movement of FE
     namd_pdb_box_0_file = ""
     if previous_gomc_dir == 'NA':
-        namd_pdb_box_0_file = os.path.relpath("{}/{}".format(str(python_file_directory),
-                                                                          starting_pdb_box_0_file),
-                                                           gomc_newdir)
+        namd_pdb_box_0_file = os.path.relpath("{}".format(starting_pdb_box_0_file),gomc_newdir)
     else:
         namd_pdb_box_0_file = "{}/Output_data_BOX_0_restart.pdb".format(previous_gomc_rel_path)
 
