@@ -1786,31 +1786,31 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
             new_gomc_data = new_gomc_data.replace("z_dim_box_1", str(read_z_dim_box_1))
 
     ### Get the last position of FE from GOMC PDB file.  There likely wasnt much movement of FE
-    namd_pdb_box_0_file = ""
+    gomc_pdb_box_0_file = ""
     if previous_gomc_dir == 'NA':
-        namd_pdb_box_0_file = "{}".format(starting_pdb_box_0_file)
+        gomc_pdb_box_0_file = "{}".format(starting_pdb_box_0_file)
     else:
-        namd_pdb_box_0_file = "{}/Output_data_BOX_0_restart.pdb".format(previous_gomc_rel_path)
+        gomc_pdb_box_0_file = "{}/Output_data_BOX_0_restart.pdb".format(previous_gomc_rel_path)
 
-    read_pdb_file = open(namd_pdb_box_0_file,'r').readlines()
+    read_gomc_pdb_file = open(gomc_pdb_box_0_file,'r').readlines()
 
-    FE_coorinates = []
-    for line in read_pdb_file:
+    FE_coordinates = []
+    for line in read_gomc_pdb_file:
         User_Inputs = line.split()
         print(User_Inputs)
         resName = 0
         try:
             resName = User_Inputs.index("FE")
         except ValueError:
-            resname = 0
-        if(resname > 0):
-            FE_coorinates.append(User_Inputs[6])
-            FE_coorinates.append(User_Inputs[7])
-            FE_coorinates.append(User_Inputs[8])
+            resName = 0
+        if(resName > 0):
+            FE_coordinates.append(User_Inputs[6])
+            FE_coordinates.append(User_Inputs[7])
+            FE_coordinates.append(User_Inputs[8])
 
-    print("FE Coordinates {}".format(FE_coorinates))
+    print("FE Coordinates {}".format(FE_coordinates))
     subvoldim = [5, 5, 5]
-    subvolcenter = numpy.array(FE_coorinates) + numpy.array(subvoldim)
+    subvolcenter = numpy.array(FE_coordinates) + numpy.array(subvoldim)
     print("subvolcenter Coordinates {}".format(subvolcenter))
 
     new_gomc_data = new_gomc_data.replace("x_subvol_center", str(subvolcenter[0]))
