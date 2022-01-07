@@ -1964,16 +1964,7 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
     # make checkpoint true and restart
     new_gomc_data = new_gomc_data.replace("Restart_Checkpoint_file",
                                               "true {}/{}"
-                                              "".format(str(previous_gomc_rel_path), "Output_data_restart.chk"))
-
-    run_gomc_copy_ckpt_new_dir_command = "ln -sf {}/{} {}".format(str(previous_gomc_dir),
-                                                                  "checkpoint.dat", str(gomc_newdir)
-                                                                  )
-
-    exec_gomc_copy_ckpt_new_dir_command = subprocess.Popen(run_gomc_copy_ckpt_new_dir_command,
-                                                           shell=True, stderr=subprocess.STDOUT)
-
-    os.waitpid(exec_gomc_copy_ckpt_new_dir_command.pid, os.WSTOPPED)  # pauses python until GOMC sim done
+                                              "".format(str(previous_gomc_dir), "Output_data_restart.chk"))
 
     generate_gomc_file.write(new_gomc_data)
     generate_gomc_file.close()
