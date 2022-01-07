@@ -43,28 +43,3 @@ harmonic {
    forceConstant 1000
 }
 
-set psf_box_file MYO.psf
-set pdb_box_file MYO.pdb
-set solute [mol new $psf_box_file waitfor all]
-mol addfile $pdb_box_file mol $solute waitfor all
-set FE [atomselect top "name FE"]
-set FE_COOR [lindex [$FE get {x y z}] 0]
-puts "FE_COOR $FE_COOR"
-
-set subvol_x_dim SUB_X_DIM
-set subvol_y_dim SUB_Y_DIM
-set subvol_z_dim SUB_Z_DIM
-
-set SUBVOLDIM {}
-
-lappend SUBVOLDIM $subvol_x_dim
-lappend SUBVOLDIM $subvol_y_dim
-lappend SUBVOLDIM $subvol_z_dim
-
-set SUBVOLDIMCENTERVEC [vecscale 0.5 $SUBVOLDIM ]
-puts "SUBVOLDIMCENTERVEC $SUBVOLDIMCENTERVEC"
-
-set CENTER_OF_SUBVOL [vecadd $FE_COOR $SUBVOLDIMCENTERVEC]
-puts "CENTER_OF_SUBVOL $CENTER_OF_SUBVOL"
-
-

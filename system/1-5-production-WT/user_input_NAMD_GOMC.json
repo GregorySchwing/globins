@@ -18,14 +18,14 @@
 "set_angle_box_1_list": null,
 "starting_ff_file_list_gomc": ["required_data/toppar/GCMC_water_O2_FF.inp", "required_data/toppar/GOMC_toppar_water_ions_namd.str", "required_data/toppar/par_all36_prot.prm", "required_data/toppar/GOMC_toppar_all36_prot_heme.str"],
 "starting_ff_file_list_namd": ["required_data/toppar/NAMD_toppar_water_ions_with_par_all36_prot_only_version.str", "required_data/toppar/par_all36_prot.prm", "required_data/toppar/toppar_all36_prot_heme.str", "required_data/toppar/GCMC_water_O2_FF_NAMD.inp"],
-"starting_pdb_box_0_file": "required_data/1-4-min-and-equil-MUT/MYO_EQ.pdb",
-"starting_psf_box_0_file": "required_data/1-4-min-and-equil-MUT/MYO.psf",
+"starting_pdb_box_0_file": "required_data/eq/MYO_WT_EQ.pdb",
+"starting_psf_box_0_file": "required_data/eq/MYO_WT_EQ.psf",
 "starting_pdb_box_1_file": "required_data/reservoir/GCMC_water_O2_res.pdb",
 "starting_psf_box_1_file": "required_data/reservoir/GCMC_water_O2_res_seg_fix_atom_type_fix.psf",
 "namd2_bin_directory": "required_data/bin/NAMD_CPU",
 "gomc_bin_directory": "required_data/bin",
 "set_dims_box_0_list" : [92.225, 92.225, 92.225],
 "set_dims_box_1_list" : [80.000, 80.000, 80.000],
-"namd_restraints" : "required_data/1-4-min-and-equil-MUT/restraints/prot_posres.ref",
-"namd_col_var_template" : "required_data/1-4-min-and-equil-MUT/restraints/colvars.col"
+"namd_restraints" : "required_data/eq/restraints/prot_posres.ref",
+"namd_col_var_template" : "required_data/eq/colvars.col"
 }
