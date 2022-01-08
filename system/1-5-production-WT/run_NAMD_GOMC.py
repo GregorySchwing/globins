@@ -1814,6 +1814,9 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
             new_gomc_data = new_gomc_data.replace("y_dim_box_1", str(read_y_dim_box_1))
             new_gomc_data = new_gomc_data.replace("z_dim_box_1", str(read_z_dim_box_1))
     
+    subvoldim = subvol_dim_list
+    subvoldimNP = numpy.array(subvol_dim_list)
+
     new_gomc_data = new_gomc_data.replace("x_subvol_dim", str(subvoldimNP[0]))
     new_gomc_data = new_gomc_data.replace("y_subvol_dim", str(subvoldimNP[1]))
     new_gomc_data = new_gomc_data.replace("z_subvol_dim", str(subvoldimNP[2]))
