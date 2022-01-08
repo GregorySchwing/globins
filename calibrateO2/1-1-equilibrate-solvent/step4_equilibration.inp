@@ -102,7 +102,7 @@ langevinPiston        on
 langevinPistonTarget  1.01325      ;# pressure in bar -> 1 atm
 langevinPistonPeriod  100.0
 langevinPistonDecay   50.0
-langevinPistonTemp    $temperature
+langevinPistonTemp    $temp
 
 minimize                10000
 run                     250000
