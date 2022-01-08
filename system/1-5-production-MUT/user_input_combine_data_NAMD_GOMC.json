@@ -2,7 +2,7 @@
 "only_use_box_0_for_namd_for_gemc": true,
 "simulation_engine_options": "Hybrid",
 "gomc_or_namd_only_log_filename": "out.dat",
-"combine_namd_dcd_file": true,
+"combine_namd_dcd_file": false,
 "combine_gomc_dcd_file": true,
 "combine_dcd_files_cycle_freq": 1,
 "get_initial_gomc_dcd": true,
