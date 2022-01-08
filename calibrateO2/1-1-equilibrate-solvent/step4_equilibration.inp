@@ -105,5 +105,5 @@ langevinPistonDecay   50.0
 langevinPistonTemp    $temp
 
 minimize                10000
-run                     250000
+run                     5000000
 
