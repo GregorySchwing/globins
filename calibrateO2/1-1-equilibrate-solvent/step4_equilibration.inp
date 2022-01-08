@@ -1,9 +1,9 @@
-structure               MYO.psf
-coordinates             MYO.pdb
+structure               LIQ_BOX.psf
+coordinates             LIQ_BOX.pdb
 
 set temp                310;
 
-set outputname          MYO_MUT_equilibration;
+set outputname          LIQ_BOX_EQ;
 
 set a 92.225
 set b 92.225
@@ -94,18 +94,6 @@ langevin                on
 langevinDamping         1.0
 langevinTemp            $temp
 langevinHydrogen        off
-
-constraints             on
-consexp                 2
-consref                 restraints/prot_posres.ref
-conskfile               restraints/prot_posres.ref
-conskcol                B
-constraintScaling       1.0
-
-# translation and rotation restraints
-#exec sed -e "s/\$cen/$cen/g" colvars.str > restraints/colvars.col
-colvars                 on
-colvarsConfig           restraints/colvars.col
 
 minimize                10000
 numsteps                90000000
