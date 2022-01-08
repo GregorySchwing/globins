@@ -10,7 +10,7 @@
  </HarmonicAngleForce>
  <NonbondedForce coulomb14scale="0.5" lj14scale="0.5">
    <!-- https://github.com/gromacs/gromacs/blob/master/share/top/oplsaa.ff/spce.itp -->
-  <Atom type="OP" charge="0.021" sigma="0.3151" epsilon="0.6364"/>
-  <Atom type="ON" charge="-0.021" sigma="0.3151" epsilon="0.6364"/>
+  <Atom type="OP" charge="0.021" sigma="0.31505742268315" epsilon="0.6363864"/>
+  <Atom type="ON" charge="-0.021" sigma="0.31505742268315" epsilon="0.6363864"/>
  </NonbondedForce>
 </ForceField>
