@@ -9,12 +9,6 @@ mol addfile $input_pdb_psf_file_name_box_0.pdb mol $system waitfor all
 set all [atomselect top all]
 $all set beta 0.0
 
-set colVarRef [atomselect top "protein and alpha"]
-$colVarRef set beta 2.0
-
-set fixInGOMC [atomselect top "protein and not alpha and noh"]
-$fixInGOMC set beta 1.0
-
 set wat [atomselect top "water or resname DIOX"]
 $wat set beta 0.0
 
@@ -32,12 +26,6 @@ mol addfile $input_pdb_psf_file_name_box_1.pdb mol $system waitfor all
 
 set all [atomselect top all]
 $all set beta 0.0
-
-set colVarRef [atomselect top "protein and alpha"]
-$colVarRef set beta 2.0
-
-set fixInGOMC [atomselect top "protein and not alpha and noh"]
-$fixInGOMC set beta 1.0
 
 set wat [atomselect top "water or resname DIOX"]
 $wat set beta 0.0
