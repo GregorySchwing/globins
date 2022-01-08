@@ -105,6 +105,5 @@ langevinPistonDecay   50.0
 langevinPistonTemp    $temperature
 
 minimize                10000
-numsteps                90000000
-run                     125000
+run                     250000
 
