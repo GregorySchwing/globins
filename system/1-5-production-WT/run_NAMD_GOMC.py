@@ -1813,47 +1813,7 @@ def write_gomc_conf_file(python_file_directory, path_gomc_runs, run_no, gomc_run
             new_gomc_data = new_gomc_data.replace("x_dim_box_1", str(read_x_dim_box_1))
             new_gomc_data = new_gomc_data.replace("y_dim_box_1", str(read_y_dim_box_1))
             new_gomc_data = new_gomc_data.replace("z_dim_box_1", str(read_z_dim_box_1))
-
-
-"""
-    ### Get the last position of FE from GOMC PDB file.  There likely wasnt much movement of FE
-    gomc_pdb_box_0_file = ""
-    if previous_gomc_dir == 'NA':
-        gomc_pdb_box_0_file = "{}".format(starting_pdb_box_0_file)
-    else:
-        gomc_pdb_box_0_file = "{}/{}/Output_data_BOX_0_restart.pdb".format("GOMC",previous_gomc_rel_path[3:])
-
-
-    read_gomc_pdb_file = open(gomc_pdb_box_0_file,'r').readlines()
-
-    FE_coordinates = []
-    for line in read_gomc_pdb_file:
-        User_Inputs = line.split()
-        resName = 0
-        try:
-            resName = User_Inputs.index("FE")
-        except ValueError:
-            resName = 0
-        if(resName > 0):
-            FE_coordinates.append(User_Inputs[6])
-            FE_coordinates.append(User_Inputs[7])
-            FE_coordinates.append(User_Inputs[8])
-
-    print("FE Coordinates {}".format(FE_coordinates))
-    subvoldim = subvol_dim_list
-    FE_coordinatesNPStrings = numpy.array(FE_coordinates)
-    FE_coordinatesNP = FE_coordinatesNPStrings.astype(numpy.float)
-
-    subvoldimNP = numpy.array(subvol_dim_list)
-    subvolhalfdimNP = subvoldimNP/2
-
-    subvolcenterNP = numpy.add(FE_coordinatesNP, subvolhalfdimNP) 
-    print("subvolcenter Coordinates {}".format(subvolcenterNP))
-
-    new_gomc_data = new_gomc_data.replace("x_subvol_center", str(subvolcenterNP[0]))
-    new_gomc_data = new_gomc_data.replace("y_subvol_center", str(subvolcenterNP[1]))
-    new_gomc_data = new_gomc_data.replace("z_subvol_center", str(subvolcenterNP[2]))
-"""
+    
     new_gomc_data = new_gomc_data.replace("x_subvol_dim", str(subvoldimNP[0]))
     new_gomc_data = new_gomc_data.replace("y_subvol_dim", str(subvoldimNP[1]))
     new_gomc_data = new_gomc_data.replace("z_subvol_dim", str(subvoldimNP[2]))
