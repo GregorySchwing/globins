@@ -73,7 +73,7 @@ bead_to_atom_name_dict = { '_ON':'ON', '_OP':'OP'}
 
 water_O2_box_liq = mb.fill_box(compound=[water,O2],
                                     density= 950,
-                                    compound_ratio=[0.8, 0.2] ,
+                                    compound_ratio=[0.98, 0.02] ,
                                     box=[2*maxDistL2_padded/10, 2*maxDistL2_padded/10, 2*maxDistL2_padded/10])
 
 
