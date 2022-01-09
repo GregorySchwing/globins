@@ -7,7 +7,7 @@ f = open("log.txt", "a")
 
 parser = PDBParser(PERMISSIVE=1)
 structure_id = "3rgk"
-filename = "../1-1-build/MYO_HEME.pdb"
+filename = "../1-1-build/MYO_HEME_MUT.pdb"
 structure = parser.get_structure(structure_id, filename)
 atoms = structure.get_atoms()
 listOfCoords = []
@@ -37,7 +37,7 @@ for atom in coorNP:
 log = "maxDistL2 {}\n".format(maxDistL2)
 f.write(log)
 
-# 2 times the Max internal distance of protein atoms + 5 angstroms on each side
+# 2 times the Max internal distance of protein atoms + 2 angstroms on each side
 # The padding is in case the radius of gyration of the protein increases.
 # Currently the maximum allowed increase in radius of gyration is 2 angstroms.
 # This is likely a highly liberal amount for a globular protein at 310 K in minimal Na/Cl.
@@ -45,7 +45,7 @@ maxDistL2_padded = maxDistL2+20
 log = "maxDistL2_padded {}\n".format(maxDistL2_padded)
 f.write(log)
 
-shutil.copyfile("../1-1-build/MYO_HEME.psf", "MYO_HEME_SHIFTED.psf")
+shutil.copyfile("../1-1-build/MYO_HEME_MUT.psf", "MYO_HEME_MUT_SHIFTED.psf")
 
 
 import mbuild as mb
@@ -96,9 +96,9 @@ log = "BOX CENTER POST TRANSLATE : {}\n".format(geoCenterBoxPostTranslate*10)
 f.write(log)
 
 water_O2_box_res = mb.fill_box(compound=[water,O2],
-                                    density= 100,
+                                    density= 400,
                                     compound_ratio=[0.8, 0.2],
-                                    box=[8, 8, 8])
+                                    box=[4, 4, 4])
 
 
 charmmNAMD = mf_charmm.Charmm(water_O2_box_liq,
@@ -170,4 +170,4 @@ for atom in atoms:
 	atom.set_coord(newCoords)
 io = PDBIO()
 io.set_structure(structure)
-io.save("MYO_HEME_SHIFTED.pdb")
+io.save("MYO_HEME_MUT_SHIFTED.pdb")
