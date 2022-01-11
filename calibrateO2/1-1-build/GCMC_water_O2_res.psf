@@ -1,0 +1,93 @@
+PSF 
+
+       3 !NTITLE
+ REMARKS this file GCMC_water_O2_res - created by mBuild/foyer using the
+ REMARKS parameters from the {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'} force field via MoSDef
+ REMARKS created on 2022-01-11 18:18:37.170225
+
+
+      45 !NATOM
+       1 SYS  1    TIP3 O1      D  -0.834000       15.9994           
+       2 SYS  1    TIP3 H1      A   0.417000        1.0079           
+       3 SYS  1    TIP3 H2      A   0.417000        1.0079           
+       4 SYS  2    TIP3 O1      D  -0.834000       15.9994           
+       5 SYS  2    TIP3 H1      A   0.417000        1.0079           
+       6 SYS  2    TIP3 H2      A   0.417000        1.0079           
+       7 SYS  3    TIP3 O1      D  -0.834000       15.9994           
+       8 SYS  3    TIP3 H1      A   0.417000        1.0079           
+       9 SYS  3    TIP3 H2      A   0.417000        1.0079           
+      10 SYS  4    TIP3 O1      D  -0.834000       15.9994           
+      11 SYS  4    TIP3 H1      A   0.417000        1.0079           
+      12 SYS  4    TIP3 H2      A   0.417000        1.0079           
+      13 SYS  5    TIP3 O1      D  -0.834000       15.9994           
+      14 SYS  5    TIP3 H1      A   0.417000        1.0079           
+      15 SYS  5    TIP3 H2      A   0.417000        1.0079           
+      16 SYS  6    TIP3 O1      D  -0.834000       15.9994           
+      17 SYS  6    TIP3 H1      A   0.417000        1.0079           
+      18 SYS  6    TIP3 H2      A   0.417000        1.0079           
+      19 SYS  7    TIP3 O1      D  -0.834000       15.9994           
+      20 SYS  7    TIP3 H1      A   0.417000        1.0079           
+      21 SYS  7    TIP3 H2      A   0.417000        1.0079           
+      22 SYS  8    TIP3 O1      D  -0.834000       15.9994           
+      23 SYS  8    TIP3 H1      A   0.417000        1.0079           
+      24 SYS  8    TIP3 H2      A   0.417000        1.0079           
+      25 SYS  9    TIP3 O1      D  -0.834000       15.9994           
+      26 SYS  9    TIP3 H1      A   0.417000        1.0079           
+      27 SYS  9    TIP3 H2      A   0.417000        1.0079           
+      28 SYS  10   DIOX ON1     B  -0.021000       15.9994           
+      29 SYS  10   DIOX OP1     C   0.021000       15.9994           
+      30 SYS  11   DIOX ON1     B  -0.021000       15.9994           
+      31 SYS  11   DIOX OP1     C   0.021000       15.9994           
+      32 SYS  12   DIOX ON1     B  -0.021000       15.9994           
+      33 SYS  12   DIOX OP1     C   0.021000       15.9994           
+      34 SYS  13   DIOX ON1     B  -0.021000       15.9994           
+      35 SYS  13   DIOX OP1     C   0.021000       15.9994           
+      36 SYS  14   DIOX ON1     B  -0.021000       15.9994           
+      37 SYS  14   DIOX OP1     C   0.021000       15.9994           
+      38 SYS  15   DIOX ON1     B  -0.021000       15.9994           
+      39 SYS  15   DIOX OP1     C   0.021000       15.9994           
+      40 SYS  16   DIOX ON1     B  -0.021000       15.9994           
+      41 SYS  16   DIOX OP1     C   0.021000       15.9994           
+      42 SYS  17   DIOX ON1     B  -0.021000       15.9994           
+      43 SYS  17   DIOX OP1     C   0.021000       15.9994           
+      44 SYS  18   DIOX ON1     B  -0.021000       15.9994           
+      45 SYS  18   DIOX OP1     C   0.021000       15.9994           
+
+      27 !NBOND: bonds
+       1       2       3       1       4       5       6       4
+       7       8       9       7      10      11      12      10
+      13      14      15      13      16      17      18      16
+      19      20      21      19      22      23      24      22
+      25      26      27      25      28      29      30      31
+      32      33      34      35      36      37      38      39
+      40      41      42      43      44      45
+
+       9 !NTHETA: angles
+       2       1       3       5       4       6       8       7       9
+      11      10      12      14      13      15      17      16      18
+      20      19      21      23      22      24      26      25      27
+
+       0 !NPHI: dihedrals
+
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0
+
+       1       0 !NGRP 
+       0       1       0
+

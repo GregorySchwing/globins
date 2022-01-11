@@ -1,0 +1,83 @@
+
+write_gomcdata: forcefield_selection = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}, residues = ['TIP3', 'DIOX']
+******************************
+
+GOMC FF writing each residues FF as a group for structure_box_0
+forcefield_selection = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}
+INFO: the output file are being reordered in via the residues list's sequence.
+GOMC FF writing each residues FF as a group for  structure_box_1
+forcefield_selection = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}
+INFO: the output file are being reordered in via the residues list's sequence.
+forcefield type from compound = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}
+coulomb14scale from compound = {'TIP3': 0.5, 'DIOX': 0.5}
+lj14scale from compound = {'TIP3': 0.5, 'DIOX': 0.5}
+all_res_unique_atom_name_dict = {'TIP3': ['O1', 'H1', 'H2'], 'DIOX': ['ON1', 'OP1']}
+write_gomcdata: forcefield_selection = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}, residues = ['TIP3', 'DIOX']
+INFORMATION: The following residues will have these fixed parameters: gomc_fix_bonds = ['TIP3', 'DIOX']
+INFORMATION: The following residues will have these fixed parameters: gomc_fix_bonds = ['TIP3', 'DIOX']
+******************************
+
+GOMC FF writing each residues FF as a group for structure_box_0
+forcefield_selection = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}
+INFO: the output file are being reordered in via the residues list's sequence.
+GOMC FF writing each residues FF as a group for  structure_box_1
+forcefield_selection = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}
+INFO: the output file are being reordered in via the residues list's sequence.
+forcefield type from compound = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}
+coulomb14scale from compound = {'TIP3': 0.5, 'DIOX': 0.5}
+lj14scale from compound = {'TIP3': 0.5, 'DIOX': 0.5}
+all_res_unique_atom_name_dict = {'TIP3': ['O1', 'H1', 'H2'], 'DIOX': ['ON1', 'OP1']}
+******************************
+
+The charmm force field file writer (the write_inp function) is running
+******************************
+
+The charmm force field file writer (the write_inp function) is running
+******************************
+
+writing the GOMC force field file 
+No urey bradley terms detected, will use angle_style harmonic
+NBFIX_Mixing not used or no mixing used for the non-bonded potentials out
+self.non_bonded_type = LJ
+forcefield_dict = {3: 'OT_TIP3', 0: 'HT_TIP3', 1: 'ON_DIOX', 2: 'OP_DIOX'}
+******************************
+
+The charmm X-plor format psf writer (the write_psf function) is running
+write_psf: forcefield_selection = {'TIP3': './FFs/charmm_tip3p.xml', 'DIOX': './FFs/charmmD_molecular_oxygen.xml'}, residues = ['TIP3', 'DIOX']
+******************************
+
+No urey bradley terms detected
+bead_to_atom_name_dict = {'_ON': 'ON', '_OP': 'OP'}
+No urey bradley terms detected
+bead_to_atom_name_dict = {'_ON': 'ON', '_OP': 'OP'}
+******************************
+
+The charmm pdb writer (the write_pdb function) is running
+write_charmm_pdb: residues == ['TIP3', 'DIOX']
+fix_residue = None
+fix_residue_in_box = None
+bead_to_atom_name_dict = {'_ON': 'ON', '_OP': 'OP'}
+INFORMATION: No atoms are fixed in this pdb file for the GOMC simulation engine. 
+******************************
+
+******************************
+
+The charmm force field file writer (the write_inp function) is running
+******************************
+
+The charmm force field file writer (the write_inp function) is running
+******************************
+
+writing the GOMC force field file 
+No urey bradley terms detected, will use angle_style harmonic
+NBFIX_Mixing not used or no mixing used for the non-bonded potentials out
+self.non_bonded_type = LJ
+forcefield_dict = {3: 'OT_TIP3', 0: 'HT_TIP3', 1: 'ON_DIOX', 2: 'OP_DIOX'}
+INFO: ensemble_type = GCMC
+INFO: All the ensemble (ensemble_type) input passed the initial error checking
+INFO: All the Temperature  (Temperature) input passed the initial error checking
+INFO: All the required force field, pdb, and psf files for box 0 (.inp, .pdb, and .psf) all passed the intial error checking. Note: the file names and their existance is not confirmed.
+INFO: All the input variable passed the initial error checking
+INFO: The sum of the Monte Carlo move ratios = 1.000000000000
+self.RunSteps = 100
+INFO: the correct extension for the control file was provided in the file name, .conf with control file name = in_GCMC_NVT.conf

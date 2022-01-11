@@ -1,0 +1,15 @@
+Warning: importing 'simtk.openmm' is deprecated.  Import 'openmm' instead.
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/foyer/forcefield.py:644: UserWarning: No combining rule found in force field XML file.
+  warnings.warn(
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/foyer/forcefield.py:656: UserWarning: Non-atomistic element type detected. Creating custom element for _OP
+  warnings.warn(
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/foyer/forcefield.py:656: UserWarning: Non-atomistic element type detected. Creating custom element for _ON
+  warnings.warn(
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/parmed/openmm/topsystem.py:240: OpenMMWarning: Adding what seems to be Urey-Bradley terms before Angles. This is unexpected, but the parameters will all be present in one form or another.
+  warnings.warn('Adding what seems to be Urey-Bradley terms before ' # pragma: no cover
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/parmed/openmm/topsystem.py:240: OpenMMWarning: Adding what seems to be Urey-Bradley terms before Angles. This is unexpected, but the parameters will all be present in one form or another.
+  warnings.warn('Adding what seems to be Urey-Bradley terms before ' # pragma: no cover
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/parmed/openmm/topsystem.py:240: OpenMMWarning: Adding what seems to be Urey-Bradley terms before Angles. This is unexpected, but the parameters will all be present in one form or another.
+  warnings.warn('Adding what seems to be Urey-Bradley terms before ' # pragma: no cover
+/wsu/home/go/go24/go2432/conda/envs/mosdef_signac/lib/python3.9/site-packages/parmed/openmm/topsystem.py:240: OpenMMWarning: Adding what seems to be Urey-Bradley terms before Angles. This is unexpected, but the parameters will all be present in one form or another.
+  warnings.warn('Adding what seems to be Urey-Bradley terms before ' # pragma: no cover
