@@ -23,5 +23,5 @@
 source ~/conda/etc/profile.d/conda.sh
 conda activate mosdef_signac 
 echo $CONDA_ENV
-cd /wsu/home/go/go24/go2432/globins/system/1-2-solvate
-python3 shift_PDB_and_create_solvent_boxes.py 
+cd /home6/greg/globins/system/1-2-solvate
+python shift_PDB_and_create_solvent_boxes.py 
