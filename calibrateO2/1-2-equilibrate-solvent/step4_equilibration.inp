@@ -1,16 +1,16 @@
-structure               ../1-1-build/LIQ_BOX.psf
-coordinates             ../1-1-build/LIQ_BOX.pdb
+structure               ../1-1-build/GCMC_water_O2_liq_seg_fix_atom_type_fix.psf
+coordinates             ../1-1-build/GCMC_water_O2_liq.pdb
 
 set temp                310;
 
 set outputname          LIQ_BOX_NPT_EQ;
 
-set a 92.225
-set b 92.225
-set c 92.225
-set xcen 46.1125
-set ycen 46.1125
-set zcen 46.1125
+set a 30
+set b 30
+set c 30
+set xcen 15
+set ycen 15
+set zcen 15
 
 temperature             $temp;
 
@@ -105,5 +105,5 @@ langevinPistonDecay   50.0
 langevinPistonTemp    $temp
 
 minimize                10000
-run                     5000000
+run                     200000
 
