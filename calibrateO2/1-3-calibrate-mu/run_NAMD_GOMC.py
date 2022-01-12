@@ -267,9 +267,6 @@ elif set_dims_box_0_list is None:
     set_dims_box_0_list = [None, None, None]
 
 # get the set_x_dim_box_0 variable from the json file
-if "set_subvol_dim_list" not in json_file_data_keys_list:
-    raise TypeError("The set_subvol_dim_list key is not provided.\n")
-set_subvol_dim_list = json_file_data["set_subvol_dim_list"]
 if set_subvol_dim_list is not None:
     print_error_text = "The set_subvol_dim_list must be a null/None or list and contain three (3) integers or floats"\
                        "greater than zero (>0).\n"
