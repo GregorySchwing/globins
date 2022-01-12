@@ -35,9 +35,9 @@ water_O2_box_liq = mb.fill_box(compound=[water,O2],
 
 
 water_O2_box_res = mb.fill_box(compound=[water,O2],
-                                    density= 100,
-                                    compound_ratio=[0.5, 0.5],
-                                    box=[2.0, 2.0, 2.0])
+                                    density= 400,
+                                    compound_ratio=[0.8, 0.2],
+                                    box=[4.0, 4.0, 4.0])
 
 
 charmmNAMD = mf_charmm.Charmm(water_O2_box_liq,
