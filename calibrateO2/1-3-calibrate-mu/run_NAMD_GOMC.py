@@ -397,9 +397,11 @@ starting_psf_box_0_file = json_file_data["starting_psf_box_0_file"]
 if not isinstance(starting_psf_box_0_file, str):
     raise TypeError("The starting_psf_box_0_file is not a string.\n")
 
+namd_restraints_defined = False
 # get the starting_psf_box_0_file variable from the json file
 if "namd_restraints" in json_file_data_keys_list:
     namd_restraints = json_file_data["namd_restraints"]
+    namd_restraints_defined = True
 
 namd_col_var_template_defined = False
 # get the starting_psf_box_0_file variable from the json file
@@ -2263,13 +2265,14 @@ for run_no in range(starting_sims_namd_gomc, total_sims_namd_gomc):
 
 
         if run_no == 0:
-            cp_namd_box_0_namd_restraints_run_0_new_dir_cmd = "cp -frd {} {}".format(str(namd_restraints),
-                                                                        str(namd_box_0_newdir)
-                                                                        )
+            if namd_restraints_defined:
+                cp_namd_box_0_namd_restraints_run_0_new_dir_cmd = "cp -frd {} {}".format(str(namd_restraints),
+                                                                            str(namd_box_0_newdir)
+                                                                            )
 
-            exec_namd_box_0_namd_restraintsrun_0_new_dir_cmd = subprocess.Popen(cp_namd_box_0_namd_restraints_run_0_new_dir_cmd,
-                                                                        shell=True, stderr=subprocess.STDOUT)
-            os.waitpid(exec_namd_box_0_namd_restraintsrun_0_new_dir_cmd.pid, os.WSTOPPED)
+                exec_namd_box_0_namd_restraintsrun_0_new_dir_cmd = subprocess.Popen(cp_namd_box_0_namd_restraints_run_0_new_dir_cmd,
+                                                                            shell=True, stderr=subprocess.STDOUT)
+                os.waitpid(exec_namd_box_0_namd_restraintsrun_0_new_dir_cmd.pid, os.WSTOPPED)
 
         # *************************************************
         # build input file from template for box 1 (start)
