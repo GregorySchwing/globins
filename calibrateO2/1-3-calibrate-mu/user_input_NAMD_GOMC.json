@@ -19,11 +19,11 @@
 "starting_ff_file_list_gomc": ["required_data/toppar/GCMC_water_O2_FF.inp"],
 "starting_ff_file_list_namd": ["required_data/toppar/GCMC_water_O2_FF_NAMD.inp"],
 "starting_pdb_box_0_file": "required_data/eq/LIQ_BOX_NPT_EQ.pdb",
-"starting_psf_box_0_file": "required_data/eq/GCMC_water_O2_liq_seg_fix_atom_type_fix.psf",
+"starting_psf_box_0_file": "required_data/eq/LIQ_BOX_NPT_EQ.psf",
 "starting_pdb_box_1_file": "required_data/reservoir/GCMC_water_O2_res.pdb",
 "starting_psf_box_1_file": "required_data/reservoir/GCMC_water_O2_res_seg_fix_atom_type_fix.psf",
 "namd2_bin_directory": "../../../../../home6/greg/NAMD_2.14_Linux-x86_64-multicore-CUDA",
 "gomc_bin_directory": "required_data/bin",
-"set_dims_box_0_list" : [92.225, 92.225, 92.225],
+"set_dims_box_0_list" : [29.484, 29.484, 29.484],
 "set_dims_box_1_list" : [20.000, 20.000, 20.000]
 }
