@@ -18,7 +18,7 @@
 
 
 # Clear the environment from any previously loaded modules
-cd /home6/greg/globins/calibrateO2/1-1-equilibrate-solvent
+cd /home6/greg/globins/calibrateO2/1-2-equilibrate-solvent
 ~/NAMD_2.14_Linux-x86_64-multicore-CUDA/namd2 +p4 step4_equilibration.inp > step4_equilibration.out
 
 # End of submit file
