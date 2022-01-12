@@ -267,28 +267,27 @@ elif set_dims_box_0_list is None:
     set_dims_box_0_list = [None, None, None]
 
 # get the set_x_dim_box_0 variable from the json file
-if "set_subvol_dim_list" not in json_file_data_keys_list:
-    raise TypeError("The set_subvol_dim_list key is not provided.\n")
-set_subvol_dim_list = json_file_data["set_subvol_dim_list"]
-if set_subvol_dim_list is not None:
-    print_error_text = "The set_subvol_dim_list must be a null/None or list and contain three (3) integers or floats"\
-                       "greater than zero (>0).\n"
-    if isinstance(set_subvol_dim_list, list):
-        if len(set_subvol_dim_list) == 3:
-            for dims_box_i in set_subvol_dim_list:
-                if isinstance(dims_box_i, int) is False and isinstance(dims_box_i, float) is False \
-                        and dims_box_i != None:
-                    raise TypeError(print_error_text)
-                else:
-                    if dims_box_i != None:
-                        if dims_box_i <= 0:
-                            raise TypeError(print_error_text)
+if "set_subvol_dim_list" in json_file_data_keys_list:
+    set_subvol_dim_list = json_file_data["set_subvol_dim_list"]
+    if set_subvol_dim_list is not None:
+        print_error_text = "The set_subvol_dim_list must be a null/None or list and contain three (3) integers or floats"\
+                           "greater than zero (>0).\n"
+        if isinstance(set_subvol_dim_list, list):
+            if len(set_subvol_dim_list) == 3:
+                for dims_box_i in set_subvol_dim_list:
+                    if isinstance(dims_box_i, int) is False and isinstance(dims_box_i, float) is False \
+                            and dims_box_i != None:
+                        raise TypeError(print_error_text)
+                    else:
+                        if dims_box_i != None:
+                            if dims_box_i <= 0:
+                                raise TypeError(print_error_text)
+            else:
+                raise TypeError(print_error_text)
         else:
             raise TypeError(print_error_text)
-    else:
-        raise TypeError(print_error_text)
-elif set_subvol_dim_list is None:
-    set_subvol_dim_list = [None, None, None]
+    elif set_subvol_dim_list is None:
+        set_subvol_dim_list = [None, None, None]
 
 # get the set_x_dim_box_1 variable from the json file
 if "set_dims_box_1_list" not in json_file_data_keys_list:
@@ -399,18 +398,15 @@ if not isinstance(starting_psf_box_0_file, str):
     raise TypeError("The starting_psf_box_0_file is not a string.\n")
 
 # get the starting_psf_box_0_file variable from the json file
-if "namd_restraints" not in json_file_data_keys_list:
-    raise TypeError("The namd_restraints key is not provided.\n")
-namd_restraints = json_file_data["namd_restraints"]
-if not isinstance(namd_restraints, str):
-    raise TypeError("The namd_restraints is not a string.\n")
+if "namd_restraints" in json_file_data_keys_list:
+    namd_restraints = json_file_data["namd_restraints"]
 
+namd_col_var_template_defined = False
 # get the starting_psf_box_0_file variable from the json file
-if "namd_col_var_template" not in json_file_data_keys_list:
-    raise TypeError("The namd_col_var_template key is not provided.\n")
-namd_col_var_template = json_file_data["namd_col_var_template"]
-if not isinstance(namd_col_var_template, str):
-    raise TypeError("The namd_col_var_template is not a string.\n")
+if "namd_col_var_template" in json_file_data_keys_list:
+    namd_col_var_template = json_file_data["namd_col_var_template"]
+    namd_col_var_template_defined = True
+    
 
 if simulation_type in ['GCMC', 'GEMC']:
     # get the starting_pdb_box_1_file variable from the json file
@@ -2256,14 +2252,14 @@ for run_no in range(starting_sims_namd_gomc, total_sims_namd_gomc):
         # *************************************************
         # build input file from template for box 0 (end)
         # *************************************************
-
-        namd_box_0_newdir = write_namd_col_var(python_file_directory, namd_col_var_template,  path_namd_runs,
-                                                 gomc_newdir, run_no, box_number_0,
-                                                 namd_rst_dcd_xst_steps,
-                                                 starting_pdb_box_0_file,
-                                                 set_x_dim=set_dims_box_0_list[0],
-                                                 set_y_dim=set_dims_box_0_list[1],
-                                                 set_z_dim=set_dims_box_0_list[2])
+        if (namd_col_var_template_defined):
+            namd_box_0_newdir = write_namd_col_var(python_file_directory, namd_col_var_template,  path_namd_runs,
+                                                     gomc_newdir, run_no, box_number_0,
+                                                     namd_rst_dcd_xst_steps,
+                                                     starting_pdb_box_0_file,
+                                                     set_x_dim=set_dims_box_0_list[0],
+                                                     set_y_dim=set_dims_box_0_list[1],
+                                                     set_z_dim=set_dims_box_0_list[2])
 
 
         if run_no == 0:
