@@ -1,6 +1,6 @@
-set input_pdb_psf_file_name_box_0 ../1-2-build-solvent-boxes/GCMC_water_O2_liq_seg_fix_atom_type_fix 
+set input_pdb_psf_file_name_box_0 ../1-5-neutralize/GCMC_water_O2_myoglobin_WT_ions 
 set output_file_name_box_0 LIQ_BOX
-set input_pdb_psf_file_name_box_1 ..1-2-build-solvent-boxes/GCMC_water_O2_res_seg_fix_atom_type_fix 
+set input_pdb_psf_file_name_box_1 ../1-3-equilbrate-solvent-box/RES_BOX
 set output_file_name_box_1 RES_BOX
 # load liquid box
 set system [mol new $input_pdb_psf_file_name_box_0.psf waitfor all]
@@ -22,8 +22,8 @@ $diox set occupancy 1.0
 set FE [atomselect top "name FE"]
 $FE set occupancy 2.0
 
-$all writepdb $output_file_name_box_0.pdb
-$all writepsf $output_file_name_box_0.psf
+$all writepdb required_data/eq/$output_file_name_box_0.pdb
+$all writepsf required_data/eq/$output_file_name_box_0.psf
 
 resetpsf
 
@@ -44,5 +44,5 @@ $ions set beta 2.0
 set diox [atomselect top "resname DIOX"]
 $diox set occupancy 1.0
 
-$all writepdb $output_file_name_box_1.pdb
-$all writepsf $output_file_name_box_1.psf
+$all writepdb required_data/reservoir/$output_file_name_box_1.pdb
+$all writepsf required_data/reservoir/$output_file_name_box_1.psf
