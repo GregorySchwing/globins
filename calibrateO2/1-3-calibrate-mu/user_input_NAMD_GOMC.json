@@ -8,7 +8,7 @@
 "simulation_temp_k": 310,
 "simulation_pressure_bar": 1.01325,
 "GCMC_ChemPot_or_Fugacity": "ChemPot",
-"GCMC_ChemPot_or_Fugacity_dict": {"TIP3": -4166, "DIOX": -2000},
+"GCMC_ChemPot_or_Fugacity_dict": {"TIP3": -4166, "DIOX": -1537},
 "namd_minimize_mult_scalar": 1,
 "namd_run_steps": 2500,
 "gomc_run_steps": 500,
