@@ -1,0 +1,60 @@
+*************************************************
+date and time (start) = 2022-01-05 00:48:57.197129 
+************************************************* 
+*************************************************
+namd_bin_file = /home/greg/Desktop/2021/Winter2021/hybridSims/Myoglobin/required_data/bin/NAMD_CPU/namd2 
+************************************************* 
+*************************************************
+gomc_bin_file = /home/greg/Desktop/2021/Winter2021/hybridSims/Myoglobin/required_data/bin/GOMC_CPU_GCMC 
+************************************************* 
+*************************************************
+The NAMD FFT file not deteted from Run 0 in Box 0 
+************************************************* 
+*************************************************
+The NAMD FFT file was deleted from Run 0 in Box 0 
+************************************************* 
+*************************************************
+*************************************************
+run_no = 0 (START)
+************************************************* 
+WARNING: The user defined x-dimension is different than the one read from the starting PDB file x-dim_PDB = 0.0, x-dim_user_set = 92.225. The code is setting the user defined x-dimension. 
+WARNING: The user defined y-dimension is different than the one read from the starting PDB file y-dim_PDB = 0.0, y-dim_user_set = 92.225. The code is setting the user defined y-dimension. 
+WARNING: The user defined z-dimension is different than the one read from the starting PDB file z-dim_PDB = 0.0, z-dim_user_set = 92.225. The code is setting the user defined z-dimension. 
+NAMD simulation data for simulation number 0 in box 0 is completed 
+WARNING: The user defined x-dimension is different than the one read from the starting PDB file x-dim_PDB = 0.0, x-dim_user_set = 92.225. The code is setting the user defined x-dimension. 
+WARNING: The user defined y-dimension is different than the one read from the starting PDB file y-dim_PDB = 0.0, y-dim_user_set = 92.225. The code is setting the user defined y-dimension. 
+WARNING: The user defined z-dimension is different than the one read from the starting PDB file z-dim_PDB = 0.0, z-dim_user_set = 92.225. The code is setting the user defined z-dimension. 
+NAMD colvar file for simulation number 0 in box 0 is completed 
+*************************************************
+Running the initial NAMD simulations now. 
+Waiting for initial NAMD simulation to finish. 
+The NAMD simulation are finished. 
+*************************************************
+run_no = 0 (End) 
+*************************************************
+*************************************************
+run_no = 1 (START)
+************************************************* 
+************************************************* 
+GOMC simulation data for simulation number 1 is completed. 
+*************************************************
+Running the GOMC simulations now. 
+Waiting for initial GOMC simulation to finish.The GOMC simulation(s) are finished.Completed simulation in GOMC command
+************************************************* 
+WARNING: FAILED: Box 0: Potential energies error fraction between the last point in run 0 and the first point in run 1, error fraction =  0.007979181580543464 
+WARNING: FAILED: Box 0: vdw_plus_elec energy  error fraction between the last point in run 0 and the first point in run 1, error fraction = 0.011189607234060516 or the absolute difference is = 2267.6928436745366 kcal/mol. 
+*************************************************
+TIME_STATS_TITLE:	#Cycle_No		NAMD_time_s		GOMC_time_s		Python_time_s		Total_time_s
+TIME_STATS_DATA:	0		405.497245		789.187501		0.600188		1195.284934
+*************************************************
+run_no = 1 (End) 
+*************************************************
+*************************************************
+run_no = 2 (START)
+************************************************* 
+************************************************* 
+NAMD simulation data for simulation number 2 in box 0 is completed 
+************************************************* 
+NAMD colvar file for simulation number 2 in box 0 is completed 
+*************************************************
+Running the initial NAMD simulations now. 
