@@ -62,7 +62,7 @@ colvar {
 harmonic {
    colvars O2_dist_from_heme
    centers 0
-   forceConstant 100
+   forceConstant 10
 }
 
 
