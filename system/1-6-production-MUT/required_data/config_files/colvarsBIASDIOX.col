@@ -56,7 +56,6 @@ colvar {
          atomsCol       O
          atomsColValue  2.0
       }
-      oneSiteTotalForce yes
   }
 }
 
