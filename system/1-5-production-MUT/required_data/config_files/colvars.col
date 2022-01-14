@@ -43,3 +43,22 @@ harmonic {
    forceConstant 1000
 }
 
+colvar {
+  name CA_Rotation
+  orientation {
+    refPositionsFile  pdb_box_file
+    refPositionsCol   B  
+    refPositionsColValue  2.0
+    atoms {
+    	atomsFile      pdb_box_file
+    	atomsCol       B
+    	atomsColValue  2.0
+    }
+  }
+}
+
+harmonic {
+   colvars CA_Rotation
+   centers ( 1, 0, 0, 0 )
+   forceConstant 1000
+}
