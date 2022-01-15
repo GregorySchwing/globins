@@ -18,7 +18,7 @@
 # Create an error file that will be error_<jobid>.out
 #SBATCH -e errors_%j.err
 # Set maximum time limit 
-#SBATCH -t 0-0:30:0
+#SBATCH -t 0-2:00:0
 mkdir MT_0
 cp gpu.sh MT_0
 cp -frd 1-6-production-MUT/* MT_0/
