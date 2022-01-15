@@ -21,7 +21,6 @@
 #SBATCH -e errors_%j.err
 # Set maximum time limit
 #SBATCH -t 14-0:0:0
-cd XXX
 python3 run_NAMD_GOMC.py -f user_input_NAMD_GOMC.json > log
 python3 combine_data_NAMD_GOMC.py -f user_input_combine_data_NAMD_GOMC.json -w MB 
 
