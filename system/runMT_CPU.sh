@@ -26,6 +26,7 @@ for i in {0..24..1}
      cp -frd 1-6-production-MUT/* MT_CPU_$i/
      cd MT_CPU_$i
      sbatch cpu.sh
+     cd ..
  done
 
 
