@@ -3,7 +3,7 @@
 "gomc_use_CPU_or_GPU": "CPU" ,
 "simulation_type": "GCMC",
 "only_use_box_0_for_namd_for_gemc": true,
-"no_core_box_0": 4,
+"no_core_box_0": 8,
 "no_core_box_1" : 0,
 "simulation_temp_k": 310,
 "simulation_pressure_bar": 1.01325,

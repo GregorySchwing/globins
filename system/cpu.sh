@@ -6,7 +6,7 @@
 # Request one node
 #SBATCH -N 1
 # Total number of cores, in this example it will 1 node with 1 core each.
-#SBATCH -n 4
+#SBATCH -n 8
 # Request memory
 #SBATCH --mem=8G
 # Mail when the job begins, ends, fails, requeues
