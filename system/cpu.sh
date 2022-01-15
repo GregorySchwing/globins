@@ -1,6 +1,6 @@
 #!/bin/bash
 # Job name
-#SBATCH --job-name GPU
+#SBATCH --job-name CPU
 # Submit to the gpu QoS, the requeue QoS can also be used for gpu's 
 #SBATCH -q gpu
 # Request one node
