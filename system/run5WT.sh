@@ -19,27 +19,32 @@
 #SBATCH -e errors_%j.err
 # Set maximum time limit 
 #SBATCH -t 0-0:30:0
-mkdir MT_0
-cp gpu.sh MT_0
-cd MT_0
+mkdir WT_0
+cp gpu.sh WT_0
+cp -frd 1-6-production-WT/* WT_0/
+cd WT_0
 sbatch gpu.sh
 
-mkdir MT_1
-cp gpu.sh MT_1
-cd MT_1
+mkdir WT_1
+cp gpu.sh WT_1
+cp -frd 1-6-production-WT/* WT_1/
+cd WT_1
 sbatch gpu.sh
 
-mkdir MT_2
-cp gpu.sh MT_2
-cd MT_2
+mkdir WT_2
+cp gpu.sh WT_2
+cp -frd 1-6-production-WT/* WT_2/
+cd WT_2
 sbatch gpu.sh
 
-mkdir MT_3
-cp gpu.sh MT_3
-cd MT_3
+mkdir WT_3
+cp gpu.sh WT_3
+cp -frd 1-6-production-WT/* WT_3/
+cd WT_3
 sbatch gpu.sh
 
-mkdir MT_4
-cp gpu.sh MT_4
-cd MT_4
+mkdir WT_4
+cp gpu.sh WT_4
+cp -frd 1-6-production-WT/* WT_4/
+cd WT_4
 sbatch gpu.sh

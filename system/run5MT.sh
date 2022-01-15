@@ -21,25 +21,30 @@
 #SBATCH -t 0-0:30:0
 mkdir MT_0
 cp gpu.sh MT_0
+cp -frd 1-6-production-MUT/* MT_0/
 cd MT_0
 sbatch gpu.sh
 
 mkdir MT_1
 cp gpu.sh MT_1
+cp -frd 1-6-production-MUT/* MT_1/
 cd MT_1
 sbatch gpu.sh
 
 mkdir MT_2
 cp gpu.sh MT_2
+cp -frd 1-6-production-MUT/* MT_2/
 cd MT_2
 sbatch gpu.sh
 
 mkdir MT_3
 cp gpu.sh MT_3
+cp -frd 1-6-production-MUT/* MT_3/
 cd MT_3
 sbatch gpu.sh
 
 mkdir MT_4
 cp gpu.sh MT_4
+cp -frd 1-6-production-MUT/* MT_4/
 cd MT_4
 sbatch gpu.sh
