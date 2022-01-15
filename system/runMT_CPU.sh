@@ -19,7 +19,7 @@
 #SBATCH -e errors_%j.err
 # Set maximum time limit 
 #SBATCH -t 0-2:00:0
-for i in {0..49..1}
+for i in {0..24..1}
   do 
      mkdir MT_CPU_$i
      cp cpu.sh MT_CPU_$i
