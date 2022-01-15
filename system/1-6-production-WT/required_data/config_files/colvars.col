@@ -7,9 +7,7 @@ colvar {
    name CA_Translation
    distance {
       group1 {
-         atomsFile      pdb_box_file
-         atomsCol       B
-         atomsColValue  2.0
+         dummyAtom ( 46.1125, 46.1125, 46.1125 )
       }
       group2 {
          atomsFile      pdb_box_file

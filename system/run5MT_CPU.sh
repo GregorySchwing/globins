@@ -25,24 +25,28 @@ cp -frd 1-6-production-MUT/* MT_CPU_0/
 cd MT_CPU_0
 sbatch cpu.sh
 
+cd ..
 mkdir MT_CPU_1
 cp cpu.sh MT_CPU_1
 cp -frd 1-6-production-MUT/* MT_CPU_1/
 cd MT_CPU_1
 sbatch cpu.sh
 
+cd ..
 mkdir MT_CPU_2
 cp cpu.sh MT_CPU_2
 cp -frd 1-6-production-MUT/* MT_CPU_2/
 cd MT_CPU_2
 sbatch cpu.sh
 
+cd ..
 mkdir MT_CPU_3
 cp cpu.sh MT_CPU_3
 cp -frd 1-6-production-MUT/* MT_CPU_3/
 cd MT_CPU_3
 sbatch cpu.sh
 
+cd ..
 mkdir MT_CPU_4
 cp cpu.sh MT_CPU_4
 cp -frd 1-6-production-MUT/* MT_CPU_4/

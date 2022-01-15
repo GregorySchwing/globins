@@ -25,24 +25,28 @@ cp -frd 1-6-production-WT/* WT_0/
 cd WT_0
 sbatch gpu.sh
 
+cd ..
 mkdir WT_1
 cp gpu.sh WT_1
 cp -frd 1-6-production-WT/* WT_1/
 cd WT_1
 sbatch gpu.sh
 
+cd ..
 mkdir WT_2
 cp gpu.sh WT_2
 cp -frd 1-6-production-WT/* WT_2/
 cd WT_2
 sbatch gpu.sh
 
+cd ..
 mkdir WT_3
 cp gpu.sh WT_3
 cp -frd 1-6-production-WT/* WT_3/
 cd WT_3
 sbatch gpu.sh
 
+cd ..
 mkdir WT_4
 cp gpu.sh WT_4
 cp -frd 1-6-production-WT/* WT_4/

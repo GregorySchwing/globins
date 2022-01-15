@@ -25,24 +25,28 @@ cp -frd 1-6-production-WT/* WT_CPU_0/
 cd WT_CPU_0
 sbatch cpu.sh
 
+cd ..
 mkdir WT_CPU_1
 cp cpu.sh WT_CPU_1
 cp -frd 1-6-production-WT/* WT_CPU_1/
 cd WT_CPU_1
 sbatch cpu.sh
 
+cd ..
 mkdir WT_CPU_2
 cp cpu.sh WT_CPU_2
 cp -frd 1-6-production-WT/* WT_CPU_2/
 cd WT_CPU_2
 sbatch cpu.sh
 
+cd ..
 mkdir WT_CPU_3
 cp cpu.sh WT_CPU_3
 cp -frd 1-6-production-WT/* WT_CPU_3/
 cd WT_CPU_3
 sbatch cpu.sh
 
+cd ..
 mkdir WT_CPU_4
 cp cpu.sh WT_CPU_4
 cp -frd 1-6-production-WT/* WT_CPU_4/
