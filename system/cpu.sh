@@ -20,7 +20,7 @@
 # Set maximum time limit
 #SBATCH -t 14-0:0:0
 python3 run_NAMD_GOMC.py -f user_input_NAMD_GOMC.json > log
-python3 combine_data_NAMD_GOMC.py -f user_input_combine_data_NAMD_GOMC.json -w MB 
+python3 combine_data_NAMD_GOMC.py -f user_input_combine_data_NAMD_GOMC_CPU.json -w MB 
 
 
 
