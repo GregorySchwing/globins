@@ -70,9 +70,9 @@ bead_to_atom_name_dict = { '_ON':'ON', '_OP':'OP'}
 
 # Build the main simulation liquid box (box 0) and the vapor (box 1) for the simulation [1, 2, 13-17]
 
-#                                    density= 950,
+
 water_O2_box_liq = mb.fill_box(compound=[water,O2],
-                                    density= 100,
+                                    density= 950,
                                     compound_ratio=[0.98, 0.02] ,
                                     box=[2*maxDistL2_padded/10, 2*maxDistL2_padded/10, 2*maxDistL2_padded/10])
 
@@ -96,9 +96,9 @@ log = "BOX CENTER POST TRANSLATE : {}\n".format(geoCenterBoxPostTranslate*10)
 f.write(log)
 
 water_O2_box_res = mb.fill_box(compound=[water,O2],
-                                    density= 800,
-                                    compound_ratio=[0.6, 0.4],
-                                    box=[8, 8, 8])
+                                    density= 950,
+                                    compound_ratio=[0.80 0.20] ,
+                                    box=[9, 9, 9])
 
 
 charmmNAMD = mf_charmm.Charmm(water_O2_box_liq,
