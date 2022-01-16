@@ -20,7 +20,7 @@ colvar {
 harmonic {
    colvars CA_Translation
    centers 0
-   forceConstant 1000
+   forceConstant 100
 }
 
 colvar {
