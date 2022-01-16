@@ -1,6 +1,6 @@
 set input_pdb_psf_file_name_box_0 ../1-2-build-solvent-boxes/GCMC_water_O2_liq_seg_fix_atom_type_fix 
 set output_file_name_box_0 LIQ_BOX
-set input_pdb_psf_file_name_box_1 ..1-2-build-solvent-boxes/GCMC_water_O2_res_seg_fix_atom_type_fix 
+set input_pdb_psf_file_name_box_1 ../1-2-build-solvent-boxes/GCMC_water_O2_res_seg_fix_atom_type_fix 
 set output_file_name_box_1 RES_BOX
 # load liquid box
 set system [mol new $input_pdb_psf_file_name_box_0.psf waitfor all]
