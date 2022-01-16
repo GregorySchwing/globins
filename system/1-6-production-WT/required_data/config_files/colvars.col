@@ -1,7 +1,7 @@
 ###Lipid Head### 
 
-Colvarstrajfrequency    100
-Colvarsrestartfrequency 100
+Colvarstrajfrequency    2500
+Colvarsrestartfrequency 2500
 
 colvar {
    name CA_Translation
