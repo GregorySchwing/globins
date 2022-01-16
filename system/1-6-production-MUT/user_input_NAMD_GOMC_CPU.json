@@ -25,8 +25,8 @@
 "namd2_bin_directory": "required_data/bin/NAMD_CPU",
 "gomc_bin_directory": "required_data/bin/GOMC_CPU",
 "set_dims_box_0_list" : [90.971, 90.971, 90.971],
-"set_dims_box_1_list" : [80.000, 80.000, 80.000],
-"set_subvol_dim_list" : [5.0, 5.0, 5.0],
+"set_dims_box_1_list" : [92.225, 92.225, 92.225],
+"set_subvol_dim_list" : [10.0, 10.0, 10.0],
 "namd_restraints" : "required_data/eq/prot_posres.ref",
 "namd_col_var_template" : "required_data/config_files/colvars.col"
 }
