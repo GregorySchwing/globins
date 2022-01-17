@@ -1,36 +1,26 @@
-set input_pdb_psf_file_name ../1-3-neutralize/GCMC_water_O2_myoglobin_WT_ions 
-set output_file_name MYO 
+set input_pdb_psf_file_name_box_0 ../1-5-neutralize/GCMC_water_O2_myoglobin_MUT_ions 
+set output_file_name_box_0 LIQ_BOX
 
-# load 
-set system [mol new $input_pdb_psf_file_name.psf waitfor all]
-mol addfile $input_pdb_psf_file_name.pdb mol $system waitfor all
+# load liquid box
+set system [mol new $input_pdb_psf_file_name_box_0.psf waitfor all]
+mol addfile $input_pdb_psf_file_name_box_0.pdb mol $system waitfor all
 
 set all [atomselect top all]
 $all set beta 0.0
-
-set colVarRef [atomselect top "protein and alpha"]
-$colVarRef set beta 2.0
-
-set fixInGOMC [atomselect top "protein and not alpha and noh"]
-$fixInGOMC set beta 1.0
+$all set occupancy 0.0
 
 set wat [atomselect top "water or resname DIOX"]
 $wat set beta 0.0
 
-set diox [atomselect top "resname DIOX"]
-$diox set occ 1.0
-
-set FE [atomselect top "name FE"]
-$FE set occ 2.0
-
 set ions [atomselect top "ions"]
 $ions set beta 2.0
 
+set diox [atomselect top "resname DIOX"]
+$diox set occupancy 1.0
+
+set FE [atomselect top "name FE"]
+$FE set occupancy 2.0
+
 $all writepdb $output_file_name.pdb
 $all writepsf $output_file_name.psf
-
-resetpsf
-
-set input_pdb_psf_file_name ../1-3-neutralize/GCMC_water_O2_myoglobin_MUT_ions 
-set output_file_name MYO 
 
