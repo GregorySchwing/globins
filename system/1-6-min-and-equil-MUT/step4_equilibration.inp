@@ -1,9 +1,9 @@
-structure               MYO.psf
-coordinates             MYO.pdb
+structure               LIQ_BOX.psf
+coordinates             LIQ_BOX.pdb
 
 set temp                310;
 
-set outputname          MYO_MUT_equilibration;
+set outputname          LIQ_BOX_equilibrated;
 
 set a 92.225
 set b 92.225

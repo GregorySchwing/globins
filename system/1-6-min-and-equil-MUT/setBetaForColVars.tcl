@@ -21,6 +21,6 @@ $diox set occupancy 1.0
 set FE [atomselect top "name FE"]
 $FE set occupancy 2.0
 
-$all writepdb $output_file_name.pdb
-$all writepsf $output_file_name.psf
+$all writepdb $output_file_name_box_0.pdb
+$all writepsf $output_file_name_box_0.psf
 
