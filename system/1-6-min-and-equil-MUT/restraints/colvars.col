@@ -1,0 +1,44 @@
+###Lipid Head### 
+
+Colvarstrajfrequency    2500
+Colvarsrestartfrequency 2500
+
+colvar {
+   name CA_Translation
+   distance {
+      group1 {
+         dummyAtom ( 45.4855, 45.4855, 45.4855 )
+      }
+      group2 {
+         atomsFile      LIQ_BOX.pdb
+         atomsCol       B
+         atomsColValue  2.0
+      }
+   }
+}
+
+harmonic {
+   colvars CA_Translation
+   centers 0
+   forceConstant 1000
+}
+
+colvar {
+  name CA_Rotation
+  orientation {
+    refPositionsFile  LIQ_BOX.pdb
+    refPositionsCol   B  
+    refPositionsColValue  2.0
+    atoms {
+    	atomsFile      LIQ_BOX.pdb
+    	atomsCol       B
+    	atomsColValue  2.0
+    }
+  }
+}
+
+harmonic {
+   colvars CA_Rotation
+   centers ( 1, 0, 0, 0 )
+   forceConstant 1000
+}
