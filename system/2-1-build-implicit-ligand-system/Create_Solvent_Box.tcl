@@ -1,6 +1,7 @@
 package require solvate
 
 set molname MYO_HEME_WT_ALIGNED
+set molnameSolv implicit_solv_box
 
 mol new ../1-1-build-protein/${molname}.psf
 mol addfile ../1-1-build-protein/${molname}.pdb
@@ -31,4 +32,21 @@ puts $max_plus_20_doubled
 set min [format "{%.4f %.4f %.4f}" 0.0 0.0 0.0]
 set max [format "{%.4f %.4f %.4f}" $max_plus_20_doubled $max_plus_20_doubled $max_plus_20_doubled]
 set minmaxArg [format "{{%.4f %.4f %.4f} {%.4f %.4f %.4f}}" 0.0 0.0 0.0 $max_plus_20_doubled $max_plus_20_doubled $max_plus_20_doubled]
-solvate -minmax {{0.0000 0.0000 0.0000} {92.2443 92.2443 92.2443}} -o implicit_solv_box
+solvate -minmax {{1.0000 1.0000 1.0000} {94.2443 94.2443 93.2443}} -o $molnameSolv
+
+mol delete top
+
+mol new ${molnameSolv}.psf
+mol addfile ${molnameSolv}.pdb
+
+set box [pbc get]
+regexp -- {\{(\S+) (\S+) (\S+)} $box null xAx yAx zAx
+set halfX [expr $xAx/2]
+set halfY [expr $yAx/2]
+set halfZ [expr $zAx/2]
+set transformationVector [list $halfX $halfY $halfZ]
+set sel [atomselect top all]
+$sel moveby $transformationVector
+set molnameSolvShifted MYO_HEME_WATER_SHIFTED
+$sel writepdb ${molnameSolvShifted}.pdb
+$sel writepsf ${molnameSolvShifted}.psf
