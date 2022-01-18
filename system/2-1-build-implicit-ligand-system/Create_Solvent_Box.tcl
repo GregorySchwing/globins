@@ -2,6 +2,7 @@ package require solvate
 
 set molname MYO_HEME_WT_ALIGNED
 set molnameSolv implicit_solv_box
+set molnameSolvShifted implicit_solv_box_SHIFTED
 
 mol new ../1-1-build-protein/${molname}.psf
 mol addfile ../1-1-build-protein/${molname}.pdb
@@ -47,6 +48,5 @@ set halfZ [expr $zAx/2]
 set transformationVector [list $halfX $halfY $halfZ]
 set sel [atomselect top all]
 $sel moveby $transformationVector
-set molnameSolvShifted MYO_HEME_WATER_SHIFTED
 $sel writepdb ${molnameSolvShifted}.pdb
 $sel writepsf ${molnameSolvShifted}.psf
