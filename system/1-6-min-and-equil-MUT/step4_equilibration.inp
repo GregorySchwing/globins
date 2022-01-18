@@ -95,6 +95,17 @@ langevinDamping         1.0
 langevinTemp            $temp
 langevinHydrogen        off
 
+# Constant Pressure Control (constant pressure)
+useGroupPressure      yes ;# needed for rigidBonds
+useFlexibleCell       no
+useConstantArea       no
+
+langevinPiston        off
+#langevinPistonTarget  System_press_set ;#  in bar -> 1 atm
+#langevinPistonPeriod  100.0
+#langevinPistonDecay   50.0
+#langevinPistonTemp    $temp
+
 constraints             on
 consexp                 2
 consref                 restraints/prot_posres.ref
