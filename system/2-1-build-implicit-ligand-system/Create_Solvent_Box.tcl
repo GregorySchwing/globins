@@ -40,12 +40,30 @@ mol delete top
 mol new ${molnameSolv}.psf
 mol addfile ${molnameSolv}.pdb
 
+set all [atomselect top "all"]
+
 set box [pbc get]
 regexp -- {\{(\S+) (\S+) (\S+)} $box null xAx yAx zAx
 set halfX [expr $xAx/2]
 set halfY [expr $yAx/2]
 set halfZ [expr $zAx/2]
-set transformationVector [list $halfX $halfY $halfZ]
+set trueOrigin [list $halfX $halfY $halfZ]
+set cen [measure center [atomselect top all]]
+puts "CENTER: $cen" 
+set x1 [lindex $cen 0]
+set y1 [lindex $cen 1]
+set z1 [lindex $cen 2]
+puts "x1 $x1"
+puts "y1 $y1"
+puts "z1 $z1"
+
+set max 0
+
+set geoCenter [list $x1 $y1 $z1]
+
+set transformationVector [vecsub $trueOrigin $geoCenter]
+$all moveby $transformationVector
+
 set sel [atomselect top all]
 $sel moveby $transformationVector
 $sel writepdb ${molnameSolvShifted}.pdb
