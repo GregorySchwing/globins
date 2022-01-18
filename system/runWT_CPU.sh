@@ -1,8 +1,8 @@
 #!/bin/bash
 # Job name
 #SBATCH --job-name Simple
-# Submit to the primary QoS
-#SBATCH -q primary
+# Submit to the secondary QoS
+#SBATCH -q secondary
 # Request one node
 #SBATCH -N 1
 # Total number of cores, in this example it will 1 node with 1 core each. 
@@ -19,7 +19,7 @@
 #SBATCH -e errors_%j.err
 # Set maximum time limit 
 #SBATCH -t 0-2:00:0
-for i in {0..4..1}
+for i in {0..24..1}
   do 
      mkdir WT_CPU_$i
      cp cpu.sh WT_CPU_$i
