@@ -1,8 +1,8 @@
 #will need to manually iterate thru the mindistOH and mindistWater setting to get the desired concentration.  likley not need adjust mindist
 set mindist 2.4 ; # minimum required distance between all atoms
 
-set SolventNamePDB ../1-3-equilbrate-solvent-box/LIQ_BOX_NPT_EQ
-set SolventNamePSF ../1-3-equilbrate-solvent-box/LIQ_BOX
+set SolventNamePDB ../1-4-solvate-protein/LIQ_BOX_NPT_EQ_SHIFTED
+set SolventNamePSF ../1-4-solvate-protein/LIQ_BOX_NPT_EQ_SHIFTED
 set SoluteName MYO_HEME_WT_ALIGNED_SHIFTED
 #set SoluteName MYO_HEME_SHIFTED
 
