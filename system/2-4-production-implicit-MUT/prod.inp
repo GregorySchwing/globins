@@ -70,10 +70,6 @@ rigidBonds              all;                # Bound constraint all bonds involvi
 nonbondedFreq           1;                  # nonbonded forces every step
 fullElectFrequency      1;                  # PME every step
 
-# Constant Temperature Control ONLY DURING EQUILB
-reassignFreq            500;                # reassignFreq:  use this to reassign velocity every 500 steps
-reassignTemp            $temp;
-
 # Periodic Boundary conditions. Need this since for a start...
 cellBasisVector1     $a   0.0   0.0;        # vector to the next image
 cellBasisVector2    0.0    $b   0.0;
