@@ -23,7 +23,7 @@ for i in {0..24..1}
   do 
      mkdir WT_CPU_$i
      cp cpu.sh WT_CPU_$i
-     cp -frd 1-6-production-WT/* WT_CPU_$i/
+     cp -frd 1-7-production-WT/* WT_CPU_$i/
      cd WT_CPU_$i
      sbatch cpu.sh
      cd ..

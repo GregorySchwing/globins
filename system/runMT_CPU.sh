@@ -23,7 +23,7 @@ for i in {0..24..1}
   do 
      mkdir MT_CPU_$i
      cp cpu.sh MT_CPU_$i
-     cp -frd 1-6-production-MUT/* MT_CPU_$i/
+     cp -frd 1-7-production-MUT/* MT_CPU_$i/
      cd MT_CPU_$i
      sbatch cpu.sh
      cd ..
