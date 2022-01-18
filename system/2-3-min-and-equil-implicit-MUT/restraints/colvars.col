@@ -7,7 +7,7 @@ colvar {
    name CA_Translation
    distance {
       group1 {
-         dummyAtom ( 45.4855, 45.4855, 45.4855 )
+         dummyAtom ( 46.122, 46.122, 46.122 )
       }
       group2 {
          atomsFile      LIQ_BOX.pdb
