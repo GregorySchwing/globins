@@ -5,12 +5,12 @@ set temp                310;
 
 set outputname          LIQ_BOX_PROD;
 
-set a 90.971
-set b 90.971
-set c 90.971
-set xcen 45.4855
-set ycen 45.4855
-set zcen 45.4855
+set a 92.244
+set b 92.244
+set c 92.244
+set xcen 46.122
+set ycen 46.122
+set zcen 46.122
 temperature             $temp;
 
 outputName              $outputname;        # base name for output from this run

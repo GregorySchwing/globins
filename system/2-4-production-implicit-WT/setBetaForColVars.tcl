@@ -1,8 +1,6 @@
-set input_pdb_psf_file_name_box_0 ../1-6-min-and-equil-WT/LIQ_BOX 
-set input_bin_file_name_box_0 ../1-6-min-and-equil-WT/LIQ_BOX_equilibrated.restart
+set input_pdb_psf_file_name_box_0 ../2-3-min-and-equil-implicit-WT/LIQ_BOX 
+set input_bin_file_name_box_0 ../2-3-min-and-equil-implicit-WT/LIQ_BOX_equilibrated.restart
 set output_file_name_box_0 LIQ_BOX_EQ
-set input_pdb_psf_file_name_box_1 ../1-3-equilbrate-solvent-box/RES_BOX
-set output_file_name_box_1 RES_BOX
 # load liquid box
 set system [mol new $input_pdb_psf_file_name_box_0.psf waitfor all]
 mol addfile $input_pdb_psf_file_name_box_0.pdb mol $system waitfor all
