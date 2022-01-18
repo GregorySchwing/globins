@@ -1,12 +1,17 @@
-set input_pdb_psf_file_name_box_0 ../1-5-neutralize/GCMC_water_O2_myoglobin_MUT_ions 
-set output_file_name_box_0 LIQ_BOX
+set input_pdb_psf_file_name_box_0 ../1-6-min-and-equil-MUT/LIQ_BOX 
+set input_bin_file_name_box_0 ../1-6-min-and-equil-MUT/LIQ_BOX_equilibrated.restart
+set output_file_name_box_0 LIQ_BOX_EQ
 set input_pdb_psf_file_name_box_1 ../1-3-equilbrate-solvent-box/RES_BOX
 set output_file_name_box_1 RES_BOX
 # load liquid box
 set system [mol new $input_pdb_psf_file_name_box_0.psf waitfor all]
 mol addfile $input_pdb_psf_file_name_box_0.pdb mol $system waitfor all
+set pdbCRYST [molinfo $system get {a b c alpha beta gamma}]
+mol addfile $input_bin_file_name_box_0.coor mol $system waitfor all
+molinfo $system set {a b c alpha beta gamma} $pdbCRYST
 
-set all [atomselect top all]
+set all [atomselect top all frame 1] 
+
 $all set beta 0.0
 $all set occupancy 0.0
 
