@@ -25,8 +25,8 @@
 "namd2_bin_directory": "../../../../../wsu/home/go/go24/go2432/NAMD_2.14_Linux-x86_64-multicore-CUDA",
 "gomc_bin_directory": "../../../../../wsu/home/go/go24/go2432/GOMC/bin",
 "set_dims_box_0_list" : [90.971, 90.971, 90.971],
-"set_dims_box_1_list" : [80.000, 80.000, 80.000],
-"set_subvol_dim_list" : [5.0, 5.0, 5.0],
+"set_dims_box_1_list" : [92.225, 92.225, 92.225],
+"set_subvol_dim_list" : [10.0, 10.0, 10.0],
 "namd_restraints" : "required_data/eq/prot_posres.ref",
 "namd_col_var_template" : "required_data/config_files/colvars.col"
 }
