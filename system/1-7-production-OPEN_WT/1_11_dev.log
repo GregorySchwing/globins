@@ -1,0 +1,18 @@
+Info: GOMC Version 2.70
+Info: Start Time: Tue Jan 18 11:15:52 2022
+Info: Host Name: greg-Latitude-E6530
+CPU information:
+Info: Total number of CPUs: 4
+Info: Total number of CPUs available: 4
+Info: Model name: Intel(R) Core(TM) i5-3340M CPU @ 2.70GHz
+Info: System name: Linux
+Info: Release: 4.15.0-142-generic
+Info: Version: #146~16.04.1-Ubuntu SMP Tue Apr 13 09:27:15 UTC 2021
+Info: Kernel Architecture: x86_64
+Info: Total Ram: 15924.8MB
+Info: Used Ram: 15724.2MB
+Info: Working in the current directory: /home/greg/Desktop/2022/Spring2022/HEMOGLOBINPAPER/globins/system/1-7-production-WT
+Info: GOMC COMPILED TO RUN GRAND CANONICAL ENSEMBLE.
+Info: Number of threads                  4 
+Info: Compiled with OpenMP Version       4.5
+Error: Cannot open/find in_GCMC_NVT.conf in the directory provided!

@@ -1,0 +1,69 @@
+###Lipid Head### 
+
+Colvarstrajfrequency    100
+Colvarsrestartfrequency 100
+
+colvar {
+   name CA_Translation
+   distance {
+      group1 {
+         dummyAtom ( 46.1125, 46.1125, 46.1125 )
+      }
+      group2 {
+         atomsFile      pdb_box_file
+         atomsCol       B
+         atomsColValue  2.0
+      }
+   }
+}
+
+harmonic {
+   colvars CA_Translation
+   centers 0
+   forceConstant 100
+}
+
+colvar {
+  name CA_Rotation
+  orientation {
+    refPositionsFile  pdb_box_file
+    refPositionsCol   B  
+    refPositionsColValue  2.0
+    atoms {
+    	atomsFile      pdb_box_file
+    	atomsCol       B
+    	atomsColValue  2.0
+    }
+  }
+}
+
+harmonic {
+   colvars CA_Rotation
+   centers ( 1, 0, 0, 0 )
+   forceConstant 1000
+}
+
+colvar {
+  name O2_heme_coordNum
+  coordNum {
+      group1 {
+         atomsFile      pdb_box_file
+         atomsCol       O
+         atomsColValue  1.0
+      }
+      group2 {
+         atomsFile      pdb_box_file
+         atomsCol       O
+         atomsColValue  2.0
+      }
+      group2CenterOnly yes
+  }
+}
+
+harmonic {
+   colvars O2_heme_coordNum
+   centers 0
+   forceConstant 10
+}
+
+
