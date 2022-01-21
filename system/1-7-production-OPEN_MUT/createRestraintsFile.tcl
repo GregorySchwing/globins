@@ -1,4 +1,4 @@
-set input_pdb_psf_file_name ../1-5-neutralize/GCMC_water_O2_myoglobin_MUT_ions 
+set input_pdb_psf_file_name ../1-5-neutralize/GCMC_water_O2_myoglobin_OPEN_MUT_ions 
 set output_restraints_file_name prot_posres.ref
 
 # load 
