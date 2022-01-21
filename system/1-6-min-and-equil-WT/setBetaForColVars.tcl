@@ -1,4 +1,4 @@
-set input_pdb_psf_file_name_box_0 ../1-5-neutralize/GCMC_water_O2_myoglobin_OPEN_WT_ions 
+set input_pdb_psf_file_name_box_0 ../1-5-neutralize/GCMC_water_O2_myoglobin_WT_ions 
 set output_file_name_box_0 LIQ_BOX
 
 # load liquid box
@@ -11,9 +11,6 @@ $all set occupancy 0.0
 
 set wat [atomselect top "water or resname DIOX"]
 $wat set beta 0.0
-
-set fullRest [atomselect top "protein and alpha"]
-$fullRest set beta 1.0
 
 set ions [atomselect top "ions"]
 $ions set beta 2.0
