@@ -23,5 +23,5 @@ puts "recalc principal axes to check"
 set I [draw principalaxes $sel]
 
 $all writepdb ${output}.pdb
-
+$all writepsf ${output}.psf
 

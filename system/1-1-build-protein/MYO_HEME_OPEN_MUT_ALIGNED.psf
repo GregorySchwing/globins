@@ -1,0 +1,2780 @@
+PSF
+
+       1 !NTITLE
+ REMARKS VMD-generated NAMD/X-Plor PSF structure file
+
+    2443 !NATOM
+       1 MYO  1    GLY  CAY  CAY    0.000000       12.0110           0
+       2 MYO  1    GLY  HY1  HY1    0.000000        1.0080           0
+       3 MYO  1    GLY  HY2  HY2    0.000000        1.0080           0
+       4 MYO  1    GLY  HY3  HY3    0.000000        1.0080           0
+       5 MYO  1    GLY  CY   CY     0.000000       12.0110           0
+       6 MYO  1    GLY  OY   OY     0.000000       15.9990           0
+       7 MYO  1    GLY  N    N      0.000000       14.0067           0
+       8 MYO  1    GLY  HN   HN     0.000000        1.0080           0
+       9 MYO  1    GLY  CA   CA     0.000000       12.0107           0
+      10 MYO  1    GLY  HA1  HA1    0.000000        1.0080           0
+      11 MYO  1    GLY  HA2  HA2    0.000000        1.0080           0
+      12 MYO  1    GLY  C    C      0.000000       12.0107           0
+      13 MYO  1    GLY  O    O      0.000000       15.9994           0
+      14 MYO  2    LEU  N    N      0.000000       14.0067           0
+      15 MYO  2    LEU  HN   HN     0.000000        1.0080           0
+      16 MYO  2    LEU  CA   CA     0.000000       12.0107           0
+      17 MYO  2    LEU  HA   HA     0.000000        1.0080           0
+      18 MYO  2    LEU  CB   CB     0.000000       12.0107           0
+      19 MYO  2    LEU  HB1  HB1    0.000000        1.0080           0
+      20 MYO  2    LEU  HB2  HB2    0.000000        1.0080           0
+      21 MYO  2    LEU  CG   CG     0.000000       12.0107           0
+      22 MYO  2    LEU  HG   HG     0.000000        1.0080           0
+      23 MYO  2    LEU  CD1  CD1    0.000000       12.0107           0
+      24 MYO  2    LEU  HD11 HD11   0.000000        1.0080           0
+      25 MYO  2    LEU  HD12 HD12   0.000000        1.0080           0
+      26 MYO  2    LEU  HD13 HD13   0.000000        1.0080           0
+      27 MYO  2    LEU  CD2  CD2    0.000000       12.0107           0
+      28 MYO  2    LEU  HD21 HD21   0.000000        1.0080           0
+      29 MYO  2    LEU  HD22 HD22   0.000000        1.0080           0
+      30 MYO  2    LEU  HD23 HD23   0.000000        1.0080           0
+      31 MYO  2    LEU  C    C      0.000000       12.0107           0
+      32 MYO  2    LEU  O    O      0.000000       15.9994           0
+      33 MYO  3    SER  N    N      0.000000       14.0067           0
+      34 MYO  3    SER  HN   HN     0.000000        1.0080           0
+      35 MYO  3    SER  CA   CA     0.000000       12.0107           0
+      36 MYO  3    SER  HA   HA     0.000000        1.0080           0
+      37 MYO  3    SER  CB   CB     0.000000       12.0107           0
+      38 MYO  3    SER  HB1  HB1    0.000000        1.0080           0
+      39 MYO  3    SER  HB2  HB2    0.000000        1.0080           0
+      40 MYO  3    SER  OG   OG     0.000000       15.9994           0
+      41 MYO  3    SER  HG1  HG1    0.000000        1.0080           0
+      42 MYO  3    SER  C    C      0.000000       12.0107           0
+      43 MYO  3    SER  O    O      0.000000       15.9994           0
+      44 MYO  4    ASP  N    N      0.000000       14.0067           0
+      45 MYO  4    ASP  HN   HN     0.000000        1.0080           0
+      46 MYO  4    ASP  CA   CA     0.000000       12.0107           0
+      47 MYO  4    ASP  HA   HA     0.000000        1.0080           0
+      48 MYO  4    ASP  CB   CB     0.000000       12.0107           0
+      49 MYO  4    ASP  HB1  HB1    0.000000        1.0080           0
+      50 MYO  4    ASP  HB2  HB2    0.000000        1.0080           0
+      51 MYO  4    ASP  CG   CG     0.000000       12.0107           0
+      52 MYO  4    ASP  OD1  OD1    0.000000       15.9994           0
+      53 MYO  4    ASP  OD2  OD2    0.000000       15.9994           0
+      54 MYO  4    ASP  C    C      0.000000       12.0107           0
+      55 MYO  4    ASP  O    O      0.000000       15.9994           0
+      56 MYO  5    GLY  N    N      0.000000       14.0067           0
+      57 MYO  5    GLY  HN   HN     0.000000        1.0080           0
+      58 MYO  5    GLY  CA   CA     0.000000       12.0107           0
+      59 MYO  5    GLY  HA1  HA1    0.000000        1.0080           0
+      60 MYO  5    GLY  HA2  HA2    0.000000        1.0080           0
+      61 MYO  5    GLY  C    C      0.000000       12.0107           0
+      62 MYO  5    GLY  O    O      0.000000       15.9994           0
+      63 MYO  6    GLU  N    N      0.000000       14.0067           0
+      64 MYO  6    GLU  HN   HN     0.000000        1.0080           0
+      65 MYO  6    GLU  CA   CA     0.000000       12.0107           0
+      66 MYO  6    GLU  HA   HA     0.000000        1.0080           0
+      67 MYO  6    GLU  CB   CB     0.000000       12.0107           0
+      68 MYO  6    GLU  HB1  HB1    0.000000        1.0080           0
+      69 MYO  6    GLU  HB2  HB2    0.000000        1.0080           0
+      70 MYO  6    GLU  CG   CG     0.000000       12.0107           0
+      71 MYO  6    GLU  HG1  HG1    0.000000        1.0080           0
+      72 MYO  6    GLU  HG2  HG2    0.000000        1.0080           0
+      73 MYO  6    GLU  CD   CD     0.000000       12.0107           0
+      74 MYO  6    GLU  OE1  OE1    0.000000       15.9994           0
+      75 MYO  6    GLU  OE2  OE2    0.000000       15.9994           0
+      76 MYO  6    GLU  C    C      0.000000       12.0107           0
+      77 MYO  6    GLU  O    O      0.000000       15.9994           0
+      78 MYO  7    TRP  N    N      0.000000       14.0067           0
+      79 MYO  7    TRP  HN   HN     0.000000        1.0080           0
+      80 MYO  7    TRP  CA   CA     0.000000       12.0107           0
+      81 MYO  7    TRP  HA   HA     0.000000        1.0080           0
+      82 MYO  7    TRP  CB   CB     0.000000       12.0107           0
+      83 MYO  7    TRP  HB1  HB1    0.000000        1.0080           0
+      84 MYO  7    TRP  HB2  HB2    0.000000        1.0080           0
+      85 MYO  7    TRP  CG   CG     0.000000       12.0107           0
+      86 MYO  7    TRP  CD1  CD1    0.000000       12.0107           0
+      87 MYO  7    TRP  HD1  HD1    0.000000        1.0080           0
+      88 MYO  7    TRP  NE1  NE1    0.000000       14.0067           0
+      89 MYO  7    TRP  HE1  HE1    0.000000        1.0080           0
+      90 MYO  7    TRP  CE2  CE2    0.000000       12.0107           0
+      91 MYO  7    TRP  CD2  CD2    0.000000       12.0107           0
+      92 MYO  7    TRP  CE3  CE3    0.000000       12.0107           0
+      93 MYO  7    TRP  HE3  HE3    0.000000        1.0080           0
+      94 MYO  7    TRP  CZ3  CZ3    0.000000       12.0107           0
+      95 MYO  7    TRP  HZ3  HZ3    0.000000        1.0080           0
+      96 MYO  7    TRP  CZ2  CZ2    0.000000       12.0107           0
+      97 MYO  7    TRP  HZ2  HZ2    0.000000        1.0080           0
+      98 MYO  7    TRP  CH2  CH2    0.000000       12.0107           0
+      99 MYO  7    TRP  HH2  HH2    0.000000        1.0080           0
+     100 MYO  7    TRP  C    C      0.000000       12.0107           0
+     101 MYO  7    TRP  O    O      0.000000       15.9994           0
+     102 MYO  8    GLN  N    N      0.000000       14.0067           0
+     103 MYO  8    GLN  HN   HN     0.000000        1.0080           0
+     104 MYO  8    GLN  CA   CA     0.000000       12.0107           0
+     105 MYO  8    GLN  HA   HA     0.000000        1.0080           0
+     106 MYO  8    GLN  CB   CB     0.000000       12.0107           0
+     107 MYO  8    GLN  HB1  HB1    0.000000        1.0080           0
+     108 MYO  8    GLN  HB2  HB2    0.000000        1.0080           0
+     109 MYO  8    GLN  CG   CG     0.000000       12.0107           0
+     110 MYO  8    GLN  HG1  HG1    0.000000        1.0080           0
+     111 MYO  8    GLN  HG2  HG2    0.000000        1.0080           0
+     112 MYO  8    GLN  CD   CD     0.000000       12.0107           0
+     113 MYO  8    GLN  OE1  OE1    0.000000       15.9994           0
+     114 MYO  8    GLN  NE2  NE2    0.000000       14.0067           0
+     115 MYO  8    GLN  HE21 HE21   0.000000        1.0080           0
+     116 MYO  8    GLN  HE22 HE22   0.000000        1.0080           0
+     117 MYO  8    GLN  C    C      0.000000       12.0107           0
+     118 MYO  8    GLN  O    O      0.000000       15.9994           0
+     119 MYO  9    LEU  N    N      0.000000       14.0067           0
+     120 MYO  9    LEU  HN   HN     0.000000        1.0080           0
+     121 MYO  9    LEU  CA   CA     0.000000       12.0107           0
+     122 MYO  9    LEU  HA   HA     0.000000        1.0080           0
+     123 MYO  9    LEU  CB   CB     0.000000       12.0107           0
+     124 MYO  9    LEU  HB1  HB1    0.000000        1.0080           0
+     125 MYO  9    LEU  HB2  HB2    0.000000        1.0080           0
+     126 MYO  9    LEU  CG   CG     0.000000       12.0107           0
+     127 MYO  9    LEU  HG   HG     0.000000        1.0080           0
+     128 MYO  9    LEU  CD1  CD1    0.000000       12.0107           0
+     129 MYO  9    LEU  HD11 HD11   0.000000        1.0080           0
+     130 MYO  9    LEU  HD12 HD12   0.000000        1.0080           0
+     131 MYO  9    LEU  HD13 HD13   0.000000        1.0080           0
+     132 MYO  9    LEU  CD2  CD2    0.000000       12.0107           0
+     133 MYO  9    LEU  HD21 HD21   0.000000        1.0080           0
+     134 MYO  9    LEU  HD22 HD22   0.000000        1.0080           0
+     135 MYO  9    LEU  HD23 HD23   0.000000        1.0080           0
+     136 MYO  9    LEU  C    C      0.000000       12.0107           0
+     137 MYO  9    LEU  O    O      0.000000       15.9994           0
+     138 MYO  10   VAL  N    N      0.000000       14.0067           0
+     139 MYO  10   VAL  HN   HN     0.000000        1.0080           0
+     140 MYO  10   VAL  CA   CA     0.000000       12.0107           0
+     141 MYO  10   VAL  HA   HA     0.000000        1.0080           0
+     142 MYO  10   VAL  CB   CB     0.000000       12.0107           0
+     143 MYO  10   VAL  HB   HB     0.000000        1.0080           0
+     144 MYO  10   VAL  CG1  CG1    0.000000       12.0107           0
+     145 MYO  10   VAL  HG11 HG11   0.000000        1.0080           0
+     146 MYO  10   VAL  HG12 HG12   0.000000        1.0080           0
+     147 MYO  10   VAL  HG13 HG13   0.000000        1.0080           0
+     148 MYO  10   VAL  CG2  CG2    0.000000       12.0107           0
+     149 MYO  10   VAL  HG21 HG21   0.000000        1.0080           0
+     150 MYO  10   VAL  HG22 HG22   0.000000        1.0080           0
+     151 MYO  10   VAL  HG23 HG23   0.000000        1.0080           0
+     152 MYO  10   VAL  C    C      0.000000       12.0107           0
+     153 MYO  10   VAL  O    O      0.000000       15.9994           0
+     154 MYO  11   LEU  N    N      0.000000       14.0067           0
+     155 MYO  11   LEU  HN   HN     0.000000        1.0080           0
+     156 MYO  11   LEU  CA   CA     0.000000       12.0107           0
+     157 MYO  11   LEU  HA   HA     0.000000        1.0080           0
+     158 MYO  11   LEU  CB   CB     0.000000       12.0107           0
+     159 MYO  11   LEU  HB1  HB1    0.000000        1.0080           0
+     160 MYO  11   LEU  HB2  HB2    0.000000        1.0080           0
+     161 MYO  11   LEU  CG   CG     0.000000       12.0107           0
+     162 MYO  11   LEU  HG   HG     0.000000        1.0080           0
+     163 MYO  11   LEU  CD1  CD1    0.000000       12.0107           0
+     164 MYO  11   LEU  HD11 HD11   0.000000        1.0080           0
+     165 MYO  11   LEU  HD12 HD12   0.000000        1.0080           0
+     166 MYO  11   LEU  HD13 HD13   0.000000        1.0080           0
+     167 MYO  11   LEU  CD2  CD2    0.000000       12.0107           0
+     168 MYO  11   LEU  HD21 HD21   0.000000        1.0080           0
+     169 MYO  11   LEU  HD22 HD22   0.000000        1.0080           0
+     170 MYO  11   LEU  HD23 HD23   0.000000        1.0080           0
+     171 MYO  11   LEU  C    C      0.000000       12.0107           0
+     172 MYO  11   LEU  O    O      0.000000       15.9994           0
+     173 MYO  12   ASN  N    N      0.000000       14.0067           0
+     174 MYO  12   ASN  HN   HN     0.000000        1.0080           0
+     175 MYO  12   ASN  CA   CA     0.000000       12.0107           0
+     176 MYO  12   ASN  HA   HA     0.000000        1.0080           0
+     177 MYO  12   ASN  CB   CB     0.000000       12.0107           0
+     178 MYO  12   ASN  HB1  HB1    0.000000        1.0080           0
+     179 MYO  12   ASN  HB2  HB2    0.000000        1.0080           0
+     180 MYO  12   ASN  CG   CG     0.000000       12.0107           0
+     181 MYO  12   ASN  OD1  OD1    0.000000       15.9994           0
+     182 MYO  12   ASN  ND2  ND2    0.000000       14.0067           0
+     183 MYO  12   ASN  HD21 HD21   0.000000        1.0080           0
+     184 MYO  12   ASN  HD22 HD22   0.000000        1.0080           0
+     185 MYO  12   ASN  C    C      0.000000       12.0107           0
+     186 MYO  12   ASN  O    O      0.000000       15.9994           0
+     187 MYO  13   VAL  N    N      0.000000       14.0067           0
+     188 MYO  13   VAL  HN   HN     0.000000        1.0080           0
+     189 MYO  13   VAL  CA   CA     0.000000       12.0107           0
+     190 MYO  13   VAL  HA   HA     0.000000        1.0080           0
+     191 MYO  13   VAL  CB   CB     0.000000       12.0107           0
+     192 MYO  13   VAL  HB   HB     0.000000        1.0080           0
+     193 MYO  13   VAL  CG1  CG1    0.000000       12.0107           0
+     194 MYO  13   VAL  HG11 HG11   0.000000        1.0080           0
+     195 MYO  13   VAL  HG12 HG12   0.000000        1.0080           0
+     196 MYO  13   VAL  HG13 HG13   0.000000        1.0080           0
+     197 MYO  13   VAL  CG2  CG2    0.000000       12.0107           0
+     198 MYO  13   VAL  HG21 HG21   0.000000        1.0080           0
+     199 MYO  13   VAL  HG22 HG22   0.000000        1.0080           0
+     200 MYO  13   VAL  HG23 HG23   0.000000        1.0080           0
+     201 MYO  13   VAL  C    C      0.000000       12.0107           0
+     202 MYO  13   VAL  O    O      0.000000       15.9994           0
+     203 MYO  14   TRP  N    N      0.000000       14.0067           0
+     204 MYO  14   TRP  HN   HN     0.000000        1.0080           0
+     205 MYO  14   TRP  CA   CA     0.000000       12.0107           0
+     206 MYO  14   TRP  HA   HA     0.000000        1.0080           0
+     207 MYO  14   TRP  CB   CB     0.000000       12.0107           0
+     208 MYO  14   TRP  HB1  HB1    0.000000        1.0080           0
+     209 MYO  14   TRP  HB2  HB2    0.000000        1.0080           0
+     210 MYO  14   TRP  CG   CG     0.000000       12.0107           0
+     211 MYO  14   TRP  CD1  CD1    0.000000       12.0107           0
+     212 MYO  14   TRP  HD1  HD1    0.000000        1.0080           0
+     213 MYO  14   TRP  NE1  NE1    0.000000       14.0067           0
+     214 MYO  14   TRP  HE1  HE1    0.000000        1.0080           0
+     215 MYO  14   TRP  CE2  CE2    0.000000       12.0107           0
+     216 MYO  14   TRP  CD2  CD2    0.000000       12.0107           0
+     217 MYO  14   TRP  CE3  CE3    0.000000       12.0107           0
+     218 MYO  14   TRP  HE3  HE3    0.000000        1.0080           0
+     219 MYO  14   TRP  CZ3  CZ3    0.000000       12.0107           0
+     220 MYO  14   TRP  HZ3  HZ3    0.000000        1.0080           0
+     221 MYO  14   TRP  CZ2  CZ2    0.000000       12.0107           0
+     222 MYO  14   TRP  HZ2  HZ2    0.000000        1.0080           0
+     223 MYO  14   TRP  CH2  CH2    0.000000       12.0107           0
+     224 MYO  14   TRP  HH2  HH2    0.000000        1.0080           0
+     225 MYO  14   TRP  C    C      0.000000       12.0107           0
+     226 MYO  14   TRP  O    O      0.000000       15.9994           0
+     227 MYO  15   GLY  N    N      0.000000       14.0067           0
+     228 MYO  15   GLY  HN   HN     0.000000        1.0080           0
+     229 MYO  15   GLY  CA   CA     0.000000       12.0107           0
+     230 MYO  15   GLY  HA1  HA1    0.000000        1.0080           0
+     231 MYO  15   GLY  HA2  HA2    0.000000        1.0080           0
+     232 MYO  15   GLY  C    C      0.000000       12.0107           0
+     233 MYO  15   GLY  O    O      0.000000       15.9994           0
+     234 MYO  16   LYS  N    N      0.000000       14.0067           0
+     235 MYO  16   LYS  HN   HN     0.000000        1.0080           0
+     236 MYO  16   LYS  CA   CA     0.000000       12.0107           0
+     237 MYO  16   LYS  HA   HA     0.000000        1.0080           0
+     238 MYO  16   LYS  CB   CB     0.000000       12.0107           0
+     239 MYO  16   LYS  HB1  HB1    0.000000        1.0080           0
+     240 MYO  16   LYS  HB2  HB2    0.000000        1.0080           0
+     241 MYO  16   LYS  CG   CG     0.000000       12.0107           0
+     242 MYO  16   LYS  HG1  HG1    0.000000        1.0080           0
+     243 MYO  16   LYS  HG2  HG2    0.000000        1.0080           0
+     244 MYO  16   LYS  CD   CD     0.000000       12.0107           0
+     245 MYO  16   LYS  HD1  HD1    0.000000        1.0080           0
+     246 MYO  16   LYS  HD2  HD2    0.000000        1.0080           0
+     247 MYO  16   LYS  CE   CE     0.000000       12.0107           0
+     248 MYO  16   LYS  HE1  HE1    0.000000        1.0080           0
+     249 MYO  16   LYS  HE2  HE2    0.000000        1.0080           0
+     250 MYO  16   LYS  NZ   NZ     0.000000       14.0067           0
+     251 MYO  16   LYS  HZ1  HZ1    0.000000        1.0080           0
+     252 MYO  16   LYS  HZ2  HZ2    0.000000        1.0080           0
+     253 MYO  16   LYS  HZ3  HZ3    0.000000        1.0080           0
+     254 MYO  16   LYS  C    C      0.000000       12.0107           0
+     255 MYO  16   LYS  O    O      0.000000       15.9994           0
+     256 MYO  17   VAL  N    N      0.000000       14.0067           0
+     257 MYO  17   VAL  HN   HN     0.000000        1.0080           0
+     258 MYO  17   VAL  CA   CA     0.000000       12.0107           0
+     259 MYO  17   VAL  HA   HA     0.000000        1.0080           0
+     260 MYO  17   VAL  CB   CB     0.000000       12.0107           0
+     261 MYO  17   VAL  HB   HB     0.000000        1.0080           0
+     262 MYO  17   VAL  CG1  CG1    0.000000       12.0107           0
+     263 MYO  17   VAL  HG11 HG11   0.000000        1.0080           0
+     264 MYO  17   VAL  HG12 HG12   0.000000        1.0080           0
+     265 MYO  17   VAL  HG13 HG13   0.000000        1.0080           0
+     266 MYO  17   VAL  CG2  CG2    0.000000       12.0107           0
+     267 MYO  17   VAL  HG21 HG21   0.000000        1.0080           0
+     268 MYO  17   VAL  HG22 HG22   0.000000        1.0080           0
+     269 MYO  17   VAL  HG23 HG23   0.000000        1.0080           0
+     270 MYO  17   VAL  C    C      0.000000       12.0107           0
+     271 MYO  17   VAL  O    O      0.000000       15.9994           0
+     272 MYO  18   GLU  N    N      0.000000       14.0067           0
+     273 MYO  18   GLU  HN   HN     0.000000        1.0080           0
+     274 MYO  18   GLU  CA   CA     0.000000       12.0107           0
+     275 MYO  18   GLU  HA   HA     0.000000        1.0080           0
+     276 MYO  18   GLU  CB   CB     0.000000       12.0107           0
+     277 MYO  18   GLU  HB1  HB1    0.000000        1.0080           0
+     278 MYO  18   GLU  HB2  HB2    0.000000        1.0080           0
+     279 MYO  18   GLU  CG   CG     0.000000       12.0107           0
+     280 MYO  18   GLU  HG1  HG1    0.000000        1.0080           0
+     281 MYO  18   GLU  HG2  HG2    0.000000        1.0080           0
+     282 MYO  18   GLU  CD   CD     0.000000       12.0107           0
+     283 MYO  18   GLU  OE1  OE1    0.000000       15.9994           0
+     284 MYO  18   GLU  OE2  OE2    0.000000       15.9994           0
+     285 MYO  18   GLU  C    C      0.000000       12.0107           0
+     286 MYO  18   GLU  O    O      0.000000       15.9994           0
+     287 MYO  19   ALA  N    N      0.000000       14.0067           0
+     288 MYO  19   ALA  HN   HN     0.000000        1.0080           0
+     289 MYO  19   ALA  CA   CA     0.000000       12.0107           0
+     290 MYO  19   ALA  HA   HA     0.000000        1.0080           0
+     291 MYO  19   ALA  CB   CB     0.000000       12.0107           0
+     292 MYO  19   ALA  HB1  HB1    0.000000        1.0080           0
+     293 MYO  19   ALA  HB2  HB2    0.000000        1.0080           0
+     294 MYO  19   ALA  HB3  HB3    0.000000        1.0080           0
+     295 MYO  19   ALA  C    C      0.000000       12.0107           0
+     296 MYO  19   ALA  O    O      0.000000       15.9994           0
+     297 MYO  20   ASP  N    N      0.000000       14.0067           0
+     298 MYO  20   ASP  HN   HN     0.000000        1.0080           0
+     299 MYO  20   ASP  CA   CA     0.000000       12.0107           0
+     300 MYO  20   ASP  HA   HA     0.000000        1.0080           0
+     301 MYO  20   ASP  CB   CB     0.000000       12.0107           0
+     302 MYO  20   ASP  HB1  HB1    0.000000        1.0080           0
+     303 MYO  20   ASP  HB2  HB2    0.000000        1.0080           0
+     304 MYO  20   ASP  CG   CG     0.000000       12.0107           0
+     305 MYO  20   ASP  OD1  OD1    0.000000       15.9994           0
+     306 MYO  20   ASP  OD2  OD2    0.000000       15.9994           0
+     307 MYO  20   ASP  C    C      0.000000       12.0107           0
+     308 MYO  20   ASP  O    O      0.000000       15.9994           0
+     309 MYO  21   ILE  N    N      0.000000       14.0067           0
+     310 MYO  21   ILE  HN   HN     0.000000        1.0080           0
+     311 MYO  21   ILE  CA   CA     0.000000       12.0107           0
+     312 MYO  21   ILE  HA   HA     0.000000        1.0080           0
+     313 MYO  21   ILE  CB   CB     0.000000       12.0107           0
+     314 MYO  21   ILE  HB   HB     0.000000        1.0080           0
+     315 MYO  21   ILE  CG2  CG2    0.000000       12.0107           0
+     316 MYO  21   ILE  HG21 HG21   0.000000        1.0080           0
+     317 MYO  21   ILE  HG22 HG22   0.000000        1.0080           0
+     318 MYO  21   ILE  HG23 HG23   0.000000        1.0080           0
+     319 MYO  21   ILE  CG1  CG1    0.000000       12.0107           0
+     320 MYO  21   ILE  HG11 HG11   0.000000        1.0080           0
+     321 MYO  21   ILE  HG12 HG12   0.000000        1.0080           0
+     322 MYO  21   ILE  CD   CD     0.000000       12.0107           0
+     323 MYO  21   ILE  HD1  HD1    0.000000        1.0080           0
+     324 MYO  21   ILE  HD2  HD2    0.000000        1.0080           0
+     325 MYO  21   ILE  HD3  HD3    0.000000        1.0080           0
+     326 MYO  21   ILE  C    C      0.000000       12.0107           0
+     327 MYO  21   ILE  O    O      0.000000       15.9994           0
+     328 MYO  22   PRO  N    N      0.000000       14.0067           0
+     329 MYO  22   PRO  CD   CD     0.000000       12.0107           0
+     330 MYO  22   PRO  HD1  HD1    0.000000        1.0080           0
+     331 MYO  22   PRO  HD2  HD2    0.000000        1.0080           0
+     332 MYO  22   PRO  CA   CA     0.000000       12.0107           0
+     333 MYO  22   PRO  HA   HA     0.000000        1.0080           0
+     334 MYO  22   PRO  CB   CB     0.000000       12.0107           0
+     335 MYO  22   PRO  HB1  HB1    0.000000        1.0080           0
+     336 MYO  22   PRO  HB2  HB2    0.000000        1.0080           0
+     337 MYO  22   PRO  CG   CG     0.000000       12.0107           0
+     338 MYO  22   PRO  HG1  HG1    0.000000        1.0080           0
+     339 MYO  22   PRO  HG2  HG2    0.000000        1.0080           0
+     340 MYO  22   PRO  C    C      0.000000       12.0107           0
+     341 MYO  22   PRO  O    O      0.000000       15.9994           0
+     342 MYO  23   GLY  N    N      0.000000       14.0067           0
+     343 MYO  23   GLY  HN   HN     0.000000        1.0080           0
+     344 MYO  23   GLY  CA   CA     0.000000       12.0107           0
+     345 MYO  23   GLY  HA1  HA1    0.000000        1.0080           0
+     346 MYO  23   GLY  HA2  HA2    0.000000        1.0080           0
+     347 MYO  23   GLY  C    C      0.000000       12.0107           0
+     348 MYO  23   GLY  O    O      0.000000       15.9994           0
+     349 MYO  24   HSE  N    N      0.000000       14.0067           0
+     350 MYO  24   HSE  HN   HN     0.000000        1.0080           0
+     351 MYO  24   HSE  CA   CA     0.000000       12.0107           0
+     352 MYO  24   HSE  HA   HA     0.000000        1.0080           0
+     353 MYO  24   HSE  CB   CB     0.000000       12.0107           0
+     354 MYO  24   HSE  HB1  HB1    0.000000        1.0080           0
+     355 MYO  24   HSE  HB2  HB2    0.000000        1.0080           0
+     356 MYO  24   HSE  ND1  ND1    0.000000       14.0067           0
+     357 MYO  24   HSE  CG   CG     0.000000       12.0107           0
+     358 MYO  24   HSE  CE1  CE1    0.000000       12.0107           0
+     359 MYO  24   HSE  HE1  HE1    0.000000        1.0080           0
+     360 MYO  24   HSE  NE2  NE2    0.000000       14.0067           0
+     361 MYO  24   HSE  HE2  HE2    0.000000        1.0080           0
+     362 MYO  24   HSE  CD2  CD2    0.000000       12.0107           0
+     363 MYO  24   HSE  HD2  HD2    0.000000        1.0080           0
+     364 MYO  24   HSE  C    C      0.000000       12.0107           0
+     365 MYO  24   HSE  O    O      0.000000       15.9994           0
+     366 MYO  25   GLY  N    N      0.000000       14.0067           0
+     367 MYO  25   GLY  HN   HN     0.000000        1.0080           0
+     368 MYO  25   GLY  CA   CA     0.000000       12.0107           0
+     369 MYO  25   GLY  HA1  HA1    0.000000        1.0080           0
+     370 MYO  25   GLY  HA2  HA2    0.000000        1.0080           0
+     371 MYO  25   GLY  C    C      0.000000       12.0107           0
+     372 MYO  25   GLY  O    O      0.000000       15.9994           0
+     373 MYO  26   GLN  N    N      0.000000       14.0067           0
+     374 MYO  26   GLN  HN   HN     0.000000        1.0080           0
+     375 MYO  26   GLN  CA   CA     0.000000       12.0107           0
+     376 MYO  26   GLN  HA   HA     0.000000        1.0080           0
+     377 MYO  26   GLN  CB   CB     0.000000       12.0107           0
+     378 MYO  26   GLN  HB1  HB1    0.000000        1.0080           0
+     379 MYO  26   GLN  HB2  HB2    0.000000        1.0080           0
+     380 MYO  26   GLN  CG   CG     0.000000       12.0107           0
+     381 MYO  26   GLN  HG1  HG1    0.000000        1.0080           0
+     382 MYO  26   GLN  HG2  HG2    0.000000        1.0080           0
+     383 MYO  26   GLN  CD   CD     0.000000       12.0107           0
+     384 MYO  26   GLN  OE1  OE1    0.000000       15.9994           0
+     385 MYO  26   GLN  NE2  NE2    0.000000       14.0067           0
+     386 MYO  26   GLN  HE21 HE21   0.000000        1.0080           0
+     387 MYO  26   GLN  HE22 HE22   0.000000        1.0080           0
+     388 MYO  26   GLN  C    C      0.000000       12.0107           0
+     389 MYO  26   GLN  O    O      0.000000       15.9994           0
+     390 MYO  27   GLU  N    N      0.000000       14.0067           0
+     391 MYO  27   GLU  HN   HN     0.000000        1.0080           0
+     392 MYO  27   GLU  CA   CA     0.000000       12.0107           0
+     393 MYO  27   GLU  HA   HA     0.000000        1.0080           0
+     394 MYO  27   GLU  CB   CB     0.000000       12.0107           0
+     395 MYO  27   GLU  HB1  HB1    0.000000        1.0080           0
+     396 MYO  27   GLU  HB2  HB2    0.000000        1.0080           0
+     397 MYO  27   GLU  CG   CG     0.000000       12.0107           0
+     398 MYO  27   GLU  HG1  HG1    0.000000        1.0080           0
+     399 MYO  27   GLU  HG2  HG2    0.000000        1.0080           0
+     400 MYO  27   GLU  CD   CD     0.000000       12.0107           0
+     401 MYO  27   GLU  OE1  OE1    0.000000       15.9994           0
+     402 MYO  27   GLU  OE2  OE2    0.000000       15.9994           0
+     403 MYO  27   GLU  C    C      0.000000       12.0107           0
+     404 MYO  27   GLU  O    O      0.000000       15.9994           0
+     405 MYO  28   VAL  N    N      0.000000       14.0067           0
+     406 MYO  28   VAL  HN   HN     0.000000        1.0080           0
+     407 MYO  28   VAL  CA   CA     0.000000       12.0107           0
+     408 MYO  28   VAL  HA   HA     0.000000        1.0080           0
+     409 MYO  28   VAL  CB   CB     0.000000       12.0107           0
+     410 MYO  28   VAL  HB   HB     0.000000        1.0080           0
+     411 MYO  28   VAL  CG1  CG1    0.000000       12.0107           0
+     412 MYO  28   VAL  HG11 HG11   0.000000        1.0080           0
+     413 MYO  28   VAL  HG12 HG12   0.000000        1.0080           0
+     414 MYO  28   VAL  HG13 HG13   0.000000        1.0080           0
+     415 MYO  28   VAL  CG2  CG2    0.000000       12.0107           0
+     416 MYO  28   VAL  HG21 HG21   0.000000        1.0080           0
+     417 MYO  28   VAL  HG22 HG22   0.000000        1.0080           0
+     418 MYO  28   VAL  HG23 HG23   0.000000        1.0080           0
+     419 MYO  28   VAL  C    C      0.000000       12.0107           0
+     420 MYO  28   VAL  O    O      0.000000       15.9994           0
+     421 MYO  29   LEU  N    N      0.000000       14.0067           0
+     422 MYO  29   LEU  HN   HN     0.000000        1.0080           0
+     423 MYO  29   LEU  CA   CA     0.000000       12.0107           0
+     424 MYO  29   LEU  HA   HA     0.000000        1.0080           0
+     425 MYO  29   LEU  CB   CB     0.000000       12.0107           0
+     426 MYO  29   LEU  HB1  HB1    0.000000        1.0080           0
+     427 MYO  29   LEU  HB2  HB2    0.000000        1.0080           0
+     428 MYO  29   LEU  CG   CG     0.000000       12.0107           0
+     429 MYO  29   LEU  HG   HG     0.000000        1.0080           0
+     430 MYO  29   LEU  CD1  CD1    0.000000       12.0107           0
+     431 MYO  29   LEU  HD11 HD11   0.000000        1.0080           0
+     432 MYO  29   LEU  HD12 HD12   0.000000        1.0080           0
+     433 MYO  29   LEU  HD13 HD13   0.000000        1.0080           0
+     434 MYO  29   LEU  CD2  CD2    0.000000       12.0107           0
+     435 MYO  29   LEU  HD21 HD21   0.000000        1.0080           0
+     436 MYO  29   LEU  HD22 HD22   0.000000        1.0080           0
+     437 MYO  29   LEU  HD23 HD23   0.000000        1.0080           0
+     438 MYO  29   LEU  C    C      0.000000       12.0107           0
+     439 MYO  29   LEU  O    O      0.000000       15.9994           0
+     440 MYO  30   ILE  N    N      0.000000       14.0067           0
+     441 MYO  30   ILE  HN   HN     0.000000        1.0080           0
+     442 MYO  30   ILE  CA   CA     0.000000       12.0107           0
+     443 MYO  30   ILE  HA   HA     0.000000        1.0080           0
+     444 MYO  30   ILE  CB   CB     0.000000       12.0107           0
+     445 MYO  30   ILE  HB   HB     0.000000        1.0080           0
+     446 MYO  30   ILE  CG2  CG2    0.000000       12.0107           0
+     447 MYO  30   ILE  HG21 HG21   0.000000        1.0080           0
+     448 MYO  30   ILE  HG22 HG22   0.000000        1.0080           0
+     449 MYO  30   ILE  HG23 HG23   0.000000        1.0080           0
+     450 MYO  30   ILE  CG1  CG1    0.000000       12.0107           0
+     451 MYO  30   ILE  HG11 HG11   0.000000        1.0080           0
+     452 MYO  30   ILE  HG12 HG12   0.000000        1.0080           0
+     453 MYO  30   ILE  CD   CD     0.000000       12.0107           0
+     454 MYO  30   ILE  HD1  HD1    0.000000        1.0080           0
+     455 MYO  30   ILE  HD2  HD2    0.000000        1.0080           0
+     456 MYO  30   ILE  HD3  HD3    0.000000        1.0080           0
+     457 MYO  30   ILE  C    C      0.000000       12.0107           0
+     458 MYO  30   ILE  O    O      0.000000       15.9994           0
+     459 MYO  31   ARG  N    N      0.000000       14.0067           0
+     460 MYO  31   ARG  HN   HN     0.000000        1.0080           0
+     461 MYO  31   ARG  CA   CA     0.000000       12.0107           0
+     462 MYO  31   ARG  HA   HA     0.000000        1.0080           0
+     463 MYO  31   ARG  CB   CB     0.000000       12.0107           0
+     464 MYO  31   ARG  HB1  HB1    0.000000        1.0080           0
+     465 MYO  31   ARG  HB2  HB2    0.000000        1.0080           0
+     466 MYO  31   ARG  CG   CG     0.000000       12.0107           0
+     467 MYO  31   ARG  HG1  HG1    0.000000        1.0080           0
+     468 MYO  31   ARG  HG2  HG2    0.000000        1.0080           0
+     469 MYO  31   ARG  CD   CD     0.000000       12.0107           0
+     470 MYO  31   ARG  HD1  HD1    0.000000        1.0080           0
+     471 MYO  31   ARG  HD2  HD2    0.000000        1.0080           0
+     472 MYO  31   ARG  NE   NE     0.000000       14.0067           0
+     473 MYO  31   ARG  HE   HE     0.000000        1.0080           0
+     474 MYO  31   ARG  CZ   CZ     0.000000       12.0107           0
+     475 MYO  31   ARG  NH1  NH1    0.000000       14.0067           0
+     476 MYO  31   ARG  HH11 HH11   0.000000        1.0080           0
+     477 MYO  31   ARG  HH12 HH12   0.000000        1.0080           0
+     478 MYO  31   ARG  NH2  NH2    0.000000       14.0067           0
+     479 MYO  31   ARG  HH21 HH21   0.000000        1.0080           0
+     480 MYO  31   ARG  HH22 HH22   0.000000        1.0080           0
+     481 MYO  31   ARG  C    C      0.000000       12.0107           0
+     482 MYO  31   ARG  O    O      0.000000       15.9994           0
+     483 MYO  32   LEU  N    N      0.000000       14.0067           0
+     484 MYO  32   LEU  HN   HN     0.000000        1.0080           0
+     485 MYO  32   LEU  CA   CA     0.000000       12.0107           0
+     486 MYO  32   LEU  HA   HA     0.000000        1.0080           0
+     487 MYO  32   LEU  CB   CB     0.000000       12.0107           0
+     488 MYO  32   LEU  HB1  HB1    0.000000        1.0080           0
+     489 MYO  32   LEU  HB2  HB2    0.000000        1.0080           0
+     490 MYO  32   LEU  CG   CG     0.000000       12.0107           0
+     491 MYO  32   LEU  HG   HG     0.000000        1.0080           0
+     492 MYO  32   LEU  CD1  CD1    0.000000       12.0107           0
+     493 MYO  32   LEU  HD11 HD11   0.000000        1.0080           0
+     494 MYO  32   LEU  HD12 HD12   0.000000        1.0080           0
+     495 MYO  32   LEU  HD13 HD13   0.000000        1.0080           0
+     496 MYO  32   LEU  CD2  CD2    0.000000       12.0107           0
+     497 MYO  32   LEU  HD21 HD21   0.000000        1.0080           0
+     498 MYO  32   LEU  HD22 HD22   0.000000        1.0080           0
+     499 MYO  32   LEU  HD23 HD23   0.000000        1.0080           0
+     500 MYO  32   LEU  C    C      0.000000       12.0107           0
+     501 MYO  32   LEU  O    O      0.000000       15.9994           0
+     502 MYO  33   PHE  N    N      0.000000       14.0067           0
+     503 MYO  33   PHE  HN   HN     0.000000        1.0080           0
+     504 MYO  33   PHE  CA   CA     0.000000       12.0107           0
+     505 MYO  33   PHE  HA   HA     0.000000        1.0080           0
+     506 MYO  33   PHE  CB   CB     0.000000       12.0107           0
+     507 MYO  33   PHE  HB1  HB1    0.000000        1.0080           0
+     508 MYO  33   PHE  HB2  HB2    0.000000        1.0080           0
+     509 MYO  33   PHE  CG   CG     0.000000       12.0107           0
+     510 MYO  33   PHE  CD1  CD1    0.000000       12.0107           0
+     511 MYO  33   PHE  HD1  HD1    0.000000        1.0080           0
+     512 MYO  33   PHE  CE1  CE1    0.000000       12.0107           0
+     513 MYO  33   PHE  HE1  HE1    0.000000        1.0080           0
+     514 MYO  33   PHE  CZ   CZ     0.000000       12.0107           0
+     515 MYO  33   PHE  HZ   HZ     0.000000        1.0080           0
+     516 MYO  33   PHE  CD2  CD2    0.000000       12.0107           0
+     517 MYO  33   PHE  HD2  HD2    0.000000        1.0080           0
+     518 MYO  33   PHE  CE2  CE2    0.000000       12.0107           0
+     519 MYO  33   PHE  HE2  HE2    0.000000        1.0080           0
+     520 MYO  33   PHE  C    C      0.000000       12.0107           0
+     521 MYO  33   PHE  O    O      0.000000       15.9994           0
+     522 MYO  34   LYS  N    N      0.000000       14.0067           0
+     523 MYO  34   LYS  HN   HN     0.000000        1.0080           0
+     524 MYO  34   LYS  CA   CA     0.000000       12.0107           0
+     525 MYO  34   LYS  HA   HA     0.000000        1.0080           0
+     526 MYO  34   LYS  CB   CB     0.000000       12.0107           0
+     527 MYO  34   LYS  HB1  HB1    0.000000        1.0080           0
+     528 MYO  34   LYS  HB2  HB2    0.000000        1.0080           0
+     529 MYO  34   LYS  CG   CG     0.000000       12.0107           0
+     530 MYO  34   LYS  HG1  HG1    0.000000        1.0080           0
+     531 MYO  34   LYS  HG2  HG2    0.000000        1.0080           0
+     532 MYO  34   LYS  CD   CD     0.000000       12.0107           0
+     533 MYO  34   LYS  HD1  HD1    0.000000        1.0080           0
+     534 MYO  34   LYS  HD2  HD2    0.000000        1.0080           0
+     535 MYO  34   LYS  CE   CE     0.000000       12.0107           0
+     536 MYO  34   LYS  HE1  HE1    0.000000        1.0080           0
+     537 MYO  34   LYS  HE2  HE2    0.000000        1.0080           0
+     538 MYO  34   LYS  NZ   NZ     0.000000       14.0067           0
+     539 MYO  34   LYS  HZ1  HZ1    0.000000        1.0080           0
+     540 MYO  34   LYS  HZ2  HZ2    0.000000        1.0080           0
+     541 MYO  34   LYS  HZ3  HZ3    0.000000        1.0080           0
+     542 MYO  34   LYS  C    C      0.000000       12.0107           0
+     543 MYO  34   LYS  O    O      0.000000       15.9994           0
+     544 MYO  35   GLY  N    N      0.000000       14.0067           0
+     545 MYO  35   GLY  HN   HN     0.000000        1.0080           0
+     546 MYO  35   GLY  CA   CA     0.000000       12.0107           0
+     547 MYO  35   GLY  HA1  HA1    0.000000        1.0080           0
+     548 MYO  35   GLY  HA2  HA2    0.000000        1.0080           0
+     549 MYO  35   GLY  C    C      0.000000       12.0107           0
+     550 MYO  35   GLY  O    O      0.000000       15.9994           0
+     551 MYO  36   HSE  N    N      0.000000       14.0067           0
+     552 MYO  36   HSE  HN   HN     0.000000        1.0080           0
+     553 MYO  36   HSE  CA   CA     0.000000       12.0107           0
+     554 MYO  36   HSE  HA   HA     0.000000        1.0080           0
+     555 MYO  36   HSE  CB   CB     0.000000       12.0107           0
+     556 MYO  36   HSE  HB1  HB1    0.000000        1.0080           0
+     557 MYO  36   HSE  HB2  HB2    0.000000        1.0080           0
+     558 MYO  36   HSE  ND1  ND1    0.000000       14.0067           0
+     559 MYO  36   HSE  CG   CG     0.000000       12.0107           0
+     560 MYO  36   HSE  CE1  CE1    0.000000       12.0107           0
+     561 MYO  36   HSE  HE1  HE1    0.000000        1.0080           0
+     562 MYO  36   HSE  NE2  NE2    0.000000       14.0067           0
+     563 MYO  36   HSE  HE2  HE2    0.000000        1.0080           0
+     564 MYO  36   HSE  CD2  CD2    0.000000       12.0107           0
+     565 MYO  36   HSE  HD2  HD2    0.000000        1.0080           0
+     566 MYO  36   HSE  C    C      0.000000       12.0107           0
+     567 MYO  36   HSE  O    O      0.000000       15.9994           0
+     568 MYO  37   PRO  N    N      0.000000       14.0067           0
+     569 MYO  37   PRO  CD   CD     0.000000       12.0107           0
+     570 MYO  37   PRO  HD1  HD1    0.000000        1.0080           0
+     571 MYO  37   PRO  HD2  HD2    0.000000        1.0080           0
+     572 MYO  37   PRO  CA   CA     0.000000       12.0107           0
+     573 MYO  37   PRO  HA   HA     0.000000        1.0080           0
+     574 MYO  37   PRO  CB   CB     0.000000       12.0107           0
+     575 MYO  37   PRO  HB1  HB1    0.000000        1.0080           0
+     576 MYO  37   PRO  HB2  HB2    0.000000        1.0080           0
+     577 MYO  37   PRO  CG   CG     0.000000       12.0107           0
+     578 MYO  37   PRO  HG1  HG1    0.000000        1.0080           0
+     579 MYO  37   PRO  HG2  HG2    0.000000        1.0080           0
+     580 MYO  37   PRO  C    C      0.000000       12.0107           0
+     581 MYO  37   PRO  O    O      0.000000       15.9994           0
+     582 MYO  38   GLU  N    N      0.000000       14.0067           0
+     583 MYO  38   GLU  HN   HN     0.000000        1.0080           0
+     584 MYO  38   GLU  CA   CA     0.000000       12.0107           0
+     585 MYO  38   GLU  HA   HA     0.000000        1.0080           0
+     586 MYO  38   GLU  CB   CB     0.000000       12.0107           0
+     587 MYO  38   GLU  HB1  HB1    0.000000        1.0080           0
+     588 MYO  38   GLU  HB2  HB2    0.000000        1.0080           0
+     589 MYO  38   GLU  CG   CG     0.000000       12.0107           0
+     590 MYO  38   GLU  HG1  HG1    0.000000        1.0080           0
+     591 MYO  38   GLU  HG2  HG2    0.000000        1.0080           0
+     592 MYO  38   GLU  CD   CD     0.000000       12.0107           0
+     593 MYO  38   GLU  OE1  OE1    0.000000       15.9994           0
+     594 MYO  38   GLU  OE2  OE2    0.000000       15.9994           0
+     595 MYO  38   GLU  C    C      0.000000       12.0107           0
+     596 MYO  38   GLU  O    O      0.000000       15.9994           0
+     597 MYO  39   THR  N    N      0.000000       14.0067           0
+     598 MYO  39   THR  HN   HN     0.000000        1.0080           0
+     599 MYO  39   THR  CA   CA     0.000000       12.0107           0
+     600 MYO  39   THR  HA   HA     0.000000        1.0080           0
+     601 MYO  39   THR  CB   CB     0.000000       12.0107           0
+     602 MYO  39   THR  HB   HB     0.000000        1.0080           0
+     603 MYO  39   THR  OG1  OG1    0.000000       15.9994           0
+     604 MYO  39   THR  HG1  HG1    0.000000        1.0080           0
+     605 MYO  39   THR  CG2  CG2    0.000000       12.0107           0
+     606 MYO  39   THR  HG21 HG21   0.000000        1.0080           0
+     607 MYO  39   THR  HG22 HG22   0.000000        1.0080           0
+     608 MYO  39   THR  HG23 HG23   0.000000        1.0080           0
+     609 MYO  39   THR  C    C      0.000000       12.0107           0
+     610 MYO  39   THR  O    O      0.000000       15.9994           0
+     611 MYO  40   LEU  N    N      0.000000       14.0067           0
+     612 MYO  40   LEU  HN   HN     0.000000        1.0080           0
+     613 MYO  40   LEU  CA   CA     0.000000       12.0107           0
+     614 MYO  40   LEU  HA   HA     0.000000        1.0080           0
+     615 MYO  40   LEU  CB   CB     0.000000       12.0107           0
+     616 MYO  40   LEU  HB1  HB1    0.000000        1.0080           0
+     617 MYO  40   LEU  HB2  HB2    0.000000        1.0080           0
+     618 MYO  40   LEU  CG   CG     0.000000       12.0107           0
+     619 MYO  40   LEU  HG   HG     0.000000        1.0080           0
+     620 MYO  40   LEU  CD1  CD1    0.000000       12.0107           0
+     621 MYO  40   LEU  HD11 HD11   0.000000        1.0080           0
+     622 MYO  40   LEU  HD12 HD12   0.000000        1.0080           0
+     623 MYO  40   LEU  HD13 HD13   0.000000        1.0080           0
+     624 MYO  40   LEU  CD2  CD2    0.000000       12.0107           0
+     625 MYO  40   LEU  HD21 HD21   0.000000        1.0080           0
+     626 MYO  40   LEU  HD22 HD22   0.000000        1.0080           0
+     627 MYO  40   LEU  HD23 HD23   0.000000        1.0080           0
+     628 MYO  40   LEU  C    C      0.000000       12.0107           0
+     629 MYO  40   LEU  O    O      0.000000       15.9994           0
+     630 MYO  41   GLU  N    N      0.000000       14.0067           0
+     631 MYO  41   GLU  HN   HN     0.000000        1.0080           0
+     632 MYO  41   GLU  CA   CA     0.000000       12.0107           0
+     633 MYO  41   GLU  HA   HA     0.000000        1.0080           0
+     634 MYO  41   GLU  CB   CB     0.000000       12.0107           0
+     635 MYO  41   GLU  HB1  HB1    0.000000        1.0080           0
+     636 MYO  41   GLU  HB2  HB2    0.000000        1.0080           0
+     637 MYO  41   GLU  CG   CG     0.000000       12.0107           0
+     638 MYO  41   GLU  HG1  HG1    0.000000        1.0080           0
+     639 MYO  41   GLU  HG2  HG2    0.000000        1.0080           0
+     640 MYO  41   GLU  CD   CD     0.000000       12.0107           0
+     641 MYO  41   GLU  OE1  OE1    0.000000       15.9994           0
+     642 MYO  41   GLU  OE2  OE2    0.000000       15.9994           0
+     643 MYO  41   GLU  C    C      0.000000       12.0107           0
+     644 MYO  41   GLU  O    O      0.000000       15.9994           0
+     645 MYO  42   LYS  N    N      0.000000       14.0067           0
+     646 MYO  42   LYS  HN   HN     0.000000        1.0080           0
+     647 MYO  42   LYS  CA   CA     0.000000       12.0107           0
+     648 MYO  42   LYS  HA   HA     0.000000        1.0080           0
+     649 MYO  42   LYS  CB   CB     0.000000       12.0107           0
+     650 MYO  42   LYS  HB1  HB1    0.000000        1.0080           0
+     651 MYO  42   LYS  HB2  HB2    0.000000        1.0080           0
+     652 MYO  42   LYS  CG   CG     0.000000       12.0107           0
+     653 MYO  42   LYS  HG1  HG1    0.000000        1.0080           0
+     654 MYO  42   LYS  HG2  HG2    0.000000        1.0080           0
+     655 MYO  42   LYS  CD   CD     0.000000       12.0107           0
+     656 MYO  42   LYS  HD1  HD1    0.000000        1.0080           0
+     657 MYO  42   LYS  HD2  HD2    0.000000        1.0080           0
+     658 MYO  42   LYS  CE   CE     0.000000       12.0107           0
+     659 MYO  42   LYS  HE1  HE1    0.000000        1.0080           0
+     660 MYO  42   LYS  HE2  HE2    0.000000        1.0080           0
+     661 MYO  42   LYS  NZ   NZ     0.000000       14.0067           0
+     662 MYO  42   LYS  HZ1  HZ1    0.000000        1.0080           0
+     663 MYO  42   LYS  HZ2  HZ2    0.000000        1.0080           0
+     664 MYO  42   LYS  HZ3  HZ3    0.000000        1.0080           0
+     665 MYO  42   LYS  C    C      0.000000       12.0107           0
+     666 MYO  42   LYS  O    O      0.000000       15.9994           0
+     667 MYO  43   PHE  N    N      0.000000       14.0067           0
+     668 MYO  43   PHE  HN   HN     0.000000        1.0080           0
+     669 MYO  43   PHE  CA   CA     0.000000       12.0107           0
+     670 MYO  43   PHE  HA   HA     0.000000        1.0080           0
+     671 MYO  43   PHE  CB   CB     0.000000       12.0107           0
+     672 MYO  43   PHE  HB1  HB1    0.000000        1.0080           0
+     673 MYO  43   PHE  HB2  HB2    0.000000        1.0080           0
+     674 MYO  43   PHE  CG   CG     0.000000       12.0107           0
+     675 MYO  43   PHE  CD1  CD1    0.000000       12.0107           0
+     676 MYO  43   PHE  HD1  HD1    0.000000        1.0080           0
+     677 MYO  43   PHE  CE1  CE1    0.000000       12.0107           0
+     678 MYO  43   PHE  HE1  HE1    0.000000        1.0080           0
+     679 MYO  43   PHE  CZ   CZ     0.000000       12.0107           0
+     680 MYO  43   PHE  HZ   HZ     0.000000        1.0080           0
+     681 MYO  43   PHE  CD2  CD2    0.000000       12.0107           0
+     682 MYO  43   PHE  HD2  HD2    0.000000        1.0080           0
+     683 MYO  43   PHE  CE2  CE2    0.000000       12.0107           0
+     684 MYO  43   PHE  HE2  HE2    0.000000        1.0080           0
+     685 MYO  43   PHE  C    C      0.000000       12.0107           0
+     686 MYO  43   PHE  O    O      0.000000       15.9994           0
+     687 MYO  44   ASP  N    N      0.000000       14.0067           0
+     688 MYO  44   ASP  HN   HN     0.000000        1.0080           0
+     689 MYO  44   ASP  CA   CA     0.000000       12.0107           0
+     690 MYO  44   ASP  HA   HA     0.000000        1.0080           0
+     691 MYO  44   ASP  CB   CB     0.000000       12.0107           0
+     692 MYO  44   ASP  HB1  HB1    0.000000        1.0080           0
+     693 MYO  44   ASP  HB2  HB2    0.000000        1.0080           0
+     694 MYO  44   ASP  CG   CG     0.000000       12.0107           0
+     695 MYO  44   ASP  OD1  OD1    0.000000       15.9994           0
+     696 MYO  44   ASP  OD2  OD2    0.000000       15.9994           0
+     697 MYO  44   ASP  C    C      0.000000       12.0107           0
+     698 MYO  44   ASP  O    O      0.000000       15.9994           0
+     699 MYO  45   LYS  N    N      0.000000       14.0067           0
+     700 MYO  45   LYS  HN   HN     0.000000        1.0080           0
+     701 MYO  45   LYS  CA   CA     0.000000       12.0107           0
+     702 MYO  45   LYS  HA   HA     0.000000        1.0080           0
+     703 MYO  45   LYS  CB   CB     0.000000       12.0107           0
+     704 MYO  45   LYS  HB1  HB1    0.000000        1.0080           0
+     705 MYO  45   LYS  HB2  HB2    0.000000        1.0080           0
+     706 MYO  45   LYS  CG   CG     0.000000       12.0107           0
+     707 MYO  45   LYS  HG1  HG1    0.000000        1.0080           0
+     708 MYO  45   LYS  HG2  HG2    0.000000        1.0080           0
+     709 MYO  45   LYS  CD   CD     0.000000       12.0107           0
+     710 MYO  45   LYS  HD1  HD1    0.000000        1.0080           0
+     711 MYO  45   LYS  HD2  HD2    0.000000        1.0080           0
+     712 MYO  45   LYS  CE   CE     0.000000       12.0110           0
+     713 MYO  45   LYS  HE1  HE1    0.000000        1.0080           0
+     714 MYO  45   LYS  HE2  HE2    0.000000        1.0080           0
+     715 MYO  45   LYS  NZ   NZ     0.000000       14.0070           0
+     716 MYO  45   LYS  HZ1  HZ1    0.000000        1.0080           0
+     717 MYO  45   LYS  HZ2  HZ2    0.000000        1.0080           0
+     718 MYO  45   LYS  HZ3  HZ3    0.000000        1.0080           0
+     719 MYO  45   LYS  C    C      0.000000       12.0107           0
+     720 MYO  45   LYS  O    O      0.000000       15.9994           0
+     721 MYO  46   PHE  N    N      0.000000       14.0067           0
+     722 MYO  46   PHE  HN   HN     0.000000        1.0080           0
+     723 MYO  46   PHE  CA   CA     0.000000       12.0107           0
+     724 MYO  46   PHE  HA   HA     0.000000        1.0080           0
+     725 MYO  46   PHE  CB   CB     0.000000       12.0107           0
+     726 MYO  46   PHE  HB1  HB1    0.000000        1.0080           0
+     727 MYO  46   PHE  HB2  HB2    0.000000        1.0080           0
+     728 MYO  46   PHE  CG   CG     0.000000       12.0107           0
+     729 MYO  46   PHE  CD1  CD1    0.000000       12.0107           0
+     730 MYO  46   PHE  HD1  HD1    0.000000        1.0080           0
+     731 MYO  46   PHE  CE1  CE1    0.000000       12.0107           0
+     732 MYO  46   PHE  HE1  HE1    0.000000        1.0080           0
+     733 MYO  46   PHE  CZ   CZ     0.000000       12.0107           0
+     734 MYO  46   PHE  HZ   HZ     0.000000        1.0080           0
+     735 MYO  46   PHE  CD2  CD2    0.000000       12.0107           0
+     736 MYO  46   PHE  HD2  HD2    0.000000        1.0080           0
+     737 MYO  46   PHE  CE2  CE2    0.000000       12.0107           0
+     738 MYO  46   PHE  HE2  HE2    0.000000        1.0080           0
+     739 MYO  46   PHE  C    C      0.000000       12.0107           0
+     740 MYO  46   PHE  O    O      0.000000       15.9994           0
+     741 MYO  47   LYS  N    N      0.000000       14.0067           0
+     742 MYO  47   LYS  HN   HN     0.000000        1.0080           0
+     743 MYO  47   LYS  CA   CA     0.000000       12.0107           0
+     744 MYO  47   LYS  HA   HA     0.000000        1.0080           0
+     745 MYO  47   LYS  CB   CB     0.000000       12.0107           0
+     746 MYO  47   LYS  HB1  HB1    0.000000        1.0080           0
+     747 MYO  47   LYS  HB2  HB2    0.000000        1.0080           0
+     748 MYO  47   LYS  CG   CG     0.000000       12.0110           0
+     749 MYO  47   LYS  HG1  HG1    0.000000        1.0080           0
+     750 MYO  47   LYS  HG2  HG2    0.000000        1.0080           0
+     751 MYO  47   LYS  CD   CD     0.000000       12.0110           0
+     752 MYO  47   LYS  HD1  HD1    0.000000        1.0080           0
+     753 MYO  47   LYS  HD2  HD2    0.000000        1.0080           0
+     754 MYO  47   LYS  CE   CE     0.000000       12.0110           0
+     755 MYO  47   LYS  HE1  HE1    0.000000        1.0080           0
+     756 MYO  47   LYS  HE2  HE2    0.000000        1.0080           0
+     757 MYO  47   LYS  NZ   NZ     0.000000       14.0070           0
+     758 MYO  47   LYS  HZ1  HZ1    0.000000        1.0080           0
+     759 MYO  47   LYS  HZ2  HZ2    0.000000        1.0080           0
+     760 MYO  47   LYS  HZ3  HZ3    0.000000        1.0080           0
+     761 MYO  47   LYS  C    C      0.000000       12.0107           0
+     762 MYO  47   LYS  O    O      0.000000       15.9994           0
+     763 MYO  48   HSE  N    N      0.000000       14.0067           0
+     764 MYO  48   HSE  HN   HN     0.000000        1.0080           0
+     765 MYO  48   HSE  CA   CA     0.000000       12.0107           0
+     766 MYO  48   HSE  HA   HA     0.000000        1.0080           0
+     767 MYO  48   HSE  CB   CB     0.000000       12.0107           0
+     768 MYO  48   HSE  HB1  HB1    0.000000        1.0080           0
+     769 MYO  48   HSE  HB2  HB2    0.000000        1.0080           0
+     770 MYO  48   HSE  ND1  ND1    0.000000       14.0067           0
+     771 MYO  48   HSE  CG   CG     0.000000       12.0107           0
+     772 MYO  48   HSE  CE1  CE1    0.000000       12.0107           0
+     773 MYO  48   HSE  HE1  HE1    0.000000        1.0080           0
+     774 MYO  48   HSE  NE2  NE2    0.000000       14.0067           0
+     775 MYO  48   HSE  HE2  HE2    0.000000        1.0080           0
+     776 MYO  48   HSE  CD2  CD2    0.000000       12.0107           0
+     777 MYO  48   HSE  HD2  HD2    0.000000        1.0080           0
+     778 MYO  48   HSE  C    C      0.000000       12.0107           0
+     779 MYO  48   HSE  O    O      0.000000       15.9994           0
+     780 MYO  49   LEU  N    N      0.000000       14.0067           0
+     781 MYO  49   LEU  HN   HN     0.000000        1.0080           0
+     782 MYO  49   LEU  CA   CA     0.000000       12.0107           0
+     783 MYO  49   LEU  HA   HA     0.000000        1.0080           0
+     784 MYO  49   LEU  CB   CB     0.000000       12.0107           0
+     785 MYO  49   LEU  HB1  HB1    0.000000        1.0080           0
+     786 MYO  49   LEU  HB2  HB2    0.000000        1.0080           0
+     787 MYO  49   LEU  CG   CG     0.000000       12.0107           0
+     788 MYO  49   LEU  HG   HG     0.000000        1.0080           0
+     789 MYO  49   LEU  CD1  CD1    0.000000       12.0107           0
+     790 MYO  49   LEU  HD11 HD11   0.000000        1.0080           0
+     791 MYO  49   LEU  HD12 HD12   0.000000        1.0080           0
+     792 MYO  49   LEU  HD13 HD13   0.000000        1.0080           0
+     793 MYO  49   LEU  CD2  CD2    0.000000       12.0107           0
+     794 MYO  49   LEU  HD21 HD21   0.000000        1.0080           0
+     795 MYO  49   LEU  HD22 HD22   0.000000        1.0080           0
+     796 MYO  49   LEU  HD23 HD23   0.000000        1.0080           0
+     797 MYO  49   LEU  C    C      0.000000       12.0107           0
+     798 MYO  49   LEU  O    O      0.000000       15.9994           0
+     799 MYO  50   LYS  N    N      0.000000       14.0067           0
+     800 MYO  50   LYS  HN   HN     0.000000        1.0080           0
+     801 MYO  50   LYS  CA   CA     0.000000       12.0107           0
+     802 MYO  50   LYS  HA   HA     0.000000        1.0080           0
+     803 MYO  50   LYS  CB   CB     0.000000       12.0107           0
+     804 MYO  50   LYS  HB1  HB1    0.000000        1.0080           0
+     805 MYO  50   LYS  HB2  HB2    0.000000        1.0080           0
+     806 MYO  50   LYS  CG   CG     0.000000       12.0107           0
+     807 MYO  50   LYS  HG1  HG1    0.000000        1.0080           0
+     808 MYO  50   LYS  HG2  HG2    0.000000        1.0080           0
+     809 MYO  50   LYS  CD   CD     0.000000       12.0107           0
+     810 MYO  50   LYS  HD1  HD1    0.000000        1.0080           0
+     811 MYO  50   LYS  HD2  HD2    0.000000        1.0080           0
+     812 MYO  50   LYS  CE   CE     0.000000       12.0107           0
+     813 MYO  50   LYS  HE1  HE1    0.000000        1.0080           0
+     814 MYO  50   LYS  HE2  HE2    0.000000        1.0080           0
+     815 MYO  50   LYS  NZ   NZ     0.000000       14.0067           0
+     816 MYO  50   LYS  HZ1  HZ1    0.000000        1.0080           0
+     817 MYO  50   LYS  HZ2  HZ2    0.000000        1.0080           0
+     818 MYO  50   LYS  HZ3  HZ3    0.000000        1.0080           0
+     819 MYO  50   LYS  C    C      0.000000       12.0107           0
+     820 MYO  50   LYS  O    O      0.000000       15.9994           0
+     821 MYO  51   SER  N    N      0.000000       14.0067           0
+     822 MYO  51   SER  HN   HN     0.000000        1.0080           0
+     823 MYO  51   SER  CA   CA     0.000000       12.0107           0
+     824 MYO  51   SER  HA   HA     0.000000        1.0080           0
+     825 MYO  51   SER  CB   CB     0.000000       12.0107           0
+     826 MYO  51   SER  HB1  HB1    0.000000        1.0080           0
+     827 MYO  51   SER  HB2  HB2    0.000000        1.0080           0
+     828 MYO  51   SER  OG   OG     0.000000       15.9994           0
+     829 MYO  51   SER  HG1  HG1    0.000000        1.0080           0
+     830 MYO  51   SER  C    C      0.000000       12.0107           0
+     831 MYO  51   SER  O    O      0.000000       15.9994           0
+     832 MYO  52   GLU  N    N      0.000000       14.0067           0
+     833 MYO  52   GLU  HN   HN     0.000000        1.0080           0
+     834 MYO  52   GLU  CA   CA     0.000000       12.0107           0
+     835 MYO  52   GLU  HA   HA     0.000000        1.0080           0
+     836 MYO  52   GLU  CB   CB     0.000000       12.0107           0
+     837 MYO  52   GLU  HB1  HB1    0.000000        1.0080           0
+     838 MYO  52   GLU  HB2  HB2    0.000000        1.0080           0
+     839 MYO  52   GLU  CG   CG     0.000000       12.0107           0
+     840 MYO  52   GLU  HG1  HG1    0.000000        1.0080           0
+     841 MYO  52   GLU  HG2  HG2    0.000000        1.0080           0
+     842 MYO  52   GLU  CD   CD     0.000000       12.0107           0
+     843 MYO  52   GLU  OE1  OE1    0.000000       15.9994           0
+     844 MYO  52   GLU  OE2  OE2    0.000000       15.9994           0
+     845 MYO  52   GLU  C    C      0.000000       12.0107           0
+     846 MYO  52   GLU  O    O      0.000000       15.9994           0
+     847 MYO  53   ASP  N    N      0.000000       14.0067           0
+     848 MYO  53   ASP  HN   HN     0.000000        1.0080           0
+     849 MYO  53   ASP  CA   CA     0.000000       12.0107           0
+     850 MYO  53   ASP  HA   HA     0.000000        1.0080           0
+     851 MYO  53   ASP  CB   CB     0.000000       12.0107           0
+     852 MYO  53   ASP  HB1  HB1    0.000000        1.0080           0
+     853 MYO  53   ASP  HB2  HB2    0.000000        1.0080           0
+     854 MYO  53   ASP  CG   CG     0.000000       12.0107           0
+     855 MYO  53   ASP  OD1  OD1    0.000000       15.9994           0
+     856 MYO  53   ASP  OD2  OD2    0.000000       15.9994           0
+     857 MYO  53   ASP  C    C      0.000000       12.0107           0
+     858 MYO  53   ASP  O    O      0.000000       15.9994           0
+     859 MYO  54   GLU  N    N      0.000000       14.0067           0
+     860 MYO  54   GLU  HN   HN     0.000000        1.0080           0
+     861 MYO  54   GLU  CA   CA     0.000000       12.0107           0
+     862 MYO  54   GLU  HA   HA     0.000000        1.0080           0
+     863 MYO  54   GLU  CB   CB     0.000000       12.0107           0
+     864 MYO  54   GLU  HB1  HB1    0.000000        1.0080           0
+     865 MYO  54   GLU  HB2  HB2    0.000000        1.0080           0
+     866 MYO  54   GLU  CG   CG     0.000000       12.0107           0
+     867 MYO  54   GLU  HG1  HG1    0.000000        1.0080           0
+     868 MYO  54   GLU  HG2  HG2    0.000000        1.0080           0
+     869 MYO  54   GLU  CD   CD     0.000000       12.0107           0
+     870 MYO  54   GLU  OE1  OE1    0.000000       15.9994           0
+     871 MYO  54   GLU  OE2  OE2    0.000000       15.9994           0
+     872 MYO  54   GLU  C    C      0.000000       12.0107           0
+     873 MYO  54   GLU  O    O      0.000000       15.9994           0
+     874 MYO  55   MET  N    N      0.000000       14.0067           0
+     875 MYO  55   MET  HN   HN     0.000000        1.0080           0
+     876 MYO  55   MET  CA   CA     0.000000       12.0107           0
+     877 MYO  55   MET  HA   HA     0.000000        1.0080           0
+     878 MYO  55   MET  CB   CB     0.000000       12.0107           0
+     879 MYO  55   MET  HB1  HB1    0.000000        1.0080           0
+     880 MYO  55   MET  HB2  HB2    0.000000        1.0080           0
+     881 MYO  55   MET  CG   CG     0.000000       12.0107           0
+     882 MYO  55   MET  HG1  HG1    0.000000        1.0080           0
+     883 MYO  55   MET  HG2  HG2    0.000000        1.0080           0
+     884 MYO  55   MET  SD   SD     0.000000       32.0650           0
+     885 MYO  55   MET  CE   CE     0.000000       12.0107           0
+     886 MYO  55   MET  HE1  HE1    0.000000        1.0080           0
+     887 MYO  55   MET  HE2  HE2    0.000000        1.0080           0
+     888 MYO  55   MET  HE3  HE3    0.000000        1.0080           0
+     889 MYO  55   MET  C    C      0.000000       12.0107           0
+     890 MYO  55   MET  O    O      0.000000       15.9994           0
+     891 MYO  56   LYS  N    N      0.000000       14.0067           0
+     892 MYO  56   LYS  HN   HN     0.000000        1.0080           0
+     893 MYO  56   LYS  CA   CA     0.000000       12.0107           0
+     894 MYO  56   LYS  HA   HA     0.000000        1.0080           0
+     895 MYO  56   LYS  CB   CB     0.000000       12.0107           0
+     896 MYO  56   LYS  HB1  HB1    0.000000        1.0080           0
+     897 MYO  56   LYS  HB2  HB2    0.000000        1.0080           0
+     898 MYO  56   LYS  CG   CG     0.000000       12.0110           0
+     899 MYO  56   LYS  HG1  HG1    0.000000        1.0080           0
+     900 MYO  56   LYS  HG2  HG2    0.000000        1.0080           0
+     901 MYO  56   LYS  CD   CD     0.000000       12.0110           0
+     902 MYO  56   LYS  HD1  HD1    0.000000        1.0080           0
+     903 MYO  56   LYS  HD2  HD2    0.000000        1.0080           0
+     904 MYO  56   LYS  CE   CE     0.000000       12.0110           0
+     905 MYO  56   LYS  HE1  HE1    0.000000        1.0080           0
+     906 MYO  56   LYS  HE2  HE2    0.000000        1.0080           0
+     907 MYO  56   LYS  NZ   NZ     0.000000       14.0070           0
+     908 MYO  56   LYS  HZ1  HZ1    0.000000        1.0080           0
+     909 MYO  56   LYS  HZ2  HZ2    0.000000        1.0080           0
+     910 MYO  56   LYS  HZ3  HZ3    0.000000        1.0080           0
+     911 MYO  56   LYS  C    C      0.000000       12.0107           0
+     912 MYO  56   LYS  O    O      0.000000       15.9994           0
+     913 MYO  57   ALA  N    N      0.000000       14.0067           0
+     914 MYO  57   ALA  HN   HN     0.000000        1.0080           0
+     915 MYO  57   ALA  CA   CA     0.000000       12.0107           0
+     916 MYO  57   ALA  HA   HA     0.000000        1.0080           0
+     917 MYO  57   ALA  CB   CB     0.000000       12.0107           0
+     918 MYO  57   ALA  HB1  HB1    0.000000        1.0080           0
+     919 MYO  57   ALA  HB2  HB2    0.000000        1.0080           0
+     920 MYO  57   ALA  HB3  HB3    0.000000        1.0080           0
+     921 MYO  57   ALA  C    C      0.000000       12.0107           0
+     922 MYO  57   ALA  O    O      0.000000       15.9994           0
+     923 MYO  58   SER  N    N      0.000000       14.0067           0
+     924 MYO  58   SER  HN   HN     0.000000        1.0080           0
+     925 MYO  58   SER  CA   CA     0.000000       12.0107           0
+     926 MYO  58   SER  HA   HA     0.000000        1.0080           0
+     927 MYO  58   SER  CB   CB     0.000000       12.0107           0
+     928 MYO  58   SER  HB1  HB1    0.000000        1.0080           0
+     929 MYO  58   SER  HB2  HB2    0.000000        1.0080           0
+     930 MYO  58   SER  OG   OG     0.000000       15.9994           0
+     931 MYO  58   SER  HG1  HG1    0.000000        1.0080           0
+     932 MYO  58   SER  C    C      0.000000       12.0107           0
+     933 MYO  58   SER  O    O      0.000000       15.9994           0
+     934 MYO  59   GLU  N    N      0.000000       14.0067           0
+     935 MYO  59   GLU  HN   HN     0.000000        1.0080           0
+     936 MYO  59   GLU  CA   CA     0.000000       12.0107           0
+     937 MYO  59   GLU  HA   HA     0.000000        1.0080           0
+     938 MYO  59   GLU  CB   CB     0.000000       12.0107           0
+     939 MYO  59   GLU  HB1  HB1    0.000000        1.0080           0
+     940 MYO  59   GLU  HB2  HB2    0.000000        1.0080           0
+     941 MYO  59   GLU  CG   CG     0.000000       12.0110           0
+     942 MYO  59   GLU  HG1  HG1    0.000000        1.0080           0
+     943 MYO  59   GLU  HG2  HG2    0.000000        1.0080           0
+     944 MYO  59   GLU  CD   CD     0.000000       12.0110           0
+     945 MYO  59   GLU  OE1  OE1    0.000000       15.9990           0
+     946 MYO  59   GLU  OE2  OE2    0.000000       15.9990           0
+     947 MYO  59   GLU  C    C      0.000000       12.0107           0
+     948 MYO  59   GLU  O    O      0.000000       15.9994           0
+     949 MYO  60   ASP  N    N      0.000000       14.0067           0
+     950 MYO  60   ASP  HN   HN     0.000000        1.0080           0
+     951 MYO  60   ASP  CA   CA     0.000000       12.0107           0
+     952 MYO  60   ASP  HA   HA     0.000000        1.0080           0
+     953 MYO  60   ASP  CB   CB     0.000000       12.0107           0
+     954 MYO  60   ASP  HB1  HB1    0.000000        1.0080           0
+     955 MYO  60   ASP  HB2  HB2    0.000000        1.0080           0
+     956 MYO  60   ASP  CG   CG     0.000000       12.0107           0
+     957 MYO  60   ASP  OD1  OD1    0.000000       15.9994           0
+     958 MYO  60   ASP  OD2  OD2    0.000000       15.9994           0
+     959 MYO  60   ASP  C    C      0.000000       12.0107           0
+     960 MYO  60   ASP  O    O      0.000000       15.9994           0
+     961 MYO  61   LEU  N    N      0.000000       14.0067           0
+     962 MYO  61   LEU  HN   HN     0.000000        1.0080           0
+     963 MYO  61   LEU  CA   CA     0.000000       12.0107           0
+     964 MYO  61   LEU  HA   HA     0.000000        1.0080           0
+     965 MYO  61   LEU  CB   CB     0.000000       12.0107           0
+     966 MYO  61   LEU  HB1  HB1    0.000000        1.0080           0
+     967 MYO  61   LEU  HB2  HB2    0.000000        1.0080           0
+     968 MYO  61   LEU  CG   CG     0.000000       12.0107           0
+     969 MYO  61   LEU  HG   HG     0.000000        1.0080           0
+     970 MYO  61   LEU  CD1  CD1    0.000000       12.0107           0
+     971 MYO  61   LEU  HD11 HD11   0.000000        1.0080           0
+     972 MYO  61   LEU  HD12 HD12   0.000000        1.0080           0
+     973 MYO  61   LEU  HD13 HD13   0.000000        1.0080           0
+     974 MYO  61   LEU  CD2  CD2    0.000000       12.0107           0
+     975 MYO  61   LEU  HD21 HD21   0.000000        1.0080           0
+     976 MYO  61   LEU  HD22 HD22   0.000000        1.0080           0
+     977 MYO  61   LEU  HD23 HD23   0.000000        1.0080           0
+     978 MYO  61   LEU  C    C      0.000000       12.0107           0
+     979 MYO  61   LEU  O    O      0.000000       15.9994           0
+     980 MYO  62   LYS  N    N      0.000000       14.0067           0
+     981 MYO  62   LYS  HN   HN     0.000000        1.0080           0
+     982 MYO  62   LYS  CA   CA     0.000000       12.0107           0
+     983 MYO  62   LYS  HA   HA     0.000000        1.0080           0
+     984 MYO  62   LYS  CB   CB     0.000000       12.0107           0
+     985 MYO  62   LYS  HB1  HB1    0.000000        1.0080           0
+     986 MYO  62   LYS  HB2  HB2    0.000000        1.0080           0
+     987 MYO  62   LYS  CG   CG     0.000000       12.0107           0
+     988 MYO  62   LYS  HG1  HG1    0.000000        1.0080           0
+     989 MYO  62   LYS  HG2  HG2    0.000000        1.0080           0
+     990 MYO  62   LYS  CD   CD     0.000000       12.0107           0
+     991 MYO  62   LYS  HD1  HD1    0.000000        1.0080           0
+     992 MYO  62   LYS  HD2  HD2    0.000000        1.0080           0
+     993 MYO  62   LYS  CE   CE     0.000000       12.0107           0
+     994 MYO  62   LYS  HE1  HE1    0.000000        1.0080           0
+     995 MYO  62   LYS  HE2  HE2    0.000000        1.0080           0
+     996 MYO  62   LYS  NZ   NZ     0.000000       14.0067           0
+     997 MYO  62   LYS  HZ1  HZ1    0.000000        1.0080           0
+     998 MYO  62   LYS  HZ2  HZ2    0.000000        1.0080           0
+     999 MYO  62   LYS  HZ3  HZ3    0.000000        1.0080           0
+    1000 MYO  62   LYS  C    C      0.000000       12.0107           0
+    1001 MYO  62   LYS  O    O      0.000000       15.9994           0
+    1002 MYO  63   HSP  N    N      0.000000       14.0067           0
+    1003 MYO  63   HSP  HN   HN     0.000000        1.0080           0
+    1004 MYO  63   HSP  CA   CA     0.000000       12.0107           0
+    1005 MYO  63   HSP  HA   HA     0.000000        1.0080           0
+    1006 MYO  63   HSP  CB   CB     0.000000       12.0107           0
+    1007 MYO  63   HSP  HB1  HB1    0.000000        1.0080           0
+    1008 MYO  63   HSP  HB2  HB2    0.000000        1.0080           0
+    1009 MYO  63   HSP  CD2  CD2    0.000000       12.0110           0
+    1010 MYO  63   HSP  HD2  HD2    0.000000        1.0080           0
+    1011 MYO  63   HSP  CG   CG     0.000000       12.0107           0
+    1012 MYO  63   HSP  NE2  NE2    0.000000       14.0070           0
+    1013 MYO  63   HSP  HE2  HE2    0.000000        1.0080           0
+    1014 MYO  63   HSP  ND1  ND1    0.000000       14.0070           0
+    1015 MYO  63   HSP  HD1  HD1    0.000000        1.0080           0
+    1016 MYO  63   HSP  CE1  CE1    0.000000       12.0110           0
+    1017 MYO  63   HSP  HE1  HE1    0.000000        1.0080           0
+    1018 MYO  63   HSP  C    C      0.000000       12.0107           0
+    1019 MYO  63   HSP  O    O      0.000000       15.9994           0
+    1020 MYO  64   HSE  N    N      0.000000       14.0067           0
+    1021 MYO  64   HSE  HN   HN     0.000000        1.0080           0
+    1022 MYO  64   HSE  CA   CA     0.000000       12.0107           0
+    1023 MYO  64   HSE  HA   HA     0.000000        1.0080           0
+    1024 MYO  64   HSE  CB   CB     0.000000       12.0107           0
+    1025 MYO  64   HSE  HB1  HB1    0.000000        1.0080           0
+    1026 MYO  64   HSE  HB2  HB2    0.000000        1.0080           0
+    1027 MYO  64   HSE  ND1  ND1    0.000000       14.0067           0
+    1028 MYO  64   HSE  CG   CG     0.000000       12.0107           0
+    1029 MYO  64   HSE  CE1  CE1    0.000000       12.0107           0
+    1030 MYO  64   HSE  HE1  HE1    0.000000        1.0080           0
+    1031 MYO  64   HSE  NE2  NE2    0.000000       14.0067           0
+    1032 MYO  64   HSE  HE2  HE2    0.000000        1.0080           0
+    1033 MYO  64   HSE  CD2  CD2    0.000000       12.0107           0
+    1034 MYO  64   HSE  HD2  HD2    0.000000        1.0080           0
+    1035 MYO  64   HSE  C    C      0.000000       12.0107           0
+    1036 MYO  64   HSE  O    O      0.000000       15.9994           0
+    1037 MYO  65   GLY  N    N      0.000000       14.0067           0
+    1038 MYO  65   GLY  HN   HN     0.000000        1.0080           0
+    1039 MYO  65   GLY  CA   CA     0.000000       12.0107           0
+    1040 MYO  65   GLY  HA1  HA1    0.000000        1.0080           0
+    1041 MYO  65   GLY  HA2  HA2    0.000000        1.0080           0
+    1042 MYO  65   GLY  C    C      0.000000       12.0107           0
+    1043 MYO  65   GLY  O    O      0.000000       15.9994           0
+    1044 MYO  66   ALA  N    N      0.000000       14.0067           0
+    1045 MYO  66   ALA  HN   HN     0.000000        1.0080           0
+    1046 MYO  66   ALA  CA   CA     0.000000       12.0107           0
+    1047 MYO  66   ALA  HA   HA     0.000000        1.0080           0
+    1048 MYO  66   ALA  CB   CB     0.000000       12.0107           0
+    1049 MYO  66   ALA  HB1  HB1    0.000000        1.0080           0
+    1050 MYO  66   ALA  HB2  HB2    0.000000        1.0080           0
+    1051 MYO  66   ALA  HB3  HB3    0.000000        1.0080           0
+    1052 MYO  66   ALA  C    C      0.000000       12.0107           0
+    1053 MYO  66   ALA  O    O      0.000000       15.9994           0
+    1054 MYO  67   THR  N    N      0.000000       14.0067           0
+    1055 MYO  67   THR  HN   HN     0.000000        1.0080           0
+    1056 MYO  67   THR  CA   CA     0.000000       12.0107           0
+    1057 MYO  67   THR  HA   HA     0.000000        1.0080           0
+    1058 MYO  67   THR  CB   CB     0.000000       12.0107           0
+    1059 MYO  67   THR  HB   HB     0.000000        1.0080           0
+    1060 MYO  67   THR  OG1  OG1    0.000000       15.9994           0
+    1061 MYO  67   THR  HG1  HG1    0.000000        1.0080           0
+    1062 MYO  67   THR  CG2  CG2    0.000000       12.0107           0
+    1063 MYO  67   THR  HG21 HG21   0.000000        1.0080           0
+    1064 MYO  67   THR  HG22 HG22   0.000000        1.0080           0
+    1065 MYO  67   THR  HG23 HG23   0.000000        1.0080           0
+    1066 MYO  67   THR  C    C      0.000000       12.0107           0
+    1067 MYO  67   THR  O    O      0.000000       15.9994           0
+    1068 MYO  68   VAL  N    N      0.000000       14.0067           0
+    1069 MYO  68   VAL  HN   HN     0.000000        1.0080           0
+    1070 MYO  68   VAL  CA   CA     0.000000       12.0107           0
+    1071 MYO  68   VAL  HA   HA     0.000000        1.0080           0
+    1072 MYO  68   VAL  CB   CB     0.000000       12.0107           0
+    1073 MYO  68   VAL  HB   HB     0.000000        1.0080           0
+    1074 MYO  68   VAL  CG1  CG1    0.000000       12.0107           0
+    1075 MYO  68   VAL  HG11 HG11   0.000000        1.0080           0
+    1076 MYO  68   VAL  HG12 HG12   0.000000        1.0080           0
+    1077 MYO  68   VAL  HG13 HG13   0.000000        1.0080           0
+    1078 MYO  68   VAL  CG2  CG2    0.000000       12.0107           0
+    1079 MYO  68   VAL  HG21 HG21   0.000000        1.0080           0
+    1080 MYO  68   VAL  HG22 HG22   0.000000        1.0080           0
+    1081 MYO  68   VAL  HG23 HG23   0.000000        1.0080           0
+    1082 MYO  68   VAL  C    C      0.000000       12.0107           0
+    1083 MYO  68   VAL  O    O      0.000000       15.9994           0
+    1084 MYO  69   LEU  N    N      0.000000       14.0067           0
+    1085 MYO  69   LEU  HN   HN     0.000000        1.0080           0
+    1086 MYO  69   LEU  CA   CA     0.000000       12.0107           0
+    1087 MYO  69   LEU  HA   HA     0.000000        1.0080           0
+    1088 MYO  69   LEU  CB   CB     0.000000       12.0107           0
+    1089 MYO  69   LEU  HB1  HB1    0.000000        1.0080           0
+    1090 MYO  69   LEU  HB2  HB2    0.000000        1.0080           0
+    1091 MYO  69   LEU  CG   CG     0.000000       12.0107           0
+    1092 MYO  69   LEU  HG   HG     0.000000        1.0080           0
+    1093 MYO  69   LEU  CD1  CD1    0.000000       12.0107           0
+    1094 MYO  69   LEU  HD11 HD11   0.000000        1.0080           0
+    1095 MYO  69   LEU  HD12 HD12   0.000000        1.0080           0
+    1096 MYO  69   LEU  HD13 HD13   0.000000        1.0080           0
+    1097 MYO  69   LEU  CD2  CD2    0.000000       12.0107           0
+    1098 MYO  69   LEU  HD21 HD21   0.000000        1.0080           0
+    1099 MYO  69   LEU  HD22 HD22   0.000000        1.0080           0
+    1100 MYO  69   LEU  HD23 HD23   0.000000        1.0080           0
+    1101 MYO  69   LEU  C    C      0.000000       12.0107           0
+    1102 MYO  69   LEU  O    O      0.000000       15.9994           0
+    1103 MYO  70   THR  N    N      0.000000       14.0067           0
+    1104 MYO  70   THR  HN   HN     0.000000        1.0080           0
+    1105 MYO  70   THR  CA   CA     0.000000       12.0107           0
+    1106 MYO  70   THR  HA   HA     0.000000        1.0080           0
+    1107 MYO  70   THR  CB   CB     0.000000       12.0107           0
+    1108 MYO  70   THR  HB   HB     0.000000        1.0080           0
+    1109 MYO  70   THR  OG1  OG1    0.000000       15.9994           0
+    1110 MYO  70   THR  HG1  HG1    0.000000        1.0080           0
+    1111 MYO  70   THR  CG2  CG2    0.000000       12.0107           0
+    1112 MYO  70   THR  HG21 HG21   0.000000        1.0080           0
+    1113 MYO  70   THR  HG22 HG22   0.000000        1.0080           0
+    1114 MYO  70   THR  HG23 HG23   0.000000        1.0080           0
+    1115 MYO  70   THR  C    C      0.000000       12.0107           0
+    1116 MYO  70   THR  O    O      0.000000       15.9994           0
+    1117 MYO  71   ALA  N    N      0.000000       14.0067           0
+    1118 MYO  71   ALA  HN   HN     0.000000        1.0080           0
+    1119 MYO  71   ALA  CA   CA     0.000000       12.0107           0
+    1120 MYO  71   ALA  HA   HA     0.000000        1.0080           0
+    1121 MYO  71   ALA  CB   CB     0.000000       12.0107           0
+    1122 MYO  71   ALA  HB1  HB1    0.000000        1.0080           0
+    1123 MYO  71   ALA  HB2  HB2    0.000000        1.0080           0
+    1124 MYO  71   ALA  HB3  HB3    0.000000        1.0080           0
+    1125 MYO  71   ALA  C    C      0.000000       12.0107           0
+    1126 MYO  71   ALA  O    O      0.000000       15.9994           0
+    1127 MYO  72   LEU  N    N      0.000000       14.0067           0
+    1128 MYO  72   LEU  HN   HN     0.000000        1.0080           0
+    1129 MYO  72   LEU  CA   CA     0.000000       12.0107           0
+    1130 MYO  72   LEU  HA   HA     0.000000        1.0080           0
+    1131 MYO  72   LEU  CB   CB     0.000000       12.0107           0
+    1132 MYO  72   LEU  HB1  HB1    0.000000        1.0080           0
+    1133 MYO  72   LEU  HB2  HB2    0.000000        1.0080           0
+    1134 MYO  72   LEU  CG   CG     0.000000       12.0107           0
+    1135 MYO  72   LEU  HG   HG     0.000000        1.0080           0
+    1136 MYO  72   LEU  CD1  CD1    0.000000       12.0107           0
+    1137 MYO  72   LEU  HD11 HD11   0.000000        1.0080           0
+    1138 MYO  72   LEU  HD12 HD12   0.000000        1.0080           0
+    1139 MYO  72   LEU  HD13 HD13   0.000000        1.0080           0
+    1140 MYO  72   LEU  CD2  CD2    0.000000       12.0107           0
+    1141 MYO  72   LEU  HD21 HD21   0.000000        1.0080           0
+    1142 MYO  72   LEU  HD22 HD22   0.000000        1.0080           0
+    1143 MYO  72   LEU  HD23 HD23   0.000000        1.0080           0
+    1144 MYO  72   LEU  C    C      0.000000       12.0107           0
+    1145 MYO  72   LEU  O    O      0.000000       15.9994           0
+    1146 MYO  73   GLY  N    N      0.000000       14.0067           0
+    1147 MYO  73   GLY  HN   HN     0.000000        1.0080           0
+    1148 MYO  73   GLY  CA   CA     0.000000       12.0107           0
+    1149 MYO  73   GLY  HA1  HA1    0.000000        1.0080           0
+    1150 MYO  73   GLY  HA2  HA2    0.000000        1.0080           0
+    1151 MYO  73   GLY  C    C      0.000000       12.0107           0
+    1152 MYO  73   GLY  O    O      0.000000       15.9994           0
+    1153 MYO  74   GLY  N    N      0.000000       14.0067           0
+    1154 MYO  74   GLY  HN   HN     0.000000        1.0080           0
+    1155 MYO  74   GLY  CA   CA     0.000000       12.0107           0
+    1156 MYO  74   GLY  HA1  HA1    0.000000        1.0080           0
+    1157 MYO  74   GLY  HA2  HA2    0.000000        1.0080           0
+    1158 MYO  74   GLY  C    C      0.000000       12.0107           0
+    1159 MYO  74   GLY  O    O      0.000000       15.9994           0
+    1160 MYO  75   ILE  N    N      0.000000       14.0067           0
+    1161 MYO  75   ILE  HN   HN     0.000000        1.0080           0
+    1162 MYO  75   ILE  CA   CA     0.000000       12.0107           0
+    1163 MYO  75   ILE  HA   HA     0.000000        1.0080           0
+    1164 MYO  75   ILE  CB   CB     0.000000       12.0107           0
+    1165 MYO  75   ILE  HB   HB     0.000000        1.0080           0
+    1166 MYO  75   ILE  CG2  CG2    0.000000       12.0107           0
+    1167 MYO  75   ILE  HG21 HG21   0.000000        1.0080           0
+    1168 MYO  75   ILE  HG22 HG22   0.000000        1.0080           0
+    1169 MYO  75   ILE  HG23 HG23   0.000000        1.0080           0
+    1170 MYO  75   ILE  CG1  CG1    0.000000       12.0107           0
+    1171 MYO  75   ILE  HG11 HG11   0.000000        1.0080           0
+    1172 MYO  75   ILE  HG12 HG12   0.000000        1.0080           0
+    1173 MYO  75   ILE  CD   CD     0.000000       12.0107           0
+    1174 MYO  75   ILE  HD1  HD1    0.000000        1.0080           0
+    1175 MYO  75   ILE  HD2  HD2    0.000000        1.0080           0
+    1176 MYO  75   ILE  HD3  HD3    0.000000        1.0080           0
+    1177 MYO  75   ILE  C    C      0.000000       12.0107           0
+    1178 MYO  75   ILE  O    O      0.000000       15.9994           0
+    1179 MYO  76   LEU  N    N      0.000000       14.0067           0
+    1180 MYO  76   LEU  HN   HN     0.000000        1.0080           0
+    1181 MYO  76   LEU  CA   CA     0.000000       12.0107           0
+    1182 MYO  76   LEU  HA   HA     0.000000        1.0080           0
+    1183 MYO  76   LEU  CB   CB     0.000000       12.0107           0
+    1184 MYO  76   LEU  HB1  HB1    0.000000        1.0080           0
+    1185 MYO  76   LEU  HB2  HB2    0.000000        1.0080           0
+    1186 MYO  76   LEU  CG   CG     0.000000       12.0107           0
+    1187 MYO  76   LEU  HG   HG     0.000000        1.0080           0
+    1188 MYO  76   LEU  CD1  CD1    0.000000       12.0107           0
+    1189 MYO  76   LEU  HD11 HD11   0.000000        1.0080           0
+    1190 MYO  76   LEU  HD12 HD12   0.000000        1.0080           0
+    1191 MYO  76   LEU  HD13 HD13   0.000000        1.0080           0
+    1192 MYO  76   LEU  CD2  CD2    0.000000       12.0107           0
+    1193 MYO  76   LEU  HD21 HD21   0.000000        1.0080           0
+    1194 MYO  76   LEU  HD22 HD22   0.000000        1.0080           0
+    1195 MYO  76   LEU  HD23 HD23   0.000000        1.0080           0
+    1196 MYO  76   LEU  C    C      0.000000       12.0107           0
+    1197 MYO  76   LEU  O    O      0.000000       15.9994           0
+    1198 MYO  77   LYS  N    N      0.000000       14.0067           0
+    1199 MYO  77   LYS  HN   HN     0.000000        1.0080           0
+    1200 MYO  77   LYS  CA   CA     0.000000       12.0107           0
+    1201 MYO  77   LYS  HA   HA     0.000000        1.0080           0
+    1202 MYO  77   LYS  CB   CB     0.000000       12.0107           0
+    1203 MYO  77   LYS  HB1  HB1    0.000000        1.0080           0
+    1204 MYO  77   LYS  HB2  HB2    0.000000        1.0080           0
+    1205 MYO  77   LYS  CG   CG     0.000000       12.0107           0
+    1206 MYO  77   LYS  HG1  HG1    0.000000        1.0080           0
+    1207 MYO  77   LYS  HG2  HG2    0.000000        1.0080           0
+    1208 MYO  77   LYS  CD   CD     0.000000       12.0107           0
+    1209 MYO  77   LYS  HD1  HD1    0.000000        1.0080           0
+    1210 MYO  77   LYS  HD2  HD2    0.000000        1.0080           0
+    1211 MYO  77   LYS  CE   CE     0.000000       12.0107           0
+    1212 MYO  77   LYS  HE1  HE1    0.000000        1.0080           0
+    1213 MYO  77   LYS  HE2  HE2    0.000000        1.0080           0
+    1214 MYO  77   LYS  NZ   NZ     0.000000       14.0067           0
+    1215 MYO  77   LYS  HZ1  HZ1    0.000000        1.0080           0
+    1216 MYO  77   LYS  HZ2  HZ2    0.000000        1.0080           0
+    1217 MYO  77   LYS  HZ3  HZ3    0.000000        1.0080           0
+    1218 MYO  77   LYS  C    C      0.000000       12.0107           0
+    1219 MYO  77   LYS  O    O      0.000000       15.9994           0
+    1220 MYO  78   LYS  N    N      0.000000       14.0067           0
+    1221 MYO  78   LYS  HN   HN     0.000000        1.0080           0
+    1222 MYO  78   LYS  CA   CA     0.000000       12.0107           0
+    1223 MYO  78   LYS  HA   HA     0.000000        1.0080           0
+    1224 MYO  78   LYS  CB   CB     0.000000       12.0107           0
+    1225 MYO  78   LYS  HB1  HB1    0.000000        1.0080           0
+    1226 MYO  78   LYS  HB2  HB2    0.000000        1.0080           0
+    1227 MYO  78   LYS  CG   CG     0.000000       12.0107           0
+    1228 MYO  78   LYS  HG1  HG1    0.000000        1.0080           0
+    1229 MYO  78   LYS  HG2  HG2    0.000000        1.0080           0
+    1230 MYO  78   LYS  CD   CD     0.000000       12.0107           0
+    1231 MYO  78   LYS  HD1  HD1    0.000000        1.0080           0
+    1232 MYO  78   LYS  HD2  HD2    0.000000        1.0080           0
+    1233 MYO  78   LYS  CE   CE     0.000000       12.0107           0
+    1234 MYO  78   LYS  HE1  HE1    0.000000        1.0080           0
+    1235 MYO  78   LYS  HE2  HE2    0.000000        1.0080           0
+    1236 MYO  78   LYS  NZ   NZ     0.000000       14.0067           0
+    1237 MYO  78   LYS  HZ1  HZ1    0.000000        1.0080           0
+    1238 MYO  78   LYS  HZ2  HZ2    0.000000        1.0080           0
+    1239 MYO  78   LYS  HZ3  HZ3    0.000000        1.0080           0
+    1240 MYO  78   LYS  C    C      0.000000       12.0107           0
+    1241 MYO  78   LYS  O    O      0.000000       15.9994           0
+    1242 MYO  79   LYS  N    N      0.000000       14.0067           0
+    1243 MYO  79   LYS  HN   HN     0.000000        1.0080           0
+    1244 MYO  79   LYS  CA   CA     0.000000       12.0107           0
+    1245 MYO  79   LYS  HA   HA     0.000000        1.0080           0
+    1246 MYO  79   LYS  CB   CB     0.000000       12.0107           0
+    1247 MYO  79   LYS  HB1  HB1    0.000000        1.0080           0
+    1248 MYO  79   LYS  HB2  HB2    0.000000        1.0080           0
+    1249 MYO  79   LYS  CG   CG     0.000000       12.0107           0
+    1250 MYO  79   LYS  HG1  HG1    0.000000        1.0080           0
+    1251 MYO  79   LYS  HG2  HG2    0.000000        1.0080           0
+    1252 MYO  79   LYS  CD   CD     0.000000       12.0107           0
+    1253 MYO  79   LYS  HD1  HD1    0.000000        1.0080           0
+    1254 MYO  79   LYS  HD2  HD2    0.000000        1.0080           0
+    1255 MYO  79   LYS  CE   CE     0.000000       12.0107           0
+    1256 MYO  79   LYS  HE1  HE1    0.000000        1.0080           0
+    1257 MYO  79   LYS  HE2  HE2    0.000000        1.0080           0
+    1258 MYO  79   LYS  NZ   NZ     0.000000       14.0067           0
+    1259 MYO  79   LYS  HZ1  HZ1    0.000000        1.0080           0
+    1260 MYO  79   LYS  HZ2  HZ2    0.000000        1.0080           0
+    1261 MYO  79   LYS  HZ3  HZ3    0.000000        1.0080           0
+    1262 MYO  79   LYS  C    C      0.000000       12.0107           0
+    1263 MYO  79   LYS  O    O      0.000000       15.9994           0
+    1264 MYO  80   GLY  N    N      0.000000       14.0067           0
+    1265 MYO  80   GLY  HN   HN     0.000000        1.0080           0
+    1266 MYO  80   GLY  CA   CA     0.000000       12.0107           0
+    1267 MYO  80   GLY  HA1  HA1    0.000000        1.0080           0
+    1268 MYO  80   GLY  HA2  HA2    0.000000        1.0080           0
+    1269 MYO  80   GLY  C    C      0.000000       12.0107           0
+    1270 MYO  80   GLY  O    O      0.000000       15.9994           0
+    1271 MYO  81   HSE  N    N      0.000000       14.0067           0
+    1272 MYO  81   HSE  HN   HN     0.000000        1.0080           0
+    1273 MYO  81   HSE  CA   CA     0.000000       12.0107           0
+    1274 MYO  81   HSE  HA   HA     0.000000        1.0080           0
+    1275 MYO  81   HSE  CB   CB     0.000000       12.0107           0
+    1276 MYO  81   HSE  HB1  HB1    0.000000        1.0080           0
+    1277 MYO  81   HSE  HB2  HB2    0.000000        1.0080           0
+    1278 MYO  81   HSE  ND1  ND1    0.000000       14.0067           0
+    1279 MYO  81   HSE  CG   CG     0.000000       12.0107           0
+    1280 MYO  81   HSE  CE1  CE1    0.000000       12.0107           0
+    1281 MYO  81   HSE  HE1  HE1    0.000000        1.0080           0
+    1282 MYO  81   HSE  NE2  NE2    0.000000       14.0067           0
+    1283 MYO  81   HSE  HE2  HE2    0.000000        1.0080           0
+    1284 MYO  81   HSE  CD2  CD2    0.000000       12.0107           0
+    1285 MYO  81   HSE  HD2  HD2    0.000000        1.0080           0
+    1286 MYO  81   HSE  C    C      0.000000       12.0107           0
+    1287 MYO  81   HSE  O    O      0.000000       15.9994           0
+    1288 MYO  82   HSE  N    N      0.000000       14.0067           0
+    1289 MYO  82   HSE  HN   HN     0.000000        1.0080           0
+    1290 MYO  82   HSE  CA   CA     0.000000       12.0107           0
+    1291 MYO  82   HSE  HA   HA     0.000000        1.0080           0
+    1292 MYO  82   HSE  CB   CB     0.000000       12.0107           0
+    1293 MYO  82   HSE  HB1  HB1    0.000000        1.0080           0
+    1294 MYO  82   HSE  HB2  HB2    0.000000        1.0080           0
+    1295 MYO  82   HSE  ND1  ND1    0.000000       14.0067           0
+    1296 MYO  82   HSE  CG   CG     0.000000       12.0107           0
+    1297 MYO  82   HSE  CE1  CE1    0.000000       12.0107           0
+    1298 MYO  82   HSE  HE1  HE1    0.000000        1.0080           0
+    1299 MYO  82   HSE  NE2  NE2    0.000000       14.0067           0
+    1300 MYO  82   HSE  HE2  HE2    0.000000        1.0080           0
+    1301 MYO  82   HSE  CD2  CD2    0.000000       12.0107           0
+    1302 MYO  82   HSE  HD2  HD2    0.000000        1.0080           0
+    1303 MYO  82   HSE  C    C      0.000000       12.0107           0
+    1304 MYO  82   HSE  O    O      0.000000       15.9994           0
+    1305 MYO  83   GLU  N    N      0.000000       14.0067           0
+    1306 MYO  83   GLU  HN   HN     0.000000        1.0080           0
+    1307 MYO  83   GLU  CA   CA     0.000000       12.0107           0
+    1308 MYO  83   GLU  HA   HA     0.000000        1.0080           0
+    1309 MYO  83   GLU  CB   CB     0.000000       12.0107           0
+    1310 MYO  83   GLU  HB1  HB1    0.000000        1.0080           0
+    1311 MYO  83   GLU  HB2  HB2    0.000000        1.0080           0
+    1312 MYO  83   GLU  CG   CG     0.000000       12.0107           0
+    1313 MYO  83   GLU  HG1  HG1    0.000000        1.0080           0
+    1314 MYO  83   GLU  HG2  HG2    0.000000        1.0080           0
+    1315 MYO  83   GLU  CD   CD     0.000000       12.0107           0
+    1316 MYO  83   GLU  OE1  OE1    0.000000       15.9994           0
+    1317 MYO  83   GLU  OE2  OE2    0.000000       15.9994           0
+    1318 MYO  83   GLU  C    C      0.000000       12.0107           0
+    1319 MYO  83   GLU  O    O      0.000000       15.9994           0
+    1320 MYO  84   ALA  N    N      0.000000       14.0067           0
+    1321 MYO  84   ALA  HN   HN     0.000000        1.0080           0
+    1322 MYO  84   ALA  CA   CA     0.000000       12.0107           0
+    1323 MYO  84   ALA  HA   HA     0.000000        1.0080           0
+    1324 MYO  84   ALA  CB   CB     0.000000       12.0107           0
+    1325 MYO  84   ALA  HB1  HB1    0.000000        1.0080           0
+    1326 MYO  84   ALA  HB2  HB2    0.000000        1.0080           0
+    1327 MYO  84   ALA  HB3  HB3    0.000000        1.0080           0
+    1328 MYO  84   ALA  C    C      0.000000       12.0107           0
+    1329 MYO  84   ALA  O    O      0.000000       15.9994           0
+    1330 MYO  85   GLU  N    N      0.000000       14.0067           0
+    1331 MYO  85   GLU  HN   HN     0.000000        1.0080           0
+    1332 MYO  85   GLU  CA   CA     0.000000       12.0107           0
+    1333 MYO  85   GLU  HA   HA     0.000000        1.0080           0
+    1334 MYO  85   GLU  CB   CB     0.000000       12.0107           0
+    1335 MYO  85   GLU  HB1  HB1    0.000000        1.0080           0
+    1336 MYO  85   GLU  HB2  HB2    0.000000        1.0080           0
+    1337 MYO  85   GLU  CG   CG     0.000000       12.0107           0
+    1338 MYO  85   GLU  HG1  HG1    0.000000        1.0080           0
+    1339 MYO  85   GLU  HG2  HG2    0.000000        1.0080           0
+    1340 MYO  85   GLU  CD   CD     0.000000       12.0107           0
+    1341 MYO  85   GLU  OE1  OE1    0.000000       15.9994           0
+    1342 MYO  85   GLU  OE2  OE2    0.000000       15.9994           0
+    1343 MYO  85   GLU  C    C      0.000000       12.0107           0
+    1344 MYO  85   GLU  O    O      0.000000       15.9994           0
+    1345 MYO  86   ILE  N    N      0.000000       14.0067           0
+    1346 MYO  86   ILE  HN   HN     0.000000        1.0080           0
+    1347 MYO  86   ILE  CA   CA     0.000000       12.0107           0
+    1348 MYO  86   ILE  HA   HA     0.000000        1.0080           0
+    1349 MYO  86   ILE  CB   CB     0.000000       12.0107           0
+    1350 MYO  86   ILE  HB   HB     0.000000        1.0080           0
+    1351 MYO  86   ILE  CG2  CG2    0.000000       12.0107           0
+    1352 MYO  86   ILE  HG21 HG21   0.000000        1.0080           0
+    1353 MYO  86   ILE  HG22 HG22   0.000000        1.0080           0
+    1354 MYO  86   ILE  HG23 HG23   0.000000        1.0080           0
+    1355 MYO  86   ILE  CG1  CG1    0.000000       12.0107           0
+    1356 MYO  86   ILE  HG11 HG11   0.000000        1.0080           0
+    1357 MYO  86   ILE  HG12 HG12   0.000000        1.0080           0
+    1358 MYO  86   ILE  CD   CD     0.000000       12.0107           0
+    1359 MYO  86   ILE  HD1  HD1    0.000000        1.0080           0
+    1360 MYO  86   ILE  HD2  HD2    0.000000        1.0080           0
+    1361 MYO  86   ILE  HD3  HD3    0.000000        1.0080           0
+    1362 MYO  86   ILE  C    C      0.000000       12.0107           0
+    1363 MYO  86   ILE  O    O      0.000000       15.9994           0
+    1364 MYO  87   LYS  N    N      0.000000       14.0067           0
+    1365 MYO  87   LYS  HN   HN     0.000000        1.0080           0
+    1366 MYO  87   LYS  CA   CA     0.000000       12.0107           0
+    1367 MYO  87   LYS  HA   HA     0.000000        1.0080           0
+    1368 MYO  87   LYS  CB   CB     0.000000       12.0107           0
+    1369 MYO  87   LYS  HB1  HB1    0.000000        1.0080           0
+    1370 MYO  87   LYS  HB2  HB2    0.000000        1.0080           0
+    1371 MYO  87   LYS  CG   CG     0.000000       12.0107           0
+    1372 MYO  87   LYS  HG1  HG1    0.000000        1.0080           0
+    1373 MYO  87   LYS  HG2  HG2    0.000000        1.0080           0
+    1374 MYO  87   LYS  CD   CD     0.000000       12.0107           0
+    1375 MYO  87   LYS  HD1  HD1    0.000000        1.0080           0
+    1376 MYO  87   LYS  HD2  HD2    0.000000        1.0080           0
+    1377 MYO  87   LYS  CE   CE     0.000000       12.0107           0
+    1378 MYO  87   LYS  HE1  HE1    0.000000        1.0080           0
+    1379 MYO  87   LYS  HE2  HE2    0.000000        1.0080           0
+    1380 MYO  87   LYS  NZ   NZ     0.000000       14.0067           0
+    1381 MYO  87   LYS  HZ1  HZ1    0.000000        1.0080           0
+    1382 MYO  87   LYS  HZ2  HZ2    0.000000        1.0080           0
+    1383 MYO  87   LYS  HZ3  HZ3    0.000000        1.0080           0
+    1384 MYO  87   LYS  C    C      0.000000       12.0107           0
+    1385 MYO  87   LYS  O    O      0.000000       15.9994           0
+    1386 MYO  88   PRO  N    N      0.000000       14.0067           0
+    1387 MYO  88   PRO  CD   CD     0.000000       12.0107           0
+    1388 MYO  88   PRO  HD1  HD1    0.000000        1.0080           0
+    1389 MYO  88   PRO  HD2  HD2    0.000000        1.0080           0
+    1390 MYO  88   PRO  CA   CA     0.000000       12.0107           0
+    1391 MYO  88   PRO  HA   HA     0.000000        1.0080           0
+    1392 MYO  88   PRO  CB   CB     0.000000       12.0107           0
+    1393 MYO  88   PRO  HB1  HB1    0.000000        1.0080           0
+    1394 MYO  88   PRO  HB2  HB2    0.000000        1.0080           0
+    1395 MYO  88   PRO  CG   CG     0.000000       12.0107           0
+    1396 MYO  88   PRO  HG1  HG1    0.000000        1.0080           0
+    1397 MYO  88   PRO  HG2  HG2    0.000000        1.0080           0
+    1398 MYO  88   PRO  C    C      0.000000       12.0107           0
+    1399 MYO  88   PRO  O    O      0.000000       15.9994           0
+    1400 MYO  89   LEU  N    N      0.000000       14.0067           0
+    1401 MYO  89   LEU  HN   HN     0.000000        1.0080           0
+    1402 MYO  89   LEU  CA   CA     0.000000       12.0107           0
+    1403 MYO  89   LEU  HA   HA     0.000000        1.0080           0
+    1404 MYO  89   LEU  CB   CB     0.000000       12.0107           0
+    1405 MYO  89   LEU  HB1  HB1    0.000000        1.0080           0
+    1406 MYO  89   LEU  HB2  HB2    0.000000        1.0080           0
+    1407 MYO  89   LEU  CG   CG     0.000000       12.0107           0
+    1408 MYO  89   LEU  HG   HG     0.000000        1.0080           0
+    1409 MYO  89   LEU  CD1  CD1    0.000000       12.0107           0
+    1410 MYO  89   LEU  HD11 HD11   0.000000        1.0080           0
+    1411 MYO  89   LEU  HD12 HD12   0.000000        1.0080           0
+    1412 MYO  89   LEU  HD13 HD13   0.000000        1.0080           0
+    1413 MYO  89   LEU  CD2  CD2    0.000000       12.0107           0
+    1414 MYO  89   LEU  HD21 HD21   0.000000        1.0080           0
+    1415 MYO  89   LEU  HD22 HD22   0.000000        1.0080           0
+    1416 MYO  89   LEU  HD23 HD23   0.000000        1.0080           0
+    1417 MYO  89   LEU  C    C      0.000000       12.0107           0
+    1418 MYO  89   LEU  O    O      0.000000       15.9994           0
+    1419 MYO  90   ALA  N    N      0.000000       14.0067           0
+    1420 MYO  90   ALA  HN   HN     0.000000        1.0080           0
+    1421 MYO  90   ALA  CA   CA     0.000000       12.0107           0
+    1422 MYO  90   ALA  HA   HA     0.000000        1.0080           0
+    1423 MYO  90   ALA  CB   CB     0.000000       12.0107           0
+    1424 MYO  90   ALA  HB1  HB1    0.000000        1.0080           0
+    1425 MYO  90   ALA  HB2  HB2    0.000000        1.0080           0
+    1426 MYO  90   ALA  HB3  HB3    0.000000        1.0080           0
+    1427 MYO  90   ALA  C    C      0.000000       12.0107           0
+    1428 MYO  90   ALA  O    O      0.000000       15.9994           0
+    1429 MYO  91   GLN  N    N      0.000000       14.0067           0
+    1430 MYO  91   GLN  HN   HN     0.000000        1.0080           0
+    1431 MYO  91   GLN  CA   CA     0.000000       12.0107           0
+    1432 MYO  91   GLN  HA   HA     0.000000        1.0080           0
+    1433 MYO  91   GLN  CB   CB     0.000000       12.0107           0
+    1434 MYO  91   GLN  HB1  HB1    0.000000        1.0080           0
+    1435 MYO  91   GLN  HB2  HB2    0.000000        1.0080           0
+    1436 MYO  91   GLN  CG   CG     0.000000       12.0107           0
+    1437 MYO  91   GLN  HG1  HG1    0.000000        1.0080           0
+    1438 MYO  91   GLN  HG2  HG2    0.000000        1.0080           0
+    1439 MYO  91   GLN  CD   CD     0.000000       12.0107           0
+    1440 MYO  91   GLN  OE1  OE1    0.000000       15.9994           0
+    1441 MYO  91   GLN  NE2  NE2    0.000000       14.0067           0
+    1442 MYO  91   GLN  HE21 HE21   0.000000        1.0080           0
+    1443 MYO  91   GLN  HE22 HE22   0.000000        1.0080           0
+    1444 MYO  91   GLN  C    C      0.000000       12.0107           0
+    1445 MYO  91   GLN  O    O      0.000000       15.9994           0
+    1446 MYO  92   SER  N    N      0.000000       14.0067           0
+    1447 MYO  92   SER  HN   HN     0.000000        1.0080           0
+    1448 MYO  92   SER  CA   CA     0.000000       12.0107           0
+    1449 MYO  92   SER  HA   HA     0.000000        1.0080           0
+    1450 MYO  92   SER  CB   CB     0.000000       12.0107           0
+    1451 MYO  92   SER  HB1  HB1    0.000000        1.0080           0
+    1452 MYO  92   SER  HB2  HB2    0.000000        1.0080           0
+    1453 MYO  92   SER  OG   OG     0.000000       15.9994           0
+    1454 MYO  92   SER  HG1  HG1    0.000000        1.0080           0
+    1455 MYO  92   SER  C    C      0.000000       12.0107           0
+    1456 MYO  92   SER  O    O      0.000000       15.9994           0
+    1457 MYO  93   HSD  N    N      0.000000       14.0067           0
+    1458 MYO  93   HSD  HN   HN     0.000000        1.0080           0
+    1459 MYO  93   HSD  CA   CA     0.000000       12.0107           0
+    1460 MYO  93   HSD  HA   HA     0.000000        1.0080           0
+    1461 MYO  93   HSD  CB   CB     0.000000       12.0107           0
+    1462 MYO  93   HSD  HB1  HB1    0.000000        1.0080           0
+    1463 MYO  93   HSD  HB2  HB2    0.000000        1.0080           0
+    1464 MYO  93   HSD  ND1  ND1    0.000000       14.0067           0
+    1465 MYO  93   HSD  HD1  HD1    0.000000        1.0080           0
+    1466 MYO  93   HSD  CG   CG     0.000000       12.0107           0
+    1467 MYO  93   HSD  CE1  CE1    0.000000       12.0107           0
+    1468 MYO  93   HSD  HE1  HE1    0.000000        1.0080           0
+    1469 MYO  93   HSD  NE2  NE2    0.000000       14.0067           0
+    1470 MYO  93   HSD  CD2  CD2    0.000000       12.0107           0
+    1471 MYO  93   HSD  HD2  HD2    0.000000        1.0080           0
+    1472 MYO  93   HSD  C    C      0.000000       12.0107           0
+    1473 MYO  93   HSD  O    O      0.000000       15.9994           0
+    1474 MYO  94   ALA  N    N      0.000000       14.0067           0
+    1475 MYO  94   ALA  HN   HN     0.000000        1.0080           0
+    1476 MYO  94   ALA  CA   CA     0.000000       12.0107           0
+    1477 MYO  94   ALA  HA   HA     0.000000        1.0080           0
+    1478 MYO  94   ALA  CB   CB     0.000000       12.0107           0
+    1479 MYO  94   ALA  HB1  HB1    0.000000        1.0080           0
+    1480 MYO  94   ALA  HB2  HB2    0.000000        1.0080           0
+    1481 MYO  94   ALA  HB3  HB3    0.000000        1.0080           0
+    1482 MYO  94   ALA  C    C      0.000000       12.0107           0
+    1483 MYO  94   ALA  O    O      0.000000       15.9994           0
+    1484 MYO  95   THR  N    N      0.000000       14.0067           0
+    1485 MYO  95   THR  HN   HN     0.000000        1.0080           0
+    1486 MYO  95   THR  CA   CA     0.000000       12.0107           0
+    1487 MYO  95   THR  HA   HA     0.000000        1.0080           0
+    1488 MYO  95   THR  CB   CB     0.000000       12.0107           0
+    1489 MYO  95   THR  HB   HB     0.000000        1.0080           0
+    1490 MYO  95   THR  OG1  OG1    0.000000       15.9994           0
+    1491 MYO  95   THR  HG1  HG1    0.000000        1.0080           0
+    1492 MYO  95   THR  CG2  CG2    0.000000       12.0107           0
+    1493 MYO  95   THR  HG21 HG21   0.000000        1.0080           0
+    1494 MYO  95   THR  HG22 HG22   0.000000        1.0080           0
+    1495 MYO  95   THR  HG23 HG23   0.000000        1.0080           0
+    1496 MYO  95   THR  C    C      0.000000       12.0107           0
+    1497 MYO  95   THR  O    O      0.000000       15.9994           0
+    1498 MYO  96   LYS  N    N      0.000000       14.0067           0
+    1499 MYO  96   LYS  HN   HN     0.000000        1.0080           0
+    1500 MYO  96   LYS  CA   CA     0.000000       12.0107           0
+    1501 MYO  96   LYS  HA   HA     0.000000        1.0080           0
+    1502 MYO  96   LYS  CB   CB     0.000000       12.0107           0
+    1503 MYO  96   LYS  HB1  HB1    0.000000        1.0080           0
+    1504 MYO  96   LYS  HB2  HB2    0.000000        1.0080           0
+    1505 MYO  96   LYS  CG   CG     0.000000       12.0107           0
+    1506 MYO  96   LYS  HG1  HG1    0.000000        1.0080           0
+    1507 MYO  96   LYS  HG2  HG2    0.000000        1.0080           0
+    1508 MYO  96   LYS  CD   CD     0.000000       12.0107           0
+    1509 MYO  96   LYS  HD1  HD1    0.000000        1.0080           0
+    1510 MYO  96   LYS  HD2  HD2    0.000000        1.0080           0
+    1511 MYO  96   LYS  CE   CE     0.000000       12.0107           0
+    1512 MYO  96   LYS  HE1  HE1    0.000000        1.0080           0
+    1513 MYO  96   LYS  HE2  HE2    0.000000        1.0080           0
+    1514 MYO  96   LYS  NZ   NZ     0.000000       14.0067           0
+    1515 MYO  96   LYS  HZ1  HZ1    0.000000        1.0080           0
+    1516 MYO  96   LYS  HZ2  HZ2    0.000000        1.0080           0
+    1517 MYO  96   LYS  HZ3  HZ3    0.000000        1.0080           0
+    1518 MYO  96   LYS  C    C      0.000000       12.0107           0
+    1519 MYO  96   LYS  O    O      0.000000       15.9994           0
+    1520 MYO  97   TYR  N    N      0.000000       14.0067           0
+    1521 MYO  97   TYR  HN   HN     0.000000        1.0080           0
+    1522 MYO  97   TYR  CA   CA     0.000000       12.0107           0
+    1523 MYO  97   TYR  HA   HA     0.000000        1.0080           0
+    1524 MYO  97   TYR  CB   CB     0.000000       12.0107           0
+    1525 MYO  97   TYR  HB1  HB1    0.000000        1.0080           0
+    1526 MYO  97   TYR  HB2  HB2    0.000000        1.0080           0
+    1527 MYO  97   TYR  CG   CG     0.000000       12.0107           0
+    1528 MYO  97   TYR  CD1  CD1    0.000000       12.0110           0
+    1529 MYO  97   TYR  HD1  HD1    0.000000        1.0080           0
+    1530 MYO  97   TYR  CE1  CE1    0.000000       12.0107           0
+    1531 MYO  97   TYR  HE1  HE1    0.000000        1.0080           0
+    1532 MYO  97   TYR  CZ   CZ     0.000000       12.0110           0
+    1533 MYO  97   TYR  OH   OH     0.000000       15.9990           0
+    1534 MYO  97   TYR  HH   HH     0.000000        1.0080           0
+    1535 MYO  97   TYR  CD2  CD2    0.000000       12.0107           0
+    1536 MYO  97   TYR  HD2  HD2    0.000000        1.0080           0
+    1537 MYO  97   TYR  CE2  CE2    0.000000       12.0110           0
+    1538 MYO  97   TYR  HE2  HE2    0.000000        1.0080           0
+    1539 MYO  97   TYR  C    C      0.000000       12.0107           0
+    1540 MYO  97   TYR  O    O      0.000000       15.9994           0
+    1541 MYO  98   LYS  N    N      0.000000       14.0067           0
+    1542 MYO  98   LYS  HN   HN     0.000000        1.0080           0
+    1543 MYO  98   LYS  CA   CA     0.000000       12.0107           0
+    1544 MYO  98   LYS  HA   HA     0.000000        1.0080           0
+    1545 MYO  98   LYS  CB   CB     0.000000       12.0107           0
+    1546 MYO  98   LYS  HB1  HB1    0.000000        1.0080           0
+    1547 MYO  98   LYS  HB2  HB2    0.000000        1.0080           0
+    1548 MYO  98   LYS  CG   CG     0.000000       12.0107           0
+    1549 MYO  98   LYS  HG1  HG1    0.000000        1.0080           0
+    1550 MYO  98   LYS  HG2  HG2    0.000000        1.0080           0
+    1551 MYO  98   LYS  CD   CD     0.000000       12.0107           0
+    1552 MYO  98   LYS  HD1  HD1    0.000000        1.0080           0
+    1553 MYO  98   LYS  HD2  HD2    0.000000        1.0080           0
+    1554 MYO  98   LYS  CE   CE     0.000000       12.0107           0
+    1555 MYO  98   LYS  HE1  HE1    0.000000        1.0080           0
+    1556 MYO  98   LYS  HE2  HE2    0.000000        1.0080           0
+    1557 MYO  98   LYS  NZ   NZ     0.000000       14.0067           0
+    1558 MYO  98   LYS  HZ1  HZ1    0.000000        1.0080           0
+    1559 MYO  98   LYS  HZ2  HZ2    0.000000        1.0080           0
+    1560 MYO  98   LYS  HZ3  HZ3    0.000000        1.0080           0
+    1561 MYO  98   LYS  C    C      0.000000       12.0107           0
+    1562 MYO  98   LYS  O    O      0.000000       15.9994           0
+    1563 MYO  99   ILE  N    N      0.000000       14.0067           0
+    1564 MYO  99   ILE  HN   HN     0.000000        1.0080           0
+    1565 MYO  99   ILE  CA   CA     0.000000       12.0107           0
+    1566 MYO  99   ILE  HA   HA     0.000000        1.0080           0
+    1567 MYO  99   ILE  CB   CB     0.000000       12.0107           0
+    1568 MYO  99   ILE  HB   HB     0.000000        1.0080           0
+    1569 MYO  99   ILE  CG2  CG2    0.000000       12.0107           0
+    1570 MYO  99   ILE  HG21 HG21   0.000000        1.0080           0
+    1571 MYO  99   ILE  HG22 HG22   0.000000        1.0080           0
+    1572 MYO  99   ILE  HG23 HG23   0.000000        1.0080           0
+    1573 MYO  99   ILE  CG1  CG1    0.000000       12.0107           0
+    1574 MYO  99   ILE  HG11 HG11   0.000000        1.0080           0
+    1575 MYO  99   ILE  HG12 HG12   0.000000        1.0080           0
+    1576 MYO  99   ILE  CD   CD     0.000000       12.0107           0
+    1577 MYO  99   ILE  HD1  HD1    0.000000        1.0080           0
+    1578 MYO  99   ILE  HD2  HD2    0.000000        1.0080           0
+    1579 MYO  99   ILE  HD3  HD3    0.000000        1.0080           0
+    1580 MYO  99   ILE  C    C      0.000000       12.0107           0
+    1581 MYO  99   ILE  O    O      0.000000       15.9994           0
+    1582 MYO  100  PRO  N    N      0.000000       14.0067           0
+    1583 MYO  100  PRO  CD   CD     0.000000       12.0107           0
+    1584 MYO  100  PRO  HD1  HD1    0.000000        1.0080           0
+    1585 MYO  100  PRO  HD2  HD2    0.000000        1.0080           0
+    1586 MYO  100  PRO  CA   CA     0.000000       12.0107           0
+    1587 MYO  100  PRO  HA   HA     0.000000        1.0080           0
+    1588 MYO  100  PRO  CB   CB     0.000000       12.0107           0
+    1589 MYO  100  PRO  HB1  HB1    0.000000        1.0080           0
+    1590 MYO  100  PRO  HB2  HB2    0.000000        1.0080           0
+    1591 MYO  100  PRO  CG   CG     0.000000       12.0107           0
+    1592 MYO  100  PRO  HG1  HG1    0.000000        1.0080           0
+    1593 MYO  100  PRO  HG2  HG2    0.000000        1.0080           0
+    1594 MYO  100  PRO  C    C      0.000000       12.0107           0
+    1595 MYO  100  PRO  O    O      0.000000       15.9994           0
+    1596 MYO  101  VAL  N    N      0.000000       14.0067           0
+    1597 MYO  101  VAL  HN   HN     0.000000        1.0080           0
+    1598 MYO  101  VAL  CA   CA     0.000000       12.0107           0
+    1599 MYO  101  VAL  HA   HA     0.000000        1.0080           0
+    1600 MYO  101  VAL  CB   CB     0.000000       12.0107           0
+    1601 MYO  101  VAL  HB   HB     0.000000        1.0080           0
+    1602 MYO  101  VAL  CG1  CG1    0.000000       12.0107           0
+    1603 MYO  101  VAL  HG11 HG11   0.000000        1.0080           0
+    1604 MYO  101  VAL  HG12 HG12   0.000000        1.0080           0
+    1605 MYO  101  VAL  HG13 HG13   0.000000        1.0080           0
+    1606 MYO  101  VAL  CG2  CG2    0.000000       12.0107           0
+    1607 MYO  101  VAL  HG21 HG21   0.000000        1.0080           0
+    1608 MYO  101  VAL  HG22 HG22   0.000000        1.0080           0
+    1609 MYO  101  VAL  HG23 HG23   0.000000        1.0080           0
+    1610 MYO  101  VAL  C    C      0.000000       12.0107           0
+    1611 MYO  101  VAL  O    O      0.000000       15.9994           0
+    1612 MYO  102  LYS  N    N      0.000000       14.0067           0
+    1613 MYO  102  LYS  HN   HN     0.000000        1.0080           0
+    1614 MYO  102  LYS  CA   CA     0.000000       12.0107           0
+    1615 MYO  102  LYS  HA   HA     0.000000        1.0080           0
+    1616 MYO  102  LYS  CB   CB     0.000000       12.0107           0
+    1617 MYO  102  LYS  HB1  HB1    0.000000        1.0080           0
+    1618 MYO  102  LYS  HB2  HB2    0.000000        1.0080           0
+    1619 MYO  102  LYS  CG   CG     0.000000       12.0107           0
+    1620 MYO  102  LYS  HG1  HG1    0.000000        1.0080           0
+    1621 MYO  102  LYS  HG2  HG2    0.000000        1.0080           0
+    1622 MYO  102  LYS  CD   CD     0.000000       12.0107           0
+    1623 MYO  102  LYS  HD1  HD1    0.000000        1.0080           0
+    1624 MYO  102  LYS  HD2  HD2    0.000000        1.0080           0
+    1625 MYO  102  LYS  CE   CE     0.000000       12.0107           0
+    1626 MYO  102  LYS  HE1  HE1    0.000000        1.0080           0
+    1627 MYO  102  LYS  HE2  HE2    0.000000        1.0080           0
+    1628 MYO  102  LYS  NZ   NZ     0.000000       14.0067           0
+    1629 MYO  102  LYS  HZ1  HZ1    0.000000        1.0080           0
+    1630 MYO  102  LYS  HZ2  HZ2    0.000000        1.0080           0
+    1631 MYO  102  LYS  HZ3  HZ3    0.000000        1.0080           0
+    1632 MYO  102  LYS  C    C      0.000000       12.0107           0
+    1633 MYO  102  LYS  O    O      0.000000       15.9994           0
+    1634 MYO  103  TYR  N    N      0.000000       14.0067           0
+    1635 MYO  103  TYR  HN   HN     0.000000        1.0080           0
+    1636 MYO  103  TYR  CA   CA     0.000000       12.0107           0
+    1637 MYO  103  TYR  HA   HA     0.000000        1.0080           0
+    1638 MYO  103  TYR  CB   CB     0.000000       12.0107           0
+    1639 MYO  103  TYR  HB1  HB1    0.000000        1.0080           0
+    1640 MYO  103  TYR  HB2  HB2    0.000000        1.0080           0
+    1641 MYO  103  TYR  CG   CG     0.000000       12.0107           0
+    1642 MYO  103  TYR  CD1  CD1    0.000000       12.0107           0
+    1643 MYO  103  TYR  HD1  HD1    0.000000        1.0080           0
+    1644 MYO  103  TYR  CE1  CE1    0.000000       12.0107           0
+    1645 MYO  103  TYR  HE1  HE1    0.000000        1.0080           0
+    1646 MYO  103  TYR  CZ   CZ     0.000000       12.0107           0
+    1647 MYO  103  TYR  OH   OH     0.000000       15.9994           0
+    1648 MYO  103  TYR  HH   HH     0.000000        1.0080           0
+    1649 MYO  103  TYR  CD2  CD2    0.000000       12.0107           0
+    1650 MYO  103  TYR  HD2  HD2    0.000000        1.0080           0
+    1651 MYO  103  TYR  CE2  CE2    0.000000       12.0107           0
+    1652 MYO  103  TYR  HE2  HE2    0.000000        1.0080           0
+    1653 MYO  103  TYR  C    C      0.000000       12.0107           0
+    1654 MYO  103  TYR  O    O      0.000000       15.9994           0
+    1655 MYO  104  LEU  N    N      0.000000       14.0067           0
+    1656 MYO  104  LEU  HN   HN     0.000000        1.0080           0
+    1657 MYO  104  LEU  CA   CA     0.000000       12.0107           0
+    1658 MYO  104  LEU  HA   HA     0.000000        1.0080           0
+    1659 MYO  104  LEU  CB   CB     0.000000       12.0107           0
+    1660 MYO  104  LEU  HB1  HB1    0.000000        1.0080           0
+    1661 MYO  104  LEU  HB2  HB2    0.000000        1.0080           0
+    1662 MYO  104  LEU  CG   CG     0.000000       12.0107           0
+    1663 MYO  104  LEU  HG   HG     0.000000        1.0080           0
+    1664 MYO  104  LEU  CD1  CD1    0.000000       12.0107           0
+    1665 MYO  104  LEU  HD11 HD11   0.000000        1.0080           0
+    1666 MYO  104  LEU  HD12 HD12   0.000000        1.0080           0
+    1667 MYO  104  LEU  HD13 HD13   0.000000        1.0080           0
+    1668 MYO  104  LEU  CD2  CD2    0.000000       12.0107           0
+    1669 MYO  104  LEU  HD21 HD21   0.000000        1.0080           0
+    1670 MYO  104  LEU  HD22 HD22   0.000000        1.0080           0
+    1671 MYO  104  LEU  HD23 HD23   0.000000        1.0080           0
+    1672 MYO  104  LEU  C    C      0.000000       12.0107           0
+    1673 MYO  104  LEU  O    O      0.000000       15.9994           0
+    1674 MYO  105  GLU  N    N      0.000000       14.0067           0
+    1675 MYO  105  GLU  HN   HN     0.000000        1.0080           0
+    1676 MYO  105  GLU  CA   CA     0.000000       12.0107           0
+    1677 MYO  105  GLU  HA   HA     0.000000        1.0080           0
+    1678 MYO  105  GLU  CB   CB     0.000000       12.0107           0
+    1679 MYO  105  GLU  HB1  HB1    0.000000        1.0080           0
+    1680 MYO  105  GLU  HB2  HB2    0.000000        1.0080           0
+    1681 MYO  105  GLU  CG   CG     0.000000       12.0107           0
+    1682 MYO  105  GLU  HG1  HG1    0.000000        1.0080           0
+    1683 MYO  105  GLU  HG2  HG2    0.000000        1.0080           0
+    1684 MYO  105  GLU  CD   CD     0.000000       12.0107           0
+    1685 MYO  105  GLU  OE1  OE1    0.000000       15.9994           0
+    1686 MYO  105  GLU  OE2  OE2    0.000000       15.9994           0
+    1687 MYO  105  GLU  C    C      0.000000       12.0107           0
+    1688 MYO  105  GLU  O    O      0.000000       15.9994           0
+    1689 MYO  106  PHE  N    N      0.000000       14.0067           0
+    1690 MYO  106  PHE  HN   HN     0.000000        1.0080           0
+    1691 MYO  106  PHE  CA   CA     0.000000       12.0107           0
+    1692 MYO  106  PHE  HA   HA     0.000000        1.0080           0
+    1693 MYO  106  PHE  CB   CB     0.000000       12.0107           0
+    1694 MYO  106  PHE  HB1  HB1    0.000000        1.0080           0
+    1695 MYO  106  PHE  HB2  HB2    0.000000        1.0080           0
+    1696 MYO  106  PHE  CG   CG     0.000000       12.0107           0
+    1697 MYO  106  PHE  CD1  CD1    0.000000       12.0107           0
+    1698 MYO  106  PHE  HD1  HD1    0.000000        1.0080           0
+    1699 MYO  106  PHE  CE1  CE1    0.000000       12.0107           0
+    1700 MYO  106  PHE  HE1  HE1    0.000000        1.0080           0
+    1701 MYO  106  PHE  CZ   CZ     0.000000       12.0107           0
+    1702 MYO  106  PHE  HZ   HZ     0.000000        1.0080           0
+    1703 MYO  106  PHE  CD2  CD2    0.000000       12.0107           0
+    1704 MYO  106  PHE  HD2  HD2    0.000000        1.0080           0
+    1705 MYO  106  PHE  CE2  CE2    0.000000       12.0107           0
+    1706 MYO  106  PHE  HE2  HE2    0.000000        1.0080           0
+    1707 MYO  106  PHE  C    C      0.000000       12.0107           0
+    1708 MYO  106  PHE  O    O      0.000000       15.9994           0
+    1709 MYO  107  ILE  N    N      0.000000       14.0067           0
+    1710 MYO  107  ILE  HN   HN     0.000000        1.0080           0
+    1711 MYO  107  ILE  CA   CA     0.000000       12.0107           0
+    1712 MYO  107  ILE  HA   HA     0.000000        1.0080           0
+    1713 MYO  107  ILE  CB   CB     0.000000       12.0107           0
+    1714 MYO  107  ILE  HB   HB     0.000000        1.0080           0
+    1715 MYO  107  ILE  CG2  CG2    0.000000       12.0107           0
+    1716 MYO  107  ILE  HG21 HG21   0.000000        1.0080           0
+    1717 MYO  107  ILE  HG22 HG22   0.000000        1.0080           0
+    1718 MYO  107  ILE  HG23 HG23   0.000000        1.0080           0
+    1719 MYO  107  ILE  CG1  CG1    0.000000       12.0107           0
+    1720 MYO  107  ILE  HG11 HG11   0.000000        1.0080           0
+    1721 MYO  107  ILE  HG12 HG12   0.000000        1.0080           0
+    1722 MYO  107  ILE  CD   CD     0.000000       12.0107           0
+    1723 MYO  107  ILE  HD1  HD1    0.000000        1.0080           0
+    1724 MYO  107  ILE  HD2  HD2    0.000000        1.0080           0
+    1725 MYO  107  ILE  HD3  HD3    0.000000        1.0080           0
+    1726 MYO  107  ILE  C    C      0.000000       12.0107           0
+    1727 MYO  107  ILE  O    O      0.000000       15.9994           0
+    1728 MYO  108  SER  N    N      0.000000       14.0067           0
+    1729 MYO  108  SER  HN   HN     0.000000        1.0080           0
+    1730 MYO  108  SER  CA   CA     0.000000       12.0107           0
+    1731 MYO  108  SER  HA   HA     0.000000        1.0080           0
+    1732 MYO  108  SER  CB   CB     0.000000       12.0107           0
+    1733 MYO  108  SER  HB1  HB1    0.000000        1.0080           0
+    1734 MYO  108  SER  HB2  HB2    0.000000        1.0080           0
+    1735 MYO  108  SER  OG   OG     0.000000       15.9994           0
+    1736 MYO  108  SER  HG1  HG1    0.000000        1.0080           0
+    1737 MYO  108  SER  C    C      0.000000       12.0107           0
+    1738 MYO  108  SER  O    O      0.000000       15.9994           0
+    1739 MYO  109  GLU  N    N      0.000000       14.0067           0
+    1740 MYO  109  GLU  HN   HN     0.000000        1.0080           0
+    1741 MYO  109  GLU  CA   CA     0.000000       12.0107           0
+    1742 MYO  109  GLU  HA   HA     0.000000        1.0080           0
+    1743 MYO  109  GLU  CB   CB     0.000000       12.0107           0
+    1744 MYO  109  GLU  HB1  HB1    0.000000        1.0080           0
+    1745 MYO  109  GLU  HB2  HB2    0.000000        1.0080           0
+    1746 MYO  109  GLU  CG   CG     0.000000       12.0107           0
+    1747 MYO  109  GLU  HG1  HG1    0.000000        1.0080           0
+    1748 MYO  109  GLU  HG2  HG2    0.000000        1.0080           0
+    1749 MYO  109  GLU  CD   CD     0.000000       12.0107           0
+    1750 MYO  109  GLU  OE1  OE1    0.000000       15.9994           0
+    1751 MYO  109  GLU  OE2  OE2    0.000000       15.9994           0
+    1752 MYO  109  GLU  C    C      0.000000       12.0107           0
+    1753 MYO  109  GLU  O    O      0.000000       15.9994           0
+    1754 MYO  110  ALA  N    N      0.000000       14.0067           0
+    1755 MYO  110  ALA  HN   HN     0.000000        1.0080           0
+    1756 MYO  110  ALA  CA   CA     0.000000       12.0107           0
+    1757 MYO  110  ALA  HA   HA     0.000000        1.0080           0
+    1758 MYO  110  ALA  CB   CB     0.000000       12.0107           0
+    1759 MYO  110  ALA  HB1  HB1    0.000000        1.0080           0
+    1760 MYO  110  ALA  HB2  HB2    0.000000        1.0080           0
+    1761 MYO  110  ALA  HB3  HB3    0.000000        1.0080           0
+    1762 MYO  110  ALA  C    C      0.000000       12.0107           0
+    1763 MYO  110  ALA  O    O      0.000000       15.9994           0
+    1764 MYO  111  ILE  N    N      0.000000       14.0067           0
+    1765 MYO  111  ILE  HN   HN     0.000000        1.0080           0
+    1766 MYO  111  ILE  CA   CA     0.000000       12.0107           0
+    1767 MYO  111  ILE  HA   HA     0.000000        1.0080           0
+    1768 MYO  111  ILE  CB   CB     0.000000       12.0107           0
+    1769 MYO  111  ILE  HB   HB     0.000000        1.0080           0
+    1770 MYO  111  ILE  CG2  CG2    0.000000       12.0107           0
+    1771 MYO  111  ILE  HG21 HG21   0.000000        1.0080           0
+    1772 MYO  111  ILE  HG22 HG22   0.000000        1.0080           0
+    1773 MYO  111  ILE  HG23 HG23   0.000000        1.0080           0
+    1774 MYO  111  ILE  CG1  CG1    0.000000       12.0107           0
+    1775 MYO  111  ILE  HG11 HG11   0.000000        1.0080           0
+    1776 MYO  111  ILE  HG12 HG12   0.000000        1.0080           0
+    1777 MYO  111  ILE  CD   CD     0.000000       12.0107           0
+    1778 MYO  111  ILE  HD1  HD1    0.000000        1.0080           0
+    1779 MYO  111  ILE  HD2  HD2    0.000000        1.0080           0
+    1780 MYO  111  ILE  HD3  HD3    0.000000        1.0080           0
+    1781 MYO  111  ILE  C    C      0.000000       12.0107           0
+    1782 MYO  111  ILE  O    O      0.000000       15.9994           0
+    1783 MYO  112  ILE  N    N      0.000000       14.0067           0
+    1784 MYO  112  ILE  HN   HN     0.000000        1.0080           0
+    1785 MYO  112  ILE  CA   CA     0.000000       12.0107           0
+    1786 MYO  112  ILE  HA   HA     0.000000        1.0080           0
+    1787 MYO  112  ILE  CB   CB     0.000000       12.0107           0
+    1788 MYO  112  ILE  HB   HB     0.000000        1.0080           0
+    1789 MYO  112  ILE  CG2  CG2    0.000000       12.0107           0
+    1790 MYO  112  ILE  HG21 HG21   0.000000        1.0080           0
+    1791 MYO  112  ILE  HG22 HG22   0.000000        1.0080           0
+    1792 MYO  112  ILE  HG23 HG23   0.000000        1.0080           0
+    1793 MYO  112  ILE  CG1  CG1    0.000000       12.0107           0
+    1794 MYO  112  ILE  HG11 HG11   0.000000        1.0080           0
+    1795 MYO  112  ILE  HG12 HG12   0.000000        1.0080           0
+    1796 MYO  112  ILE  CD   CD     0.000000       12.0107           0
+    1797 MYO  112  ILE  HD1  HD1    0.000000        1.0080           0
+    1798 MYO  112  ILE  HD2  HD2    0.000000        1.0080           0
+    1799 MYO  112  ILE  HD3  HD3    0.000000        1.0080           0
+    1800 MYO  112  ILE  C    C      0.000000       12.0107           0
+    1801 MYO  112  ILE  O    O      0.000000       15.9994           0
+    1802 MYO  113  GLN  N    N      0.000000       14.0067           0
+    1803 MYO  113  GLN  HN   HN     0.000000        1.0080           0
+    1804 MYO  113  GLN  CA   CA     0.000000       12.0107           0
+    1805 MYO  113  GLN  HA   HA     0.000000        1.0080           0
+    1806 MYO  113  GLN  CB   CB     0.000000       12.0107           0
+    1807 MYO  113  GLN  HB1  HB1    0.000000        1.0080           0
+    1808 MYO  113  GLN  HB2  HB2    0.000000        1.0080           0
+    1809 MYO  113  GLN  CG   CG     0.000000       12.0107           0
+    1810 MYO  113  GLN  HG1  HG1    0.000000        1.0080           0
+    1811 MYO  113  GLN  HG2  HG2    0.000000        1.0080           0
+    1812 MYO  113  GLN  CD   CD     0.000000       12.0107           0
+    1813 MYO  113  GLN  OE1  OE1    0.000000       15.9994           0
+    1814 MYO  113  GLN  NE2  NE2    0.000000       14.0067           0
+    1815 MYO  113  GLN  HE21 HE21   0.000000        1.0080           0
+    1816 MYO  113  GLN  HE22 HE22   0.000000        1.0080           0
+    1817 MYO  113  GLN  C    C      0.000000       12.0107           0
+    1818 MYO  113  GLN  O    O      0.000000       15.9994           0
+    1819 MYO  114  VAL  N    N      0.000000       14.0067           0
+    1820 MYO  114  VAL  HN   HN     0.000000        1.0080           0
+    1821 MYO  114  VAL  CA   CA     0.000000       12.0107           0
+    1822 MYO  114  VAL  HA   HA     0.000000        1.0080           0
+    1823 MYO  114  VAL  CB   CB     0.000000       12.0107           0
+    1824 MYO  114  VAL  HB   HB     0.000000        1.0080           0
+    1825 MYO  114  VAL  CG1  CG1    0.000000       12.0107           0
+    1826 MYO  114  VAL  HG11 HG11   0.000000        1.0080           0
+    1827 MYO  114  VAL  HG12 HG12   0.000000        1.0080           0
+    1828 MYO  114  VAL  HG13 HG13   0.000000        1.0080           0
+    1829 MYO  114  VAL  CG2  CG2    0.000000       12.0107           0
+    1830 MYO  114  VAL  HG21 HG21   0.000000        1.0080           0
+    1831 MYO  114  VAL  HG22 HG22   0.000000        1.0080           0
+    1832 MYO  114  VAL  HG23 HG23   0.000000        1.0080           0
+    1833 MYO  114  VAL  C    C      0.000000       12.0107           0
+    1834 MYO  114  VAL  O    O      0.000000       15.9994           0
+    1835 MYO  115  LEU  N    N      0.000000       14.0067           0
+    1836 MYO  115  LEU  HN   HN     0.000000        1.0080           0
+    1837 MYO  115  LEU  CA   CA     0.000000       12.0107           0
+    1838 MYO  115  LEU  HA   HA     0.000000        1.0080           0
+    1839 MYO  115  LEU  CB   CB     0.000000       12.0107           0
+    1840 MYO  115  LEU  HB1  HB1    0.000000        1.0080           0
+    1841 MYO  115  LEU  HB2  HB2    0.000000        1.0080           0
+    1842 MYO  115  LEU  CG   CG     0.000000       12.0107           0
+    1843 MYO  115  LEU  HG   HG     0.000000        1.0080           0
+    1844 MYO  115  LEU  CD1  CD1    0.000000       12.0107           0
+    1845 MYO  115  LEU  HD11 HD11   0.000000        1.0080           0
+    1846 MYO  115  LEU  HD12 HD12   0.000000        1.0080           0
+    1847 MYO  115  LEU  HD13 HD13   0.000000        1.0080           0
+    1848 MYO  115  LEU  CD2  CD2    0.000000       12.0107           0
+    1849 MYO  115  LEU  HD21 HD21   0.000000        1.0080           0
+    1850 MYO  115  LEU  HD22 HD22   0.000000        1.0080           0
+    1851 MYO  115  LEU  HD23 HD23   0.000000        1.0080           0
+    1852 MYO  115  LEU  C    C      0.000000       12.0107           0
+    1853 MYO  115  LEU  O    O      0.000000       15.9994           0
+    1854 MYO  116  GLN  N    N      0.000000       14.0067           0
+    1855 MYO  116  GLN  HN   HN     0.000000        1.0080           0
+    1856 MYO  116  GLN  CA   CA     0.000000       12.0107           0
+    1857 MYO  116  GLN  HA   HA     0.000000        1.0080           0
+    1858 MYO  116  GLN  CB   CB     0.000000       12.0107           0
+    1859 MYO  116  GLN  HB1  HB1    0.000000        1.0080           0
+    1860 MYO  116  GLN  HB2  HB2    0.000000        1.0080           0
+    1861 MYO  116  GLN  CG   CG     0.000000       12.0107           0
+    1862 MYO  116  GLN  HG1  HG1    0.000000        1.0080           0
+    1863 MYO  116  GLN  HG2  HG2    0.000000        1.0080           0
+    1864 MYO  116  GLN  CD   CD     0.000000       12.0107           0
+    1865 MYO  116  GLN  OE1  OE1    0.000000       15.9994           0
+    1866 MYO  116  GLN  NE2  NE2    0.000000       14.0067           0
+    1867 MYO  116  GLN  HE21 HE21   0.000000        1.0080           0
+    1868 MYO  116  GLN  HE22 HE22   0.000000        1.0080           0
+    1869 MYO  116  GLN  C    C      0.000000       12.0107           0
+    1870 MYO  116  GLN  O    O      0.000000       15.9994           0
+    1871 MYO  117  SER  N    N      0.000000       14.0067           0
+    1872 MYO  117  SER  HN   HN     0.000000        1.0080           0
+    1873 MYO  117  SER  CA   CA     0.000000       12.0107           0
+    1874 MYO  117  SER  HA   HA     0.000000        1.0080           0
+    1875 MYO  117  SER  CB   CB     0.000000       12.0107           0
+    1876 MYO  117  SER  HB1  HB1    0.000000        1.0080           0
+    1877 MYO  117  SER  HB2  HB2    0.000000        1.0080           0
+    1878 MYO  117  SER  OG   OG     0.000000       15.9994           0
+    1879 MYO  117  SER  HG1  HG1    0.000000        1.0080           0
+    1880 MYO  117  SER  C    C      0.000000       12.0107           0
+    1881 MYO  117  SER  O    O      0.000000       15.9994           0
+    1882 MYO  118  LYS  N    N      0.000000       14.0067           0
+    1883 MYO  118  LYS  HN   HN     0.000000        1.0080           0
+    1884 MYO  118  LYS  CA   CA     0.000000       12.0107           0
+    1885 MYO  118  LYS  HA   HA     0.000000        1.0080           0
+    1886 MYO  118  LYS  CB   CB     0.000000       12.0107           0
+    1887 MYO  118  LYS  HB1  HB1    0.000000        1.0080           0
+    1888 MYO  118  LYS  HB2  HB2    0.000000        1.0080           0
+    1889 MYO  118  LYS  CG   CG     0.000000       12.0107           0
+    1890 MYO  118  LYS  HG1  HG1    0.000000        1.0080           0
+    1891 MYO  118  LYS  HG2  HG2    0.000000        1.0080           0
+    1892 MYO  118  LYS  CD   CD     0.000000       12.0107           0
+    1893 MYO  118  LYS  HD1  HD1    0.000000        1.0080           0
+    1894 MYO  118  LYS  HD2  HD2    0.000000        1.0080           0
+    1895 MYO  118  LYS  CE   CE     0.000000       12.0107           0
+    1896 MYO  118  LYS  HE1  HE1    0.000000        1.0080           0
+    1897 MYO  118  LYS  HE2  HE2    0.000000        1.0080           0
+    1898 MYO  118  LYS  NZ   NZ     0.000000       14.0067           0
+    1899 MYO  118  LYS  HZ1  HZ1    0.000000        1.0080           0
+    1900 MYO  118  LYS  HZ2  HZ2    0.000000        1.0080           0
+    1901 MYO  118  LYS  HZ3  HZ3    0.000000        1.0080           0
+    1902 MYO  118  LYS  C    C      0.000000       12.0107           0
+    1903 MYO  118  LYS  O    O      0.000000       15.9994           0
+    1904 MYO  119  HSE  N    N      0.000000       14.0067           0
+    1905 MYO  119  HSE  HN   HN     0.000000        1.0080           0
+    1906 MYO  119  HSE  CA   CA     0.000000       12.0107           0
+    1907 MYO  119  HSE  HA   HA     0.000000        1.0080           0
+    1908 MYO  119  HSE  CB   CB     0.000000       12.0107           0
+    1909 MYO  119  HSE  HB1  HB1    0.000000        1.0080           0
+    1910 MYO  119  HSE  HB2  HB2    0.000000        1.0080           0
+    1911 MYO  119  HSE  ND1  ND1    0.000000       14.0067           0
+    1912 MYO  119  HSE  CG   CG     0.000000       12.0107           0
+    1913 MYO  119  HSE  CE1  CE1    0.000000       12.0107           0
+    1914 MYO  119  HSE  HE1  HE1    0.000000        1.0080           0
+    1915 MYO  119  HSE  NE2  NE2    0.000000       14.0067           0
+    1916 MYO  119  HSE  HE2  HE2    0.000000        1.0080           0
+    1917 MYO  119  HSE  CD2  CD2    0.000000       12.0107           0
+    1918 MYO  119  HSE  HD2  HD2    0.000000        1.0080           0
+    1919 MYO  119  HSE  C    C      0.000000       12.0107           0
+    1920 MYO  119  HSE  O    O      0.000000       15.9994           0
+    1921 MYO  120  PRO  N    N      0.000000       14.0067           0
+    1922 MYO  120  PRO  CD   CD     0.000000       12.0107           0
+    1923 MYO  120  PRO  HD1  HD1    0.000000        1.0080           0
+    1924 MYO  120  PRO  HD2  HD2    0.000000        1.0080           0
+    1925 MYO  120  PRO  CA   CA     0.000000       12.0107           0
+    1926 MYO  120  PRO  HA   HA     0.000000        1.0080           0
+    1927 MYO  120  PRO  CB   CB     0.000000       12.0107           0
+    1928 MYO  120  PRO  HB1  HB1    0.000000        1.0080           0
+    1929 MYO  120  PRO  HB2  HB2    0.000000        1.0080           0
+    1930 MYO  120  PRO  CG   CG     0.000000       12.0107           0
+    1931 MYO  120  PRO  HG1  HG1    0.000000        1.0080           0
+    1932 MYO  120  PRO  HG2  HG2    0.000000        1.0080           0
+    1933 MYO  120  PRO  C    C      0.000000       12.0107           0
+    1934 MYO  120  PRO  O    O      0.000000       15.9994           0
+    1935 MYO  121  GLY  N    N      0.000000       14.0067           0
+    1936 MYO  121  GLY  HN   HN     0.000000        1.0080           0
+    1937 MYO  121  GLY  CA   CA     0.000000       12.0107           0
+    1938 MYO  121  GLY  HA1  HA1    0.000000        1.0080           0
+    1939 MYO  121  GLY  HA2  HA2    0.000000        1.0080           0
+    1940 MYO  121  GLY  C    C      0.000000       12.0107           0
+    1941 MYO  121  GLY  O    O      0.000000       15.9994           0
+    1942 MYO  122  ASP  N    N      0.000000       14.0067           0
+    1943 MYO  122  ASP  HN   HN     0.000000        1.0080           0
+    1944 MYO  122  ASP  CA   CA     0.000000       12.0107           0
+    1945 MYO  122  ASP  HA   HA     0.000000        1.0080           0
+    1946 MYO  122  ASP  CB   CB     0.000000       12.0107           0
+    1947 MYO  122  ASP  HB1  HB1    0.000000        1.0080           0
+    1948 MYO  122  ASP  HB2  HB2    0.000000        1.0080           0
+    1949 MYO  122  ASP  CG   CG     0.000000       12.0107           0
+    1950 MYO  122  ASP  OD1  OD1    0.000000       15.9994           0
+    1951 MYO  122  ASP  OD2  OD2    0.000000       15.9994           0
+    1952 MYO  122  ASP  C    C      0.000000       12.0107           0
+    1953 MYO  122  ASP  O    O      0.000000       15.9994           0
+    1954 MYO  123  PHE  N    N      0.000000       14.0067           0
+    1955 MYO  123  PHE  HN   HN     0.000000        1.0080           0
+    1956 MYO  123  PHE  CA   CA     0.000000       12.0107           0
+    1957 MYO  123  PHE  HA   HA     0.000000        1.0080           0
+    1958 MYO  123  PHE  CB   CB     0.000000       12.0107           0
+    1959 MYO  123  PHE  HB1  HB1    0.000000        1.0080           0
+    1960 MYO  123  PHE  HB2  HB2    0.000000        1.0080           0
+    1961 MYO  123  PHE  CG   CG     0.000000       12.0107           0
+    1962 MYO  123  PHE  CD1  CD1    0.000000       12.0107           0
+    1963 MYO  123  PHE  HD1  HD1    0.000000        1.0080           0
+    1964 MYO  123  PHE  CE1  CE1    0.000000       12.0107           0
+    1965 MYO  123  PHE  HE1  HE1    0.000000        1.0080           0
+    1966 MYO  123  PHE  CZ   CZ     0.000000       12.0107           0
+    1967 MYO  123  PHE  HZ   HZ     0.000000        1.0080           0
+    1968 MYO  123  PHE  CD2  CD2    0.000000       12.0107           0
+    1969 MYO  123  PHE  HD2  HD2    0.000000        1.0080           0
+    1970 MYO  123  PHE  CE2  CE2    0.000000       12.0107           0
+    1971 MYO  123  PHE  HE2  HE2    0.000000        1.0080           0
+    1972 MYO  123  PHE  C    C      0.000000       12.0107           0
+    1973 MYO  123  PHE  O    O      0.000000       15.9994           0
+    1974 MYO  124  GLY  N    N      0.000000       14.0067           0
+    1975 MYO  124  GLY  HN   HN     0.000000        1.0080           0
+    1976 MYO  124  GLY  CA   CA     0.000000       12.0107           0
+    1977 MYO  124  GLY  HA1  HA1    0.000000        1.0080           0
+    1978 MYO  124  GLY  HA2  HA2    0.000000        1.0080           0
+    1979 MYO  124  GLY  C    C      0.000000       12.0107           0
+    1980 MYO  124  GLY  O    O      0.000000       15.9994           0
+    1981 MYO  125  ALA  N    N      0.000000       14.0067           0
+    1982 MYO  125  ALA  HN   HN     0.000000        1.0080           0
+    1983 MYO  125  ALA  CA   CA     0.000000       12.0107           0
+    1984 MYO  125  ALA  HA   HA     0.000000        1.0080           0
+    1985 MYO  125  ALA  CB   CB     0.000000       12.0107           0
+    1986 MYO  125  ALA  HB1  HB1    0.000000        1.0080           0
+    1987 MYO  125  ALA  HB2  HB2    0.000000        1.0080           0
+    1988 MYO  125  ALA  HB3  HB3    0.000000        1.0080           0
+    1989 MYO  125  ALA  C    C      0.000000       12.0107           0
+    1990 MYO  125  ALA  O    O      0.000000       15.9994           0
+    1991 MYO  126  ASP  N    N      0.000000       14.0067           0
+    1992 MYO  126  ASP  HN   HN     0.000000        1.0080           0
+    1993 MYO  126  ASP  CA   CA     0.000000       12.0107           0
+    1994 MYO  126  ASP  HA   HA     0.000000        1.0080           0
+    1995 MYO  126  ASP  CB   CB     0.000000       12.0107           0
+    1996 MYO  126  ASP  HB1  HB1    0.000000        1.0080           0
+    1997 MYO  126  ASP  HB2  HB2    0.000000        1.0080           0
+    1998 MYO  126  ASP  CG   CG     0.000000       12.0107           0
+    1999 MYO  126  ASP  OD1  OD1    0.000000       15.9994           0
+    2000 MYO  126  ASP  OD2  OD2    0.000000       15.9994           0
+    2001 MYO  126  ASP  C    C      0.000000       12.0107           0
+    2002 MYO  126  ASP  O    O      0.000000       15.9994           0
+    2003 MYO  127  ALA  N    N      0.000000       14.0067           0
+    2004 MYO  127  ALA  HN   HN     0.000000        1.0080           0
+    2005 MYO  127  ALA  CA   CA     0.000000       12.0107           0
+    2006 MYO  127  ALA  HA   HA     0.000000        1.0080           0
+    2007 MYO  127  ALA  CB   CB     0.000000       12.0107           0
+    2008 MYO  127  ALA  HB1  HB1    0.000000        1.0080           0
+    2009 MYO  127  ALA  HB2  HB2    0.000000        1.0080           0
+    2010 MYO  127  ALA  HB3  HB3    0.000000        1.0080           0
+    2011 MYO  127  ALA  C    C      0.000000       12.0107           0
+    2012 MYO  127  ALA  O    O      0.000000       15.9994           0
+    2013 MYO  128  GLN  N    N      0.000000       14.0067           0
+    2014 MYO  128  GLN  HN   HN     0.000000        1.0080           0
+    2015 MYO  128  GLN  CA   CA     0.000000       12.0107           0
+    2016 MYO  128  GLN  HA   HA     0.000000        1.0080           0
+    2017 MYO  128  GLN  CB   CB     0.000000       12.0107           0
+    2018 MYO  128  GLN  HB1  HB1    0.000000        1.0080           0
+    2019 MYO  128  GLN  HB2  HB2    0.000000        1.0080           0
+    2020 MYO  128  GLN  CG   CG     0.000000       12.0107           0
+    2021 MYO  128  GLN  HG1  HG1    0.000000        1.0080           0
+    2022 MYO  128  GLN  HG2  HG2    0.000000        1.0080           0
+    2023 MYO  128  GLN  CD   CD     0.000000       12.0107           0
+    2024 MYO  128  GLN  OE1  OE1    0.000000       15.9994           0
+    2025 MYO  128  GLN  NE2  NE2    0.000000       14.0067           0
+    2026 MYO  128  GLN  HE21 HE21   0.000000        1.0080           0
+    2027 MYO  128  GLN  HE22 HE22   0.000000        1.0080           0
+    2028 MYO  128  GLN  C    C      0.000000       12.0107           0
+    2029 MYO  128  GLN  O    O      0.000000       15.9994           0
+    2030 MYO  129  GLY  N    N      0.000000       14.0067           0
+    2031 MYO  129  GLY  HN   HN     0.000000        1.0080           0
+    2032 MYO  129  GLY  CA   CA     0.000000       12.0107           0
+    2033 MYO  129  GLY  HA1  HA1    0.000000        1.0080           0
+    2034 MYO  129  GLY  HA2  HA2    0.000000        1.0080           0
+    2035 MYO  129  GLY  C    C      0.000000       12.0107           0
+    2036 MYO  129  GLY  O    O      0.000000       15.9994           0
+    2037 MYO  130  ALA  N    N      0.000000       14.0067           0
+    2038 MYO  130  ALA  HN   HN     0.000000        1.0080           0
+    2039 MYO  130  ALA  CA   CA     0.000000       12.0107           0
+    2040 MYO  130  ALA  HA   HA     0.000000        1.0080           0
+    2041 MYO  130  ALA  CB   CB     0.000000       12.0107           0
+    2042 MYO  130  ALA  HB1  HB1    0.000000        1.0080           0
+    2043 MYO  130  ALA  HB2  HB2    0.000000        1.0080           0
+    2044 MYO  130  ALA  HB3  HB3    0.000000        1.0080           0
+    2045 MYO  130  ALA  C    C      0.000000       12.0107           0
+    2046 MYO  130  ALA  O    O      0.000000       15.9994           0
+    2047 MYO  131  MET  N    N      0.000000       14.0067           0
+    2048 MYO  131  MET  HN   HN     0.000000        1.0080           0
+    2049 MYO  131  MET  CA   CA     0.000000       12.0107           0
+    2050 MYO  131  MET  HA   HA     0.000000        1.0080           0
+    2051 MYO  131  MET  CB   CB     0.000000       12.0107           0
+    2052 MYO  131  MET  HB1  HB1    0.000000        1.0080           0
+    2053 MYO  131  MET  HB2  HB2    0.000000        1.0080           0
+    2054 MYO  131  MET  CG   CG     0.000000       12.0107           0
+    2055 MYO  131  MET  HG1  HG1    0.000000        1.0080           0
+    2056 MYO  131  MET  HG2  HG2    0.000000        1.0080           0
+    2057 MYO  131  MET  SD   SD     0.000000       32.0650           0
+    2058 MYO  131  MET  CE   CE     0.000000       12.0107           0
+    2059 MYO  131  MET  HE1  HE1    0.000000        1.0080           0
+    2060 MYO  131  MET  HE2  HE2    0.000000        1.0080           0
+    2061 MYO  131  MET  HE3  HE3    0.000000        1.0080           0
+    2062 MYO  131  MET  C    C      0.000000       12.0107           0
+    2063 MYO  131  MET  O    O      0.000000       15.9994           0
+    2064 MYO  132  ASN  N    N      0.000000       14.0067           0
+    2065 MYO  132  ASN  HN   HN     0.000000        1.0080           0
+    2066 MYO  132  ASN  CA   CA     0.000000       12.0107           0
+    2067 MYO  132  ASN  HA   HA     0.000000        1.0080           0
+    2068 MYO  132  ASN  CB   CB     0.000000       12.0107           0
+    2069 MYO  132  ASN  HB1  HB1    0.000000        1.0080           0
+    2070 MYO  132  ASN  HB2  HB2    0.000000        1.0080           0
+    2071 MYO  132  ASN  CG   CG     0.000000       12.0107           0
+    2072 MYO  132  ASN  OD1  OD1    0.000000       15.9994           0
+    2073 MYO  132  ASN  ND2  ND2    0.000000       14.0067           0
+    2074 MYO  132  ASN  HD21 HD21   0.000000        1.0080           0
+    2075 MYO  132  ASN  HD22 HD22   0.000000        1.0080           0
+    2076 MYO  132  ASN  C    C      0.000000       12.0107           0
+    2077 MYO  132  ASN  O    O      0.000000       15.9994           0
+    2078 MYO  133  LYS  N    N      0.000000       14.0067           0
+    2079 MYO  133  LYS  HN   HN     0.000000        1.0080           0
+    2080 MYO  133  LYS  CA   CA     0.000000       12.0107           0
+    2081 MYO  133  LYS  HA   HA     0.000000        1.0080           0
+    2082 MYO  133  LYS  CB   CB     0.000000       12.0107           0
+    2083 MYO  133  LYS  HB1  HB1    0.000000        1.0080           0
+    2084 MYO  133  LYS  HB2  HB2    0.000000        1.0080           0
+    2085 MYO  133  LYS  CG   CG     0.000000       12.0107           0
+    2086 MYO  133  LYS  HG1  HG1    0.000000        1.0080           0
+    2087 MYO  133  LYS  HG2  HG2    0.000000        1.0080           0
+    2088 MYO  133  LYS  CD   CD     0.000000       12.0107           0
+    2089 MYO  133  LYS  HD1  HD1    0.000000        1.0080           0
+    2090 MYO  133  LYS  HD2  HD2    0.000000        1.0080           0
+    2091 MYO  133  LYS  CE   CE     0.000000       12.0107           0
+    2092 MYO  133  LYS  HE1  HE1    0.000000        1.0080           0
+    2093 MYO  133  LYS  HE2  HE2    0.000000        1.0080           0
+    2094 MYO  133  LYS  NZ   NZ     0.000000       14.0067           0
+    2095 MYO  133  LYS  HZ1  HZ1    0.000000        1.0080           0
+    2096 MYO  133  LYS  HZ2  HZ2    0.000000        1.0080           0
+    2097 MYO  133  LYS  HZ3  HZ3    0.000000        1.0080           0
+    2098 MYO  133  LYS  C    C      0.000000       12.0107           0
+    2099 MYO  133  LYS  O    O      0.000000       15.9994           0
+    2100 MYO  134  ALA  N    N      0.000000       14.0067           0
+    2101 MYO  134  ALA  HN   HN     0.000000        1.0080           0
+    2102 MYO  134  ALA  CA   CA     0.000000       12.0107           0
+    2103 MYO  134  ALA  HA   HA     0.000000        1.0080           0
+    2104 MYO  134  ALA  CB   CB     0.000000       12.0107           0
+    2105 MYO  134  ALA  HB1  HB1    0.000000        1.0080           0
+    2106 MYO  134  ALA  HB2  HB2    0.000000        1.0080           0
+    2107 MYO  134  ALA  HB3  HB3    0.000000        1.0080           0
+    2108 MYO  134  ALA  C    C      0.000000       12.0107           0
+    2109 MYO  134  ALA  O    O      0.000000       15.9994           0
+    2110 MYO  135  LEU  N    N      0.000000       14.0067           0
+    2111 MYO  135  LEU  HN   HN     0.000000        1.0080           0
+    2112 MYO  135  LEU  CA   CA     0.000000       12.0107           0
+    2113 MYO  135  LEU  HA   HA     0.000000        1.0080           0
+    2114 MYO  135  LEU  CB   CB     0.000000       12.0107           0
+    2115 MYO  135  LEU  HB1  HB1    0.000000        1.0080           0
+    2116 MYO  135  LEU  HB2  HB2    0.000000        1.0080           0
+    2117 MYO  135  LEU  CG   CG     0.000000       12.0107           0
+    2118 MYO  135  LEU  HG   HG     0.000000        1.0080           0
+    2119 MYO  135  LEU  CD1  CD1    0.000000       12.0107           0
+    2120 MYO  135  LEU  HD11 HD11   0.000000        1.0080           0
+    2121 MYO  135  LEU  HD12 HD12   0.000000        1.0080           0
+    2122 MYO  135  LEU  HD13 HD13   0.000000        1.0080           0
+    2123 MYO  135  LEU  CD2  CD2    0.000000       12.0107           0
+    2124 MYO  135  LEU  HD21 HD21   0.000000        1.0080           0
+    2125 MYO  135  LEU  HD22 HD22   0.000000        1.0080           0
+    2126 MYO  135  LEU  HD23 HD23   0.000000        1.0080           0
+    2127 MYO  135  LEU  C    C      0.000000       12.0107           0
+    2128 MYO  135  LEU  O    O      0.000000       15.9994           0
+    2129 MYO  136  GLU  N    N      0.000000       14.0067           0
+    2130 MYO  136  GLU  HN   HN     0.000000        1.0080           0
+    2131 MYO  136  GLU  CA   CA     0.000000       12.0107           0
+    2132 MYO  136  GLU  HA   HA     0.000000        1.0080           0
+    2133 MYO  136  GLU  CB   CB     0.000000       12.0107           0
+    2134 MYO  136  GLU  HB1  HB1    0.000000        1.0080           0
+    2135 MYO  136  GLU  HB2  HB2    0.000000        1.0080           0
+    2136 MYO  136  GLU  CG   CG     0.000000       12.0107           0
+    2137 MYO  136  GLU  HG1  HG1    0.000000        1.0080           0
+    2138 MYO  136  GLU  HG2  HG2    0.000000        1.0080           0
+    2139 MYO  136  GLU  CD   CD     0.000000       12.0107           0
+    2140 MYO  136  GLU  OE1  OE1    0.000000       15.9994           0
+    2141 MYO  136  GLU  OE2  OE2    0.000000       15.9994           0
+    2142 MYO  136  GLU  C    C      0.000000       12.0107           0
+    2143 MYO  136  GLU  O    O      0.000000       15.9994           0
+    2144 MYO  137  LEU  N    N      0.000000       14.0067           0
+    2145 MYO  137  LEU  HN   HN     0.000000        1.0080           0
+    2146 MYO  137  LEU  CA   CA     0.000000       12.0107           0
+    2147 MYO  137  LEU  HA   HA     0.000000        1.0080           0
+    2148 MYO  137  LEU  CB   CB     0.000000       12.0107           0
+    2149 MYO  137  LEU  HB1  HB1    0.000000        1.0080           0
+    2150 MYO  137  LEU  HB2  HB2    0.000000        1.0080           0
+    2151 MYO  137  LEU  CG   CG     0.000000       12.0107           0
+    2152 MYO  137  LEU  HG   HG     0.000000        1.0080           0
+    2153 MYO  137  LEU  CD1  CD1    0.000000       12.0107           0
+    2154 MYO  137  LEU  HD11 HD11   0.000000        1.0080           0
+    2155 MYO  137  LEU  HD12 HD12   0.000000        1.0080           0
+    2156 MYO  137  LEU  HD13 HD13   0.000000        1.0080           0
+    2157 MYO  137  LEU  CD2  CD2    0.000000       12.0107           0
+    2158 MYO  137  LEU  HD21 HD21   0.000000        1.0080           0
+    2159 MYO  137  LEU  HD22 HD22   0.000000        1.0080           0
+    2160 MYO  137  LEU  HD23 HD23   0.000000        1.0080           0
+    2161 MYO  137  LEU  C    C      0.000000       12.0107           0
+    2162 MYO  137  LEU  O    O      0.000000       15.9994           0
+    2163 MYO  138  PHE  N    N      0.000000       14.0067           0
+    2164 MYO  138  PHE  HN   HN     0.000000        1.0080           0
+    2165 MYO  138  PHE  CA   CA     0.000000       12.0107           0
+    2166 MYO  138  PHE  HA   HA     0.000000        1.0080           0
+    2167 MYO  138  PHE  CB   CB     0.000000       12.0107           0
+    2168 MYO  138  PHE  HB1  HB1    0.000000        1.0080           0
+    2169 MYO  138  PHE  HB2  HB2    0.000000        1.0080           0
+    2170 MYO  138  PHE  CG   CG     0.000000       12.0107           0
+    2171 MYO  138  PHE  CD1  CD1    0.000000       12.0107           0
+    2172 MYO  138  PHE  HD1  HD1    0.000000        1.0080           0
+    2173 MYO  138  PHE  CE1  CE1    0.000000       12.0107           0
+    2174 MYO  138  PHE  HE1  HE1    0.000000        1.0080           0
+    2175 MYO  138  PHE  CZ   CZ     0.000000       12.0107           0
+    2176 MYO  138  PHE  HZ   HZ     0.000000        1.0080           0
+    2177 MYO  138  PHE  CD2  CD2    0.000000       12.0107           0
+    2178 MYO  138  PHE  HD2  HD2    0.000000        1.0080           0
+    2179 MYO  138  PHE  CE2  CE2    0.000000       12.0107           0
+    2180 MYO  138  PHE  HE2  HE2    0.000000        1.0080           0
+    2181 MYO  138  PHE  C    C      0.000000       12.0107           0
+    2182 MYO  138  PHE  O    O      0.000000       15.9994           0
+    2183 MYO  139  ARG  N    N      0.000000       14.0067           0
+    2184 MYO  139  ARG  HN   HN     0.000000        1.0080           0
+    2185 MYO  139  ARG  CA   CA     0.000000       12.0107           0
+    2186 MYO  139  ARG  HA   HA     0.000000        1.0080           0
+    2187 MYO  139  ARG  CB   CB     0.000000       12.0107           0
+    2188 MYO  139  ARG  HB1  HB1    0.000000        1.0080           0
+    2189 MYO  139  ARG  HB2  HB2    0.000000        1.0080           0
+    2190 MYO  139  ARG  CG   CG     0.000000       12.0107           0
+    2191 MYO  139  ARG  HG1  HG1    0.000000        1.0080           0
+    2192 MYO  139  ARG  HG2  HG2    0.000000        1.0080           0
+    2193 MYO  139  ARG  CD   CD     0.000000       12.0107           0
+    2194 MYO  139  ARG  HD1  HD1    0.000000        1.0080           0
+    2195 MYO  139  ARG  HD2  HD2    0.000000        1.0080           0
+    2196 MYO  139  ARG  NE   NE     0.000000       14.0067           0
+    2197 MYO  139  ARG  HE   HE     0.000000        1.0080           0
+    2198 MYO  139  ARG  CZ   CZ     0.000000       12.0107           0
+    2199 MYO  139  ARG  NH1  NH1    0.000000       14.0067           0
+    2200 MYO  139  ARG  HH11 HH11   0.000000        1.0080           0
+    2201 MYO  139  ARG  HH12 HH12   0.000000        1.0080           0
+    2202 MYO  139  ARG  NH2  NH2    0.000000       14.0067           0
+    2203 MYO  139  ARG  HH21 HH21   0.000000        1.0080           0
+    2204 MYO  139  ARG  HH22 HH22   0.000000        1.0080           0
+    2205 MYO  139  ARG  C    C      0.000000       12.0107           0
+    2206 MYO  139  ARG  O    O      0.000000       15.9994           0
+    2207 MYO  140  LYS  N    N      0.000000       14.0067           0
+    2208 MYO  140  LYS  HN   HN     0.000000        1.0080           0
+    2209 MYO  140  LYS  CA   CA     0.000000       12.0107           0
+    2210 MYO  140  LYS  HA   HA     0.000000        1.0080           0
+    2211 MYO  140  LYS  CB   CB     0.000000       12.0107           0
+    2212 MYO  140  LYS  HB1  HB1    0.000000        1.0080           0
+    2213 MYO  140  LYS  HB2  HB2    0.000000        1.0080           0
+    2214 MYO  140  LYS  CG   CG     0.000000       12.0110           0
+    2215 MYO  140  LYS  HG1  HG1    0.000000        1.0080           0
+    2216 MYO  140  LYS  HG2  HG2    0.000000        1.0080           0
+    2217 MYO  140  LYS  CD   CD     0.000000       12.0110           0
+    2218 MYO  140  LYS  HD1  HD1    0.000000        1.0080           0
+    2219 MYO  140  LYS  HD2  HD2    0.000000        1.0080           0
+    2220 MYO  140  LYS  CE   CE     0.000000       12.0110           0
+    2221 MYO  140  LYS  HE1  HE1    0.000000        1.0080           0
+    2222 MYO  140  LYS  HE2  HE2    0.000000        1.0080           0
+    2223 MYO  140  LYS  NZ   NZ     0.000000       14.0070           0
+    2224 MYO  140  LYS  HZ1  HZ1    0.000000        1.0080           0
+    2225 MYO  140  LYS  HZ2  HZ2    0.000000        1.0080           0
+    2226 MYO  140  LYS  HZ3  HZ3    0.000000        1.0080           0
+    2227 MYO  140  LYS  C    C      0.000000       12.0107           0
+    2228 MYO  140  LYS  O    O      0.000000       15.9994           0
+    2229 MYO  141  ASP  N    N      0.000000       14.0067           0
+    2230 MYO  141  ASP  HN   HN     0.000000        1.0080           0
+    2231 MYO  141  ASP  CA   CA     0.000000       12.0107           0
+    2232 MYO  141  ASP  HA   HA     0.000000        1.0080           0
+    2233 MYO  141  ASP  CB   CB     0.000000       12.0107           0
+    2234 MYO  141  ASP  HB1  HB1    0.000000        1.0080           0
+    2235 MYO  141  ASP  HB2  HB2    0.000000        1.0080           0
+    2236 MYO  141  ASP  CG   CG     0.000000       12.0107           0
+    2237 MYO  141  ASP  OD1  OD1    0.000000       15.9994           0
+    2238 MYO  141  ASP  OD2  OD2    0.000000       15.9994           0
+    2239 MYO  141  ASP  C    C      0.000000       12.0107           0
+    2240 MYO  141  ASP  O    O      0.000000       15.9994           0
+    2241 MYO  142  MET  N    N      0.000000       14.0067           0
+    2242 MYO  142  MET  HN   HN     0.000000        1.0080           0
+    2243 MYO  142  MET  CA   CA     0.000000       12.0107           0
+    2244 MYO  142  MET  HA   HA     0.000000        1.0080           0
+    2245 MYO  142  MET  CB   CB     0.000000       12.0107           0
+    2246 MYO  142  MET  HB1  HB1    0.000000        1.0080           0
+    2247 MYO  142  MET  HB2  HB2    0.000000        1.0080           0
+    2248 MYO  142  MET  CG   CG     0.000000       12.0107           0
+    2249 MYO  142  MET  HG1  HG1    0.000000        1.0080           0
+    2250 MYO  142  MET  HG2  HG2    0.000000        1.0080           0
+    2251 MYO  142  MET  SD   SD     0.000000       32.0650           0
+    2252 MYO  142  MET  CE   CE     0.000000       12.0107           0
+    2253 MYO  142  MET  HE1  HE1    0.000000        1.0080           0
+    2254 MYO  142  MET  HE2  HE2    0.000000        1.0080           0
+    2255 MYO  142  MET  HE3  HE3    0.000000        1.0080           0
+    2256 MYO  142  MET  C    C      0.000000       12.0107           0
+    2257 MYO  142  MET  O    O      0.000000       15.9994           0
+    2258 MYO  143  ALA  N    N      0.000000       14.0067           0
+    2259 MYO  143  ALA  HN   HN     0.000000        1.0080           0
+    2260 MYO  143  ALA  CA   CA     0.000000       12.0107           0
+    2261 MYO  143  ALA  HA   HA     0.000000        1.0080           0
+    2262 MYO  143  ALA  CB   CB     0.000000       12.0107           0
+    2263 MYO  143  ALA  HB1  HB1    0.000000        1.0080           0
+    2264 MYO  143  ALA  HB2  HB2    0.000000        1.0080           0
+    2265 MYO  143  ALA  HB3  HB3    0.000000        1.0080           0
+    2266 MYO  143  ALA  C    C      0.000000       12.0107           0
+    2267 MYO  143  ALA  O    O      0.000000       15.9994           0
+    2268 MYO  144  SER  N    N      0.000000       14.0067           0
+    2269 MYO  144  SER  HN   HN     0.000000        1.0080           0
+    2270 MYO  144  SER  CA   CA     0.000000       12.0107           0
+    2271 MYO  144  SER  HA   HA     0.000000        1.0080           0
+    2272 MYO  144  SER  CB   CB     0.000000       12.0107           0
+    2273 MYO  144  SER  HB1  HB1    0.000000        1.0080           0
+    2274 MYO  144  SER  HB2  HB2    0.000000        1.0080           0
+    2275 MYO  144  SER  OG   OG     0.000000       15.9994           0
+    2276 MYO  144  SER  HG1  HG1    0.000000        1.0080           0
+    2277 MYO  144  SER  C    C      0.000000       12.0107           0
+    2278 MYO  144  SER  O    O      0.000000       15.9994           0
+    2279 MYO  145  ASN  N    N      0.000000       14.0067           0
+    2280 MYO  145  ASN  HN   HN     0.000000        1.0080           0
+    2281 MYO  145  ASN  CA   CA     0.000000       12.0107           0
+    2282 MYO  145  ASN  HA   HA     0.000000        1.0080           0
+    2283 MYO  145  ASN  CB   CB     0.000000       12.0107           0
+    2284 MYO  145  ASN  HB1  HB1    0.000000        1.0080           0
+    2285 MYO  145  ASN  HB2  HB2    0.000000        1.0080           0
+    2286 MYO  145  ASN  CG   CG     0.000000       12.0107           0
+    2287 MYO  145  ASN  OD1  OD1    0.000000       15.9994           0
+    2288 MYO  145  ASN  ND2  ND2    0.000000       14.0067           0
+    2289 MYO  145  ASN  HD21 HD21   0.000000        1.0080           0
+    2290 MYO  145  ASN  HD22 HD22   0.000000        1.0080           0
+    2291 MYO  145  ASN  C    C      0.000000       12.0107           0
+    2292 MYO  145  ASN  O    O      0.000000       15.9994           0
+    2293 MYO  146  TYR  N    N      0.000000       14.0067           0
+    2294 MYO  146  TYR  HN   HN     0.000000        1.0080           0
+    2295 MYO  146  TYR  CA   CA     0.000000       12.0107           0
+    2296 MYO  146  TYR  HA   HA     0.000000        1.0080           0
+    2297 MYO  146  TYR  CB   CB     0.000000       12.0107           0
+    2298 MYO  146  TYR  HB1  HB1    0.000000        1.0080           0
+    2299 MYO  146  TYR  HB2  HB2    0.000000        1.0080           0
+    2300 MYO  146  TYR  CG   CG     0.000000       12.0107           0
+    2301 MYO  146  TYR  CD1  CD1    0.000000       12.0107           0
+    2302 MYO  146  TYR  HD1  HD1    0.000000        1.0080           0
+    2303 MYO  146  TYR  CE1  CE1    0.000000       12.0107           0
+    2304 MYO  146  TYR  HE1  HE1    0.000000        1.0080           0
+    2305 MYO  146  TYR  CZ   CZ     0.000000       12.0107           0
+    2306 MYO  146  TYR  OH   OH     0.000000       15.9994           0
+    2307 MYO  146  TYR  HH   HH     0.000000        1.0080           0
+    2308 MYO  146  TYR  CD2  CD2    0.000000       12.0107           0
+    2309 MYO  146  TYR  HD2  HD2    0.000000        1.0080           0
+    2310 MYO  146  TYR  CE2  CE2    0.000000       12.0107           0
+    2311 MYO  146  TYR  HE2  HE2    0.000000        1.0080           0
+    2312 MYO  146  TYR  C    C      0.000000       12.0107           0
+    2313 MYO  146  TYR  O    O      0.000000       15.9994           0
+    2314 MYO  147  LYS  N    N      0.000000       14.0067           0
+    2315 MYO  147  LYS  HN   HN     0.000000        1.0080           0
+    2316 MYO  147  LYS  CA   CA     0.000000       12.0107           0
+    2317 MYO  147  LYS  HA   HA     0.000000        1.0080           0
+    2318 MYO  147  LYS  CB   CB     0.000000       12.0107           0
+    2319 MYO  147  LYS  HB1  HB1    0.000000        1.0080           0
+    2320 MYO  147  LYS  HB2  HB2    0.000000        1.0080           0
+    2321 MYO  147  LYS  CG   CG     0.000000       12.0107           0
+    2322 MYO  147  LYS  HG1  HG1    0.000000        1.0080           0
+    2323 MYO  147  LYS  HG2  HG2    0.000000        1.0080           0
+    2324 MYO  147  LYS  CD   CD     0.000000       12.0107           0
+    2325 MYO  147  LYS  HD1  HD1    0.000000        1.0080           0
+    2326 MYO  147  LYS  HD2  HD2    0.000000        1.0080           0
+    2327 MYO  147  LYS  CE   CE     0.000000       12.0107           0
+    2328 MYO  147  LYS  HE1  HE1    0.000000        1.0080           0
+    2329 MYO  147  LYS  HE2  HE2    0.000000        1.0080           0
+    2330 MYO  147  LYS  NZ   NZ     0.000000       14.0067           0
+    2331 MYO  147  LYS  HZ1  HZ1    0.000000        1.0080           0
+    2332 MYO  147  LYS  HZ2  HZ2    0.000000        1.0080           0
+    2333 MYO  147  LYS  HZ3  HZ3    0.000000        1.0080           0
+    2334 MYO  147  LYS  C    C      0.000000       12.0107           0
+    2335 MYO  147  LYS  O    O      0.000000       15.9994           0
+    2336 MYO  148  GLU  N    N      0.000000       14.0067           0
+    2337 MYO  148  GLU  HN   HN     0.000000        1.0080           0
+    2338 MYO  148  GLU  CA   CA     0.000000       12.0107           0
+    2339 MYO  148  GLU  HA   HA     0.000000        1.0080           0
+    2340 MYO  148  GLU  CB   CB     0.000000       12.0107           0
+    2341 MYO  148  GLU  HB1  HB1    0.000000        1.0080           0
+    2342 MYO  148  GLU  HB2  HB2    0.000000        1.0080           0
+    2343 MYO  148  GLU  CG   CG     0.000000       12.0107           0
+    2344 MYO  148  GLU  HG1  HG1    0.000000        1.0080           0
+    2345 MYO  148  GLU  HG2  HG2    0.000000        1.0080           0
+    2346 MYO  148  GLU  CD   CD     0.000000       12.0107           0
+    2347 MYO  148  GLU  OE1  OE1    0.000000       15.9994           0
+    2348 MYO  148  GLU  OE2  OE2    0.000000       15.9994           0
+    2349 MYO  148  GLU  C    C      0.000000       12.0107           0
+    2350 MYO  148  GLU  O    O      0.000000       15.9994           0
+    2351 MYO  149  LEU  N    N      0.000000       14.0067           0
+    2352 MYO  149  LEU  HN   HN     0.000000        1.0080           0
+    2353 MYO  149  LEU  CA   CA     0.000000       12.0107           0
+    2354 MYO  149  LEU  HA   HA     0.000000        1.0080           0
+    2355 MYO  149  LEU  CB   CB     0.000000       12.0107           0
+    2356 MYO  149  LEU  HB1  HB1    0.000000        1.0080           0
+    2357 MYO  149  LEU  HB2  HB2    0.000000        1.0080           0
+    2358 MYO  149  LEU  CG   CG     0.000000       12.0107           0
+    2359 MYO  149  LEU  HG   HG     0.000000        1.0080           0
+    2360 MYO  149  LEU  CD1  CD1    0.000000       12.0107           0
+    2361 MYO  149  LEU  HD11 HD11   0.000000        1.0080           0
+    2362 MYO  149  LEU  HD12 HD12   0.000000        1.0080           0
+    2363 MYO  149  LEU  HD13 HD13   0.000000        1.0080           0
+    2364 MYO  149  LEU  CD2  CD2    0.000000       12.0107           0
+    2365 MYO  149  LEU  HD21 HD21   0.000000        1.0080           0
+    2366 MYO  149  LEU  HD22 HD22   0.000000        1.0080           0
+    2367 MYO  149  LEU  HD23 HD23   0.000000        1.0080           0
+    2368 MYO  149  LEU  C    C      0.000000       12.0107           0
+    2369 MYO  149  LEU  OT1  OT1    0.000000       15.9990           0
+    2370 MYO  149  LEU  OT2  OT2    0.000000       15.9990           0
+    2371 HEME 154  HEME FE   FE     0.000000       55.8450           0
+    2372 HEME 154  HEME NA   NA     0.000000       14.0067           0
+    2373 HEME 154  HEME NB   NB     0.000000       14.0067           0
+    2374 HEME 154  HEME NC   NC     0.000000       14.0067           0
+    2375 HEME 154  HEME ND   ND     0.000000       14.0067           0
+    2376 HEME 154  HEME C1A  C1A    0.000000       12.0107           0
+    2377 HEME 154  HEME C2A  C2A    0.000000       12.0107           0
+    2378 HEME 154  HEME C3A  C3A    0.000000       12.0107           0
+    2379 HEME 154  HEME C4A  C4A    0.000000       12.0107           0
+    2380 HEME 154  HEME C1B  C1B    0.000000       12.0107           0
+    2381 HEME 154  HEME C2B  C2B    0.000000       12.0107           0
+    2382 HEME 154  HEME C3B  C3B    0.000000       12.0107           0
+    2383 HEME 154  HEME C4B  C4B    0.000000       12.0107           0
+    2384 HEME 154  HEME C1C  C1C    0.000000       12.0107           0
+    2385 HEME 154  HEME C2C  C2C    0.000000       12.0107           0
+    2386 HEME 154  HEME C3C  C3C    0.000000       12.0107           0
+    2387 HEME 154  HEME C4C  C4C    0.000000       12.0107           0
+    2388 HEME 154  HEME C1D  C1D    0.000000       12.0107           0
+    2389 HEME 154  HEME C2D  C2D    0.000000       12.0107           0
+    2390 HEME 154  HEME C3D  C3D    0.000000       12.0107           0
+    2391 HEME 154  HEME C4D  C4D    0.000000       12.0107           0
+    2392 HEME 154  HEME CHA  CHA    0.000000       12.0107           0
+    2393 HEME 154  HEME HA   HA     0.000000        1.0080           0
+    2394 HEME 154  HEME CHB  CHB    0.000000       12.0107           0
+    2395 HEME 154  HEME HB   HB     0.000000        1.0080           0
+    2396 HEME 154  HEME CHC  CHC    0.000000       12.0107           0
+    2397 HEME 154  HEME HC   HC     0.000000        1.0080           0
+    2398 HEME 154  HEME CHD  CHD    0.000000       12.0107           0
+    2399 HEME 154  HEME HD   HD     0.000000        1.0080           0
+    2400 HEME 154  HEME CMA  CMA    0.000000       12.0107           0
+    2401 HEME 154  HEME HMA1 HMA1   0.000000        1.0080           0
+    2402 HEME 154  HEME HMA2 HMA2   0.000000        1.0080           0
+    2403 HEME 154  HEME HMA3 HMA3   0.000000        1.0080           0
+    2404 HEME 154  HEME CAA  CAA    0.000000       12.0107           0
+    2405 HEME 154  HEME HAA1 HAA1   0.000000        1.0080           0
+    2406 HEME 154  HEME HAA2 HAA2   0.000000        1.0080           0
+    2407 HEME 154  HEME CBA  CBA    0.000000       12.0107           0
+    2408 HEME 154  HEME HBA1 HBA1   0.000000        1.0080           0
+    2409 HEME 154  HEME HBA2 HBA2   0.000000        1.0080           0
+    2410 HEME 154  HEME CGA  CGA    0.000000       12.0107           0
+    2411 HEME 154  HEME O1A  O1A    0.000000       15.9994           0
+    2412 HEME 154  HEME O2A  O2A    0.000000       15.9994           0
+    2413 HEME 154  HEME CMB  CMB    0.000000       12.0107           0
+    2414 HEME 154  HEME HMB1 HMB1   0.000000        1.0080           0
+    2415 HEME 154  HEME HMB2 HMB2   0.000000        1.0080           0
+    2416 HEME 154  HEME HMB3 HMB3   0.000000        1.0080           0
+    2417 HEME 154  HEME CAB  CAB    0.000000       12.0107           0
+    2418 HEME 154  HEME HAB  HAB    0.000000        1.0080           0
+    2419 HEME 154  HEME CBB  CBB    0.000000       12.0107           0
+    2420 HEME 154  HEME HBB1 HBB1   0.000000        1.0080           0
+    2421 HEME 154  HEME HBB2 HBB2   0.000000        1.0080           0
+    2422 HEME 154  HEME CMC  CMC    0.000000       12.0107           0
+    2423 HEME 154  HEME HMC1 HMC1   0.000000        1.0080           0
+    2424 HEME 154  HEME HMC2 HMC2   0.000000        1.0080           0
+    2425 HEME 154  HEME HMC3 HMC3   0.000000        1.0080           0
+    2426 HEME 154  HEME CAC  CAC    0.000000       12.0107           0
+    2427 HEME 154  HEME HAC  HAC    0.000000        1.0080           0
+    2428 HEME 154  HEME CBC  CBC    0.000000       12.0107           0
+    2429 HEME 154  HEME HBC1 HBC1   0.000000        1.0080           0
+    2430 HEME 154  HEME HBC2 HBC2   0.000000        1.0080           0
+    2431 HEME 154  HEME CMD  CMD    0.000000       12.0107           0
+    2432 HEME 154  HEME HMD1 HMD1   0.000000        1.0080           0
+    2433 HEME 154  HEME HMD2 HMD2   0.000000        1.0080           0
+    2434 HEME 154  HEME HMD3 HMD3   0.000000        1.0080           0
+    2435 HEME 154  HEME CAD  CAD    0.000000       12.0107           0
+    2436 HEME 154  HEME HAD1 HAD1   0.000000        1.0080           0
+    2437 HEME 154  HEME HAD2 HAD2   0.000000        1.0080           0
+    2438 HEME 154  HEME CBD  CBD    0.000000       12.0107           0
+    2439 HEME 154  HEME HBD1 HBD1   0.000000        1.0080           0
+    2440 HEME 154  HEME HBD2 HBD2   0.000000        1.0080           0
+    2441 HEME 154  HEME CGD  CGD    0.000000       12.0107           0
+    2442 HEME 154  HEME O1D  O1D    0.000000       15.9994           0
+    2443 HEME 154  HEME O2D  O2D    0.000000       15.9994           0
+
+       0 !NBOND: bonds
+
+
+       0 !NTHETA: angles
+
+
+       0 !NPHI: dihedrals
+
+
+       0 !NIMPHI: impropers
+
+
+       0 !NDON: donors
+
+
+       0 !NACC: acceptors
+
+
+       0 !NNB
+
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0       0       0       0       0       0
+       0       0       0
+
+       1       0 !NGRP
+       0       0       0
+
