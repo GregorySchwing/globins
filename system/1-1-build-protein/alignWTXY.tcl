@@ -3,7 +3,7 @@ namespace import Orient::orient
 set input MYO_HEME_WT
 set output MYO_HEME_WT_ALIGNED
 
-set solute [mol new $input.pdb waitfor all]
+set solute [mol new $input.psf waitfor all]
 mol addfile $input.pdb mol $solute waitfor all
 set all [atomselect top "all"]
 set sel [atomselect top "name FE or name NA or name NB or name NC or name ND"]
@@ -23,5 +23,5 @@ puts "recalc principal axes to check"
 set I [draw principalaxes $sel]
 
 $all writepdb ${output}.pdb
-
+$all writepsf ${output}.psf
 
