@@ -12,7 +12,7 @@ colvar {
       group2 {
          atomsFile      LIQ_BOX.pdb
          atomsCol       B
-         atomsColValue  2.0
+         atomsColValue  1.0
       }
    }
 }
@@ -28,11 +28,11 @@ colvar {
   orientation {
     refPositionsFile  LIQ_BOX.pdb
     refPositionsCol   B  
-    refPositionsColValue  2.0
+    refPositionsColValue  1.0
     atoms {
     	atomsFile      LIQ_BOX.pdb
     	atomsCol       B
-    	atomsColValue  2.0
+    	atomsColValue  1.0
     }
   }
 }

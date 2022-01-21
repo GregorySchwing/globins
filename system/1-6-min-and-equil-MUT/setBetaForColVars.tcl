@@ -13,6 +13,9 @@ $all set occupancy 0.0
 set wat [atomselect top "water or resname DIOX"]
 $wat set beta 0.0
 
+set fullRest [atomselect top "protein and alpha"]
+$fullRest set beta 1.0
+
 set ions [atomselect top "ions"]
 $ions set beta 2.0
 
