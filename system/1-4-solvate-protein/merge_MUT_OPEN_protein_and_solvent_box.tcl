@@ -3,9 +3,9 @@ set mindist 2.4 ; # minimum required distance between all atoms
 
 set SolventNamePDB ../1-4-solvate-protein/LIQ_BOX_NPT_EQ_SHIFTED
 set SolventNamePSF ../1-4-solvate-protein/LIQ_BOX_NPT_EQ_SHIFTED
-set SoluteName MYO_HEME_MUT_ALIGNED_SHIFTED
+set SoluteName MYO_HEME_OPEN_MUT_ALIGNED_SHIFTED
 
-set output_pdb_psf_file_name MYO_HEME_MUT_ALIGNED_SHIFTED_SOLVATED
+set output_pdb_psf_file_name MYO_HEME_OPEN_MUT_ALIGNED_SHIFTED_SOLVATED
 #***************************************************************************
 
 
