@@ -95,7 +95,7 @@ harmonicWalls {
 colvar {
    name morse
 
-   customFunction D_0*(exp(-2*beta*(r-1.8)) - 2*exp(-2*beta*(r-1.8))); D_0 = 10; beta = 4.0
+   customFunction D_0*(exp(-2*beta*(r-1.8)) - 2*exp(-beta*(r-1.8))); D_0 = 10; beta = 4.0
 
    distance {
       name r
