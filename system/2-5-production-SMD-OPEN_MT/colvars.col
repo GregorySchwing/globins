@@ -73,6 +73,27 @@ harmonicWalls {
    upperWallConstant 10.0
 }
 
+
+colvar {
+   name morse
+
+   customFunction D_0*(exp(-2*beta*(r-1.8)) - 2*exp(-2*beta*(r-1.8))); D_0 = 10; beta = 4.0
+
+   distance {
+      name r
+      group1 {
+         atomsFile      ../2-4-min-and-equil-implicit-OPEN_MUT_w_DIOX/ON.pdb
+         atomsCol       B
+         atomsColValue  1.0
+      }
+      group2 {
+         atomsFile      ../2-4-min-and-equil-implicit-OPEN_MUT_w_DIOX/FE.pdb
+         atomsCol       B
+         atomsColValue  1.0
+      }
+   }
+}
+
 abf {
    colvars ON_2_FE
    fullSamples 500
