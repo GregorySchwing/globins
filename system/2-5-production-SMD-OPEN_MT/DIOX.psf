@@ -6,8 +6,8 @@ PSF
  REMARKS segment 1 { first NONE; last NONE; auto angles dihedrals }
 
        2 !NATOM
-       1 1    1    DIOX ON   OT    -0.021000       15.9994           0
-       2 1    1    DIOX OP   OT     0.021000       15.9994           0
+       1 1    1    DIOX ON   ON    -0.021000       15.9994           0
+       2 1    1    DIOX OP   OP     0.021000       15.9994           0
 
        1 !NBOND: bonds
        1       2
