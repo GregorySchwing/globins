@@ -46,25 +46,20 @@ harmonic {
 colvar {
    name ON_2_FE
 
-   width 0.1
-   lowerBoundary 0.0
-   upperBoundary 10.0
-
-   distance {
-      group1 {
+   distanceZ {
+      main {
          atomsFile      ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/ON.pdb
          atomsCol       B
          atomsColValue  1.0
       }
-      group2 {
+      ref {
          atomsFile      ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/FE.pdb
          atomsCol       B
          atomsColValue  1.0
       }
-      oneSiteTotalForce yes
+      axis (0.0, 1.0, 0.0)
    }
 }
-
 harmonicWalls {
    name mywalls
    colvars ON_2_FE
