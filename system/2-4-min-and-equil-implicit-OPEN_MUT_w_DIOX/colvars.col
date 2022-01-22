@@ -46,17 +46,18 @@ harmonic {
 colvar {
    name ON_2_FE
 
-   distance {
-      group1 {
+   distanceZ {
+      ref {
          atomsFile      FE.pdb
          atomsCol       B
          atomsColValue  1.0
       }
-      group2 {
+      ref2 {
          atomsFile      ON.pdb
          atomsCol       B
          atomsColValue  1.0
       }
+      axis (0.0, 1.0, 0.0)
    }
 }
 
