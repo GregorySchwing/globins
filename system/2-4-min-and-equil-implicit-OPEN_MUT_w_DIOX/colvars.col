@@ -81,8 +81,8 @@ colvar {
 harmonicWalls {
    name mywalls
    colvars ON_2_FE ON_ABOVE_FE
-   lowerWalls 0.0
-   upperWalls 10.0
+   lowerWalls 0.0 0.0
+   upperWalls 10.0 10.0
    lowerWallConstant 10.0
    upperWallConstant 10.0
 }
