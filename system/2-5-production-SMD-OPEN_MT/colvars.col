@@ -10,7 +10,7 @@ colvar {
          dummyAtom ( 46.122, 46.122, 46.122 )
       }
       group2 {
-         atomsFile      LIQ_BOX_EQ.pdb
+         atomsFile      TRAJ_ROT_FILE.pdb
          atomsCol       B
          atomsColValue  1.0
       }
@@ -26,11 +26,11 @@ harmonic {
 colvar {
   name CA_Rotation
   orientation {
-    refPositionsFile  LIQ_BOX_EQ.pdb
+    refPositionsFile  TRAJ_ROT_FILE.pdb
     refPositionsCol   B  
     refPositionsColValue  1.0
     atoms {
-    	atomsFile      LIQ_BOX_EQ.pdb
+    	atomsFile      TRAJ_ROT_FILE.pdb
     	atomsCol       B
     	atomsColValue  1.0
     }
