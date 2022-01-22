@@ -47,10 +47,8 @@ colvar {
    ON_2_FE
 
    width 0.1
-   lowerboundary 1.0
-   upperboundary 14.0
-   lowerwallconstant 10.0
-   upperwallconstant 10.0
+   lowerBoundary 0.0
+   upperBoundary 20.0
 
    distance {
       group1 {
@@ -64,6 +62,15 @@ colvar {
          atomsColValue  1.0
       }
    }
+}
+
+harmonicWalls {
+   name mywalls
+   colvars ON_2_FE
+   lowerWalls 0.0
+   upperWalls 20.0
+   lowerWallConstant 10.0
+   upperWallConstant 10.0
 }
 
 abf {
