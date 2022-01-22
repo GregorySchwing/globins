@@ -46,6 +46,10 @@ harmonic {
 colvar {
    name ON_2_FE
 
+   width 0.1
+   lowerBoundary 0.0
+   upperBoundary 10.0
+
    distanceZ {
       main {
          atomsFile      ../2-4-min-and-equil-implicit-OPEN_MUT_w_DIOX/ON.pdb
