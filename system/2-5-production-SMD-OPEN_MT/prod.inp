@@ -90,8 +90,8 @@ cellBasisVector2    0.0    $b   0.0;
 cellBasisVector3    0.0   0.0    $c;
 cellOrigin          $xcen   $ycen $zcen;        # the *center* of the cell
 
-wrapWater               on;                 # wrap water to central cell
-wrapAll                 on;                 # wrap other molecules too
+wrapWater               off;                 # wrap water to central cell
+wrapAll                 off;                 # wrap other molecules too
 wrapNearest             off;                # use for non-rectangular cells (wrap to the nearest image)
 
 # PME (for full-system periodic electrostatics)
