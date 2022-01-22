@@ -1,4 +1,4 @@
-set input_pdb_psf_file_name ../2-2-neutralize-implicit-ligand-system/GCMC_water_myoglobin_MUT_ions 
+set input_pdb_psf_file_name ../2-2-neutralize-implicit-ligand-system/GCMC_water_myoglobin_OPEN_MUT_ions 
 set output_restraints_file_name prot_posres.ref
 
 # load 
