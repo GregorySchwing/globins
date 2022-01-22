@@ -107,5 +107,6 @@ langevinPiston        off
 colvars                 on
 colvarsConfig           colvars.col
 
+minimize                10000
 run                     250000000
 
