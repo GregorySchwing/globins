@@ -1,7 +1,7 @@
 ###Lipid Head### 
 
-Colvarstrajfrequency    500
-Colvarsrestartfrequency 5000
+Colvarstrajfrequency    100
+Colvarsrestartfrequency 1000
 
 colvar {
    name CA_Translation
@@ -48,7 +48,7 @@ colvar {
 
    width 0.1
    lowerBoundary 0.0
-   upperBoundary 20.0
+   upperBoundary 10.0
 
    distance {
       group1 {
@@ -68,7 +68,7 @@ harmonicWalls {
    name mywalls
    colvars ON_2_FE
    lowerWalls 0.0
-   upperWalls 20.0
+   upperWalls 10.0
    lowerWallConstant 10.0
    upperWallConstant 10.0
 }
