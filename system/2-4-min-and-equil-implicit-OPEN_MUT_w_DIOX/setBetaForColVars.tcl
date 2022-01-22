@@ -26,6 +26,6 @@ $all writepdb $iron_group.pdb
 $all set beta 0.0
 
 set ON [atomselect top "name ON and resname DIOX"]
-$FE set beta 1.0
+$ON set beta 1.0
 
 $all writepdb $oxy_group.pdb
