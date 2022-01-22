@@ -15,17 +15,16 @@ if {${RESTART_STATUS}} {
 	binvelocities      ${VEL_file}
 } else {
 	temperature             $temp;
-	set a 92.244
-	set b 92.244
-	set c 92.244
-	set xcen 46.122
-	set ycen 46.122
-	set zcen 46.122
+
 }
 set outputname          ABF;
 
-
-
+set a 92.244
+set b 92.244
+set c 92.244
+set xcen 46.122
+set ycen 46.122
+set zcen 46.122
 
 outputName              $outputname;        # base name for output from this run
                                             # NAMD writes two files at the end, final coord and vel
