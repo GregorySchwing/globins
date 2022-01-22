@@ -2,7 +2,7 @@
 set mindist 2.4 ; # minimum required distance between all atoms
 
 set SoluteName DIOX
-set SolventName ../2-3-min-and-equil-implicit-OPEN_WT/LIQ_BOX_EQ
+set SolventName ../2-3-min-and-equil-implicit-OPEN_WT/LIQ_BOX
 set input_bin_file_name_box_0 ../2-3-min-and-equil-implicit-OPEN_WT/LIQ_BOX_equilibrated.restart
 set output_pdb_psf_file_name MYO_ONE_DIOX
 #***************************************************************************
