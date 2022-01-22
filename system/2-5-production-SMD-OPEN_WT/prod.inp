@@ -1,9 +1,9 @@
-structure               LIQ_BOX_EQ.psf
-coordinates             LIQ_BOX_EQ.pdb
+structure               MYO_ONE_DIOX.psf
+coordinates             MYO_ONE_DIOX.pdb
 
 set temp                310;
 
-set outputname          LIQ_BOX_PROD;
+set outputname          ABF;
 
 set a 92.244
 set b 92.244
@@ -107,5 +107,5 @@ langevinPiston        off
 colvars                 on
 colvarsConfig           colvars.col
 
-run                     2500000
+run                     250000000
 
