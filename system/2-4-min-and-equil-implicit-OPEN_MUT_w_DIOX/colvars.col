@@ -46,6 +46,23 @@ harmonic {
 colvar {
    name ON_2_FE
 
+   distance {
+      group1 {
+         atomsFile      FE.pdb
+         atomsCol       B
+         atomsColValue  1.0
+      }
+      group2 {
+         atomsFile      ON.pdb
+         atomsCol       B
+         atomsColValue  1.0
+      }
+   }
+}
+
+colvar {
+   name ON_ABOVE_FE
+
    distanceZ {
       main {
          atomsFile      ON.pdb
@@ -63,7 +80,7 @@ colvar {
 
 harmonicWalls {
    name mywalls
-   colvars ON_2_FE
+   colvars ON_2_FE ON_ABOVE_FE
    lowerWalls 0.0
    upperWalls 10.0
    lowerWallConstant 10.0

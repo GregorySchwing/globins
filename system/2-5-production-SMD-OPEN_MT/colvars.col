@@ -50,6 +50,24 @@ colvar {
    lowerBoundary 0.0
    upperBoundary 10.0
 
+   distance {
+      group1 {
+         atomsFile      ../2-4-min-and-equil-implicit-OPEN_MUT_w_DIOX/ON.pdb
+         atomsCol       B
+         atomsColValue  1.0
+      }
+      group2 {
+         atomsFile      ../2-4-min-and-equil-implicit-OPEN_MUT_w_DIOX/FE.pdb
+         atomsCol       B
+         atomsColValue  1.0
+      }
+      axis (0.0, 1.0, 0.0)
+   }
+}
+
+colvar {
+   name ON_ABOVE_FE
+
    distanceZ {
       main {
          atomsFile      ../2-4-min-and-equil-implicit-OPEN_MUT_w_DIOX/ON.pdb
@@ -67,7 +85,7 @@ colvar {
 
 harmonicWalls {
    name mywalls
-   colvars ON_2_FE
+   colvars ON_2_FE ON_ABOVE_FE
    lowerWalls 0.0
    upperWalls 10.0
    lowerWallConstant 10.0
