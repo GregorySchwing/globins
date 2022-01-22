@@ -18,7 +18,7 @@
 
 
 # Clear the environment from any previously loaded modules
-cd /home6/greg/globins/system/2-3-min-and-equil-implicit-OPEN_WT
+cd /home6/greg/globins/system/2-4-min-and-equil-implicit-OPEN_WT_w_DIOX
 ~/NAMD_2.14_Linux-x86_64-multicore-CUDA/namd2 +p4 step4_equilibration.inp > step4_equilibration.out
 
 # End of submit file
