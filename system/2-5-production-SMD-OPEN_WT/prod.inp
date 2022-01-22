@@ -1,5 +1,13 @@
-structure               MYO_ONE_DIOX.psf
-coordinates             MYO_ONE_DIOX.pdb
+structure               2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/MYO_ONE_DIOX.psf
+coordinates             2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/MYO_ONE_DIOX.pdb
+
+set     COOR_file   ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/MYO_ONE_DIOX_equilibrated.restart.coor
+set     XSC_file    ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/MYO_ONE_DIOX_equilibrated.restart.xsc
+set     VEL_file    ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/MYO_ONE_DIOX_equilibrated.restart.vel
+
+binCoordinates     ${COOR_file}
+extendedSystem     ${XSC_file}
+binvelocities      ${VEL_file}
 
 set temp                310;
 

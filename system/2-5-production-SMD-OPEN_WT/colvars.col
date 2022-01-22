@@ -10,7 +10,7 @@ colvar {
          dummyAtom ( 46.122, 46.122, 46.122 )
       }
       group2 {
-         atomsFile      TRAJ_ROT_FILE.pdb
+         atomsFile      ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/TRAJ_ROT_FILE.pdb
          atomsCol       B
          atomsColValue  1.0
       }
@@ -26,11 +26,11 @@ harmonic {
 colvar {
   name CA_Rotation
   orientation {
-    refPositionsFile  TRAJ_ROT_FILE.pdb
+    refPositionsFile  ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/TRAJ_ROT_FILE.pdb
     refPositionsCol   B  
     refPositionsColValue  1.0
     atoms {
-    	atomsFile      TRAJ_ROT_FILE.pdb
+    	atomsFile      ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/TRAJ_ROT_FILE.pdb
     	atomsCol       B
     	atomsColValue  1.0
     }
@@ -52,12 +52,12 @@ colvar {
 
    distance {
       group1 {
-         atomsFile      FE.pdb
+         atomsFile      ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/FE.pdb
          atomsCol       B
          atomsColValue  1.0
       }
       group2 {
-         atomsFile      ON.pdb
+         atomsFile      ../2-4-min-and-equil-implicit-OPEN_WT_w_DIOX/ON.pdb
          atomsCol       B
          atomsColValue  1.0
       }
