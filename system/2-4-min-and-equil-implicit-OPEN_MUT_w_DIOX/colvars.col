@@ -47,13 +47,13 @@ colvar {
    name ON_2_FE
 
    distanceZ {
-      ref {
-         atomsFile      FE.pdb
+      main {
+         atomsFile      ON.pdb
          atomsCol       B
          atomsColValue  1.0
       }
-      ref2 {
-         atomsFile      ON.pdb
+      ref {
+         atomsFile      FE.pdb
          atomsCol       B
          atomsColValue  1.0
       }
