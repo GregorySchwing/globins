@@ -2,8 +2,8 @@
 set mindist 2.4 ; # minimum required distance between all atoms
 
 set SoluteName DIOX
-set SolventName ../2-3-min-and-equil-implicit-OPEN_WT/LIQ_BOX
-set input_bin_file_name_box_0 ../2-3-min-and-equil-implicit-OPEN_WT/LIQ_BOX_equilibrated.restart
+set SolventName ../2-3-min-and-equil-implicit-OPEN_MUT/LIQ_BOX
+set input_bin_file_name_box_0 ../2-3-min-and-equil-implicit-OPEN_MUT/LIQ_BOX_equilibrated.restart
 set output_pdb_psf_file_name MYO_ONE_DIOX
 #***************************************************************************
 
@@ -31,9 +31,12 @@ set NC_COOR [lindex [$NC get {x y z}] 0]
 puts "NC_COOR $NC_COOR"
 puts "FE_COOR $FE_COOR"
 set FE_2_NC [vecsub $FE_COOR $NC_COOR ]
-set normVecOutOfProt [vecnorm $FE_2_NC]
+set FE_2_NC_angled_up [vecadd $FE_2_NC {0 0 -1}]
+puts "FE_2_NC $FE_2_NC"
+puts "FE_2_NC_angled_up $FE_2_NC_angled_up"
+set normVecOutOfProt [vecnorm $FE_2_NC_angled_up]
 puts "normVecOutOfProt $normVecOutOfProt"
-set 10AFromFe [vecscale 15.0 $normVecOutOfProt]
+set 10AFromFe [vecscale 10.0 $normVecOutOfProt]
 puts "10AFromFe $10AFromFe"
 set newO2Pos [vecadd $FE_COOR $10AFromFe]
 puts "newO2Pos $newO2Pos"
