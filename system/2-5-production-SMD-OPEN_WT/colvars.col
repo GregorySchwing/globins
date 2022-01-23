@@ -87,10 +87,7 @@ harmonicWalls {
    colvars ON_2_FE ON_ABOVE_FE
    lowerWalls 0.0 0.0
    upperWalls 10.0 10.0
-   lowerWallConstant 10.0
-   upperWallConstant 10.0
 }
-
 
 colvar {
    name morse
@@ -110,12 +107,6 @@ colvar {
          atomsColValue  1.0
       }
    }
-}
-
-harmonic {
-   colvars morse
-   centers 
-   forceConstant 1
 }
 
 abf {
