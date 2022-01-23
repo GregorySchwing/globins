@@ -48,7 +48,7 @@ colvar {
 
    width 0.1
    lowerBoundary 0.0
-   upperBoundary 15.0
+   upperBoundary 10.0
 
    distance {
       group1 {
@@ -110,6 +110,12 @@ colvar {
          atomsColValue  1.0
       }
    }
+}
+
+harmonic {
+   colvars morse
+   centers 
+   forceConstant 1
 }
 
 abf {
